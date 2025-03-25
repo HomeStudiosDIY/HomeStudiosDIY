@@ -1,5 +1,9 @@
 ## Hi there 👋
 
+I will hopefully help to get your home as smart as possible! Most off the software I use is open source. 
+
+My content will be using real life examples in assisting you to in getting your Smart Home working. Using what I have learnt whilst doing the work myself. Hopefully this will make your Smart Home experience easier.
+
 <!--
 **HomeStudiosDIY/HomeStudiosDIY** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
