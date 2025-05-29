@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-I will hopefully help to get your home as smart as possible! 
+Hopefully all the code will help you to get your smart home setup with everything I have learned so you don’t have to spend time going over 100 YouTube videos as smart as possible! 
 
 You will find all my code to be reused as you see fit.
 
