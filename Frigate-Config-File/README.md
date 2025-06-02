@@ -1,0 +1,1 @@
+# Frigate-Config-File

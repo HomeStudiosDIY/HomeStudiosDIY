@@ -1,0 +1,75 @@
+####################################################
+#                                                  #
+#                  Temperature                     #
+#                                                  #
+####################################################
+
+
+- platform: climate_group
+  name: "Home Heating"
+  temperature_unit: C # default to celsius, 'C' or 'F'
+  entities:
+    - climate.downstairs_heating
+    - climate.upstairs_heating
+
+- platform: climate_group
+  name: "Downstairs Heating"
+  temperature_unit: C # default to celsius, 'C' or 'F'
+  entities:
+    - climate.kitchen_heating
+    - climate.dining_room_thermostat
+    - climate.lounge_heating
+
+- platform: climate_group
+  name: "Upstairs Heating"
+  temperature_unit: C # default to celsius, 'C' or 'F'
+  entities:
+    - climate.master_bathroom_heating
+    - climate.office_heating
+    - climate.back_bedroom_heating
+    - climate.master_bedroom_heating
+    - climate.front_bedroom_heating
+
+- platform: generic_thermostat
+  name: "Kitchen Heating"
+  unique_id: kitchen_heating
+  heater: input_boolean.kitchen_heating
+  target_sensor: sensor.kitchen_temp_temperature
+  min_temp: 5
+  max_temp: 25
+  target_temp: 12.0 
+  target_temp_step: 0.1
+  initial_hvac_mode: "heat"
+
+- platform: generic_thermostat
+  name: "Master Bathroom Heating"
+  unique_id: master_bathroom_heating
+  heater: input_boolean.master_bathroom_heating
+  target_sensor: sensor.master_bathroom_temp_temperature
+  min_temp: 5
+  max_temp: 25
+  target_temp: 12.0
+  target_temp_step: 0.1
+  initial_hvac_mode: "heat"
+
+- platform: generic_thermostat
+  name: "Master Bedroom Heating"
+  unique_id: master_bedroom_heating
+  heater: input_boolean.master_bedroom_heating
+  target_sensor: sensor.master_bedroom_temp_temperature
+  min_temp: 5
+  max_temp: 25
+  target_temp: 12.0
+  target_temp_step: 0.1
+  initial_hvac_mode: "heat"
+
+- platform: generic_thermostat
+  name: "Front Bedroom Heating"
+  unique_id: front_bedroom_heating
+  heater: input_boolean.front_bedroom_heating
+  target_sensor: sensor.front_bedroom_temp_temperature
+  min_temp: 5
+  max_temp: 25
+  target_temp: 12.0
+  target_temp_step: 0.1
+  initial_hvac_mode: "heat"

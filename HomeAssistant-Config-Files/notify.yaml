@@ -1,0 +1,15 @@
+
+####################################################
+#                                                  #
+#                 Telegram Bot                     #
+#                  Integration                     #
+#                                                  #
+####################################################
+
+- platform: telegram
+  name: !secret telegram_user_1_name
+  chat_id: !secret telegram_user_1_id
+
+- platform: telegram
+  name: !secret telegram_user_2_name
+  chat_id: !secret telegram_user_2_id

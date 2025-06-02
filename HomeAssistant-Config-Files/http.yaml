@@ -1,0 +1,11 @@
+
+####################################################
+#                                                  #
+#                if you have a Proxy               #
+#                                                  #
+####################################################
+
+use_x_forwarded_for: true
+trusted_proxies:
+  - !secret trusted_proxies_1_ip
+  - !secret trusted_proxies_2_ip

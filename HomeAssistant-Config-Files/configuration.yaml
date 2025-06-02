@@ -1,0 +1,280 @@
+
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+
+####################################################
+#                                                  #
+#                Default Config                    #
+#                                                  #
+####################################################
+
+
+group: !include groups.yaml
+# alexa: !include alexa.yaml                        # For HomeAssistnat non Cloud Connection
+cloud: !include cloud.yaml                          # For HomeAssistant Cloud Connection
+sensor: !include sensor.yaml
+climate: !include climate.yaml
+# light: !include light.yaml                        # Dev Instance Only
+# binary_sensor: !include binary_sensor.yaml        # Dev Instance Only
+# switch: !include switch.yaml                      # Dev Instance Only
+# template: !include template.yaml                  # Dev Instance Only
+# mqtt: !include mqtt.yaml                          # Dev Instance Only
+
+
+####################################################
+#                                                  #
+#                Custom Intents                    #
+#                                                  #
+####################################################
+
+conversation:
+#intent:  !include intent.yaml
+intent_script: !include intent_script.yaml # Testing 
+
+
+
+####################################################
+#                                                  #
+#                Custom Intents                    #
+#                                                  #
+####################################################
+
+# homeassistant:
+#   customize: !include customize.yaml
+# #   # packages: !include_dir_named packages
+
+# #   # allowlist_external_dirs:
+# #   #   - /media
+
+
+
+
+
+
+
+
+####################################################
+#                                                  #
+#                if you have a Proxy               #
+#                                                  #
+####################################################
+
+http: !include http.yaml
+
+####################################################
+#                                                  #
+#                     TTS                          #
+#                                                  #
+####################################################
+
+# # Text to speech
+# tts:
+#   - platform: google_translate
+
+
+
+####################################################
+#                                                  #
+#                Default Config                    #
+#                                                  #
+####################################################
+
+
+#input_text:!include input_text.yaml
+input_text:
+  alexa_actionable_notification:
+    name: Alexa Actionable Notification Holder
+    max: 255
+    initial: '{"text": "This is a test of the alexa actionable notifications skill. Did it work?", "event": "actionable.skill.test"}'
+
+
+
+
+
+
+####################################################
+#                                                  #
+#                HACS Battery Notes                #
+#                                                  #
+####################################################
+
+battery_notes:
+
+####################################################
+#                                                  #
+#                HACS PowerCalc                    #
+#                                                  #
+####################################################
+
+powercalc:
+
+####################################################
+#                                                  #
+#                   SpotCast                       #
+#                  Integration                     #
+#                                                  #
+####################################################
+
+spotcast: !include spotcast.yaml
+
+####################################################
+#                                                  #
+#                 Telegram Bot                     #
+#                  Integration                     #
+#                                                  #
+####################################################
+
+telegram_bot: !include telegram_bot.yaml
+
+####################################################
+#                                                  #
+#                   Notifier                       #
+#                                                  #
+####################################################
+
+# Notifier
+notify: !include notify.yaml
+
+
+
+
+####################################################
+#                                                  #
+#              Home Assistant DB                   #
+#                                                  #
+####################################################
+
+# recorder:
+#   #  db_url: !secret MariaDB_url
+#   purge_keep_days: 14
+#   auto_purge: true
+# #  commit_interval: 60
+# #  exclude:
+# #    domains:
+# #      - sun
+# #      - camera
+# #      - media_player
+# #    entities:
+
+
+####################################################
+#                                                  #
+#                Default Config                    #
+#                                                  #
+####################################################
+    
+wake_on_lan:
+
+####################################################
+#                                                  #
+#                Default Config                    #
+#                                                  #
+####################################################
+
+
+# device_tracker:
+
+
+# ####################################################
+# #                                                  #
+# #                 InfluxDB DB                      #
+# #                                                  #
+# ####################################################
+
+
+#influxdb:!include influxdb.yaml
+
+
+
+####################################################
+#                                                  #
+#                Default Config                    #
+#                                                  #
+####################################################
+
+# ##ourgroceries:
+# ##  username: !secret our_groceries_username
+# ##  password: !secret our_groceries_password
+
+
+####################################################
+#                                                  #
+#               Ombi Integration                   #
+#                                                  #
+####################################################
+
+ombi: !include ombi.yaml
+
+# ####################################################
+# #                                                  #
+# #                Shell Comands                     #
+# #                                                  #
+# ####################################################
+
+# #shell_comand:
+# #  mount_nas_folder: mkdir -p /media/test;mount -t cifs -o vers=3.0,noserverino,username=!secrets nas_user,password=!secrets nas_password,domain=WORKGROUP //IPADDRESS/Folder /media/test
+# # https://www.youtube.com/watch?v=5BHBdC9DxLU
+# #shell_command:
+# #mount_nas_www: mkdir -p /config/www/nas_www; ln -s /share/nas_www /config/www/nas_www
+# #  mount_nas_www: ln -s /share/nas_www /config/www/
+# #  mount_nas_www: !secret mount_nas_www
+# #  mount_nas_media: !secret mount_nas_media
+
+
+
+
+
+# # command_line: !include command_line.yaml
+
+
+####################################################
+#                                                  #
+#                Default Config                    #
+#                                                  #
+####################################################
+
+  
+# zha:
+#   custom_quirks_path: /config/custom_zha_quirks/
+
+
+
+
+
+# rest_command:
+#   add_shopping_list_item:
+#     url: "http://localhost:5001/add_item"
+#     method: post
+#     payload: '{"item": "{{ item }}"}'
+#     headers:
+#       Content-Type: application/json
+
+#   update_shopping_list_item:
+#     url: "http://localhost:5001/update_item"
+#     method: put
+#     payload: '{"item": "{{ item }}", "new_item": "{{ new_item }}"}'
+#     headers:
+#       Content-Type: application/json
+
+#   complete_shopping_list_item:
+#     url: "http://localhost:5001/complete_item"
+#     method: put
+#     payload: '{"item": "{{ item }}"}'
+#     headers:
+#       Content-Type: application/json
+
+#   remove_shopping_list_item:
+#     url: "http://localhost:5001/remove_item"
+#     method: post
+#     payload: '{"item": "{{ item }}"}'
+#     headers:
+#       Content-Type: application/json

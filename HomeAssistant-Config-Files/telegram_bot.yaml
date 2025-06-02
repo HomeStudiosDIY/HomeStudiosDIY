@@ -1,0 +1,13 @@
+####################################################
+#                                                  #
+#                 Telegram Bot                     #
+#                  Integration                     #
+#                                                  #
+####################################################
+
+- platform: polling
+  api_key: !secret telegram_bot_api_key
+  allowed_chat_ids:
+    - !secret telegram_user_1_id # example: 123456789 for the chat_id of a user
+    - !secret telegram_user_2_id # CHAT_ID_2 # example: -987654321 for the chat_id of a group
+    # - CHAT_ID_3        

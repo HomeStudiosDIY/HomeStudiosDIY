@@ -1,0 +1,160 @@
+#    alarm_control_panel
+#    binary_sensor
+#    climate
+#    cover
+#    device_tracker
+#    fan
+#    humidifier
+#    lock
+#    media_player
+#    person
+#    plant
+#    remote
+#    switch
+#    vacuum
+#    water_heater
+
+####################################################
+#                                                  #
+#                  Room Groups                     #
+#                                                  #
+####################################################
+
+room_home:
+  name: Home
+  icon: mdi:home-circle
+  #unique_id: id_home
+  entities:
+    - group.room_kitchen
+    - group.room_dining_room
+    - group.room_lounge
+    - group.room_landing
+    - group.room_front_bedroom
+    - group.room_master_bathroom
+    - group.room_back_bedroom
+    - group.room_office
+    - group.room_master_bedroom
+    - group.room_cellar
+    - group.room_outside
+    - group.room_laundry_room
+    - group.room_security
+
+room_kitchen:
+  name: Kitchen
+  icon: mdi:chef-hat
+  entities:
+    - light.kitchen_cooking_light
+    - light.kitchen_left_sky_light
+    - light.kitchen_right_sky_light
+    - light.kitchen_extractor_light
+    - input_boolean.kitchen_neato_door
+
+room_dining_room:
+  name: Dining Room
+  icon: mdi:silverware-variant
+  entities:
+    - light.dining_room_side_lamp
+
+room_lounge:
+  name: Lounge
+  icon: mdi:sofa-outline
+  entities:
+    - light.lounge_side_lamp
+    # - light.lounge_tv_light
+    - switch.lounge_tv_plug
+    #- switch.lounge_gaming_plug
+    #- binary_sensor.lounge_outside_door_contact
+
+room_front_bedroom:
+  name: Front Bedroom
+  #icon: 
+##  #entities:
+
+room_master_bathroom:
+  name: Master Bathroom
+  icon: mdi:bathtub-outline
+  entities:
+    - light.master_bathroom_light
+
+room_back_bedroom:
+  name: Back Bedroom
+  #icon: 
+#  entities:
+#    - media_player.back_bedroom_echo
+
+room_landing:
+  name: Landing
+  icon: mdi:stairs
+#  entities:
+#    - media_player.landing_echo
+
+room_office:
+  name: Office
+  icon: mdi:chair-rolling
+  entities:
+    - light.office_main_light
+    - switch.office_albrechs_monitor_plug
+    - switch.office_emmas_pc_plug_socket_1
+
+room_master_bedroom:
+  name: Master Bedroom
+  icon: mdi:bed-king-outline
+  entities:
+#    - media_player.master_bedroom_echo
+#    - media_player.masrer_bedroom_fire_tv
+    - light.master_bedroom_back_roof_light
+    # - light.mbedroom_front_roof
+    - light.master_bedroom_front_light
+    # - light.master_bedroom_stairs_light
+    #- light.master_bedroom_her_light
+    #- light.master_bedroom_his_light
+    #- light.master_bedroom_mail_light
+
+room_cellar:
+  name: Cellar
+  icon: mdi:server-network
+  entities:
+    - switch.cellar_fridges_plug_socket_1
+  #   - switch.cellar_fridges_plug_none
+
+room_outside:
+  name: Outside
+  #icon: 
+  entities:
+    - light.passageway_back_light
+    - light.passageway_light
+
+
+room_laundry_room:
+  name: Laundry Room
+  #icon: 
+#   entities:
+#     - switch.washing_machine_plug
+# #    - light.laundry_room_light
+# #    - binary_sensor.laundry_room_door_contact_contact
+
+room_security:
+  name: Security
+  icon: mdi:cctv
+  entities:
+    #- binary_sensor.homestudios_front_cam01_motion
+    #- binary_sensor.homestudios_back_cam01_motion
+    #- binary_sensor.homestudios_back_cam02_motion
+    - binary_sensor.passageway_front_door_contact
+    - binary_sensor.kitchen_outside_door_contact
+    - binary_sensor.laundry_room_door_contact
+    - binary_sensor.passageway_detection
+
+room_computers:
+  name: Computers
+  # #icon: 
+  # entities:
+  #   - binary_sensor.yoda_server
+
+home_vacuums:
+  name: Home Vacuums
+  entities:
+    - vacuum.kitchen_neato
+    - vacuum.master_bedroom_neato
+    - vacuum.landing_neato
+
