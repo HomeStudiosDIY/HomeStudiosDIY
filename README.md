@@ -9,39 +9,6 @@ You will find all my code to be reused as you see fit.
 
 
 
-
-# Proxmox  <a id="readme_top"></a>
-
-### Overview
-
-Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
-The software-defined and open platforms are easy to deploy, manage and budget for.
-
-
-Here with some config settings to help you get you ProxMox Server setup and working!!  
-
-I run all my application on a LXC inside Docker but you can run the LXC application directly this was just my preference for consistency as not all application I use can run directly on a LXC. All my LXC config and Docker Compose files will also be sheared.
-
-https://community-scripts.github.io/ProxmoxVE/
-
-
-
-https://www.proxmox.com/en/
-
-
-
-
-
-### Setup Requirements
-
-
-
-
-
-### Setup Guide
-
-
-
 <details>
   <summary><u>Table of Contents</u></summary>
   <ol>
@@ -106,25 +73,74 @@ https://www.proxmox.com/en/
 Proxmox Config
 
 
+### Overview
+
+### Setup Requirements
+
+
+
+
+
+### Setup Guide
+
 https://github.com/HomeStudiosDIY/ProxMox-Config
 
 
 HomeAssitant Config
 
+
+
+### Overview
+
+### Setup Requirements
+
+
+
+
+
+### Setup Guide
 https://github.com/HomeStudiosDIY/HomeAssistant-Config-Files
 
 HomeAssitant Config
 
+### Overview
+
+### Setup Requirements
+
+
+
+
+
+### Setup Guide
 https://github.com/HomeStudiosDIY/HomeAssistant-Dev-Config-Files
 
 NodeRed Config
 
+### Overview
+
+### Setup Requirements
+
+
+
+
+
+### Setup Guide
 
 https://github.com/HomeStudiosDIY/HomeAssistant-NodeRed-Config
 
 
 Frigate Config
 
+### Overview
+
+
+### Setup Requirements
+
+
+
+
+
+### Setup Guide
 https://github.com/HomeStudiosDIY/Frigate-Config-File
 
 
