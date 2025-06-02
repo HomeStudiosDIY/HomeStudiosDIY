@@ -16,53 +16,40 @@ You will find all my code to be reused as you see fit.
 		<a href="#nas_to_nfs">Proxmox Config</a>
 			<ul>
 				<li><a href="#built-with">Overview</a></li>
-				<li><a href="#built-with">Setup Requirements</a></li>
-				<li><a href="#built-with">Setup Guide</a></li>
+				<li><a href="#built-with">Requirements</a></li>
+				<li><a href="#built-with">Guide</a></li>
 			</ul>
     </li>
     <li>
 		<a href="#adding_nvidia_drivers">HomeAssitant</a>
-		  <ul>
-			<li>
-				<a href="#prerequisites">On Proxmox</a>
-					<ul>
-						<li><a href="#built-with">Overview</a></li>
-						<li><a href="#built-with">Setup Requirements</a></li>
-						<li><a href="#built-with">Setup Guide</a></li>
-					</ul>	
-			</li>
-			<li>
-				<a href="#installation">ON LXC's</a>
-					<ul>
-						<li><a href="#built-with">Overview</a></li>
-						<li><a href="#built-with">Setup Requirements</a></li>
-						<li><a href="#built-with">Setup Guide</a></li>
-					</ul>					
-			</li>
-		  </ul>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Requirements</a></li>
+				<li><a href="#built-with">Guide</a></li>
+			</ul>
     </li>
     <li>
 		<a href="#nas-to-nfs">HomeAssistant</a>
 			<ul>
 				<li><a href="#built-with">Overview</a></li>
-				<li><a href="#built-with">Setup Requirements</a></li>
-				<li><a href="#built-with">Setup Guide</a></li>
+				<li><a href="#built-with">Requirements</a></li>
+				<li><a href="#built-with">Guide</a></li>
 			</ul>
     </li>
     <li>
 		<a href="#install-nvidia-drivers-on-proxmox">NodeRed</a>
 			<ul>
 				<li><a href="#built-with">Overview</a></li>
-				<li><a href="#built-with">Setup Requirements</a></li>
-				<li><a href="#built-with">Setup Guide</a></li>
+				<li><a href="#built-with">Requirements</a></li>
+				<li><a href="#built-with">Guide</a></li>
 			</ul>	
     </li>		
     <li>
 		<a href="#usage">Frigate</a>
 			<ul>
 				<li><a href="#built-with">Overview</a></li>
-				<li><a href="#built-with">Setup Requirements</a></li>
-				<li><a href="#built-with">Setup Guide</a></li>
+				<li><a href="#built-with">Requirements</a></li>
+				<li><a href="#built-with">Guide</a></li>
 			</ul>
 	</li>
   </ol>
@@ -75,13 +62,18 @@ You will find all my code to be reused as you see fit.
 
 ### Overview
 
-### Setup Requirements
+Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
+The software-defined and open platforms are easy to deploy, manage and budget for.
+
+### Requirements
+
+Need Proxmox a PC
 
 
 
+### Guides
 
 
-### Setup Guide
 
 https://github.com/HomeStudiosDIY/ProxMox-Config
 
@@ -92,39 +84,32 @@ https://github.com/HomeStudiosDIY/ProxMox-Config
 
 ### Overview
 
-### Setup Requirements
+### Requirements
 
+### Guides
 
-
-
-
-### Setup Guide
 https://github.com/HomeStudiosDIY/HomeAssistant-Config-Files
+
 
 ## HomeAssitant Config
 
 ### Overview
 
-### Setup Requirements
+### Requirements
 
+### Guides
 
-
-
-
-### Setup Guide
 https://github.com/HomeStudiosDIY/HomeAssistant-Dev-Config-Files
+
+
 
 ## NodeRed Config
 
 ### Overview
 
-### Setup Requirements
+### Requirements
 
-
-
-
-
-### Setup Guide
+### Guide
 
 https://github.com/HomeStudiosDIY/HomeAssistant-NodeRed-Config
 
@@ -133,14 +118,10 @@ https://github.com/HomeStudiosDIY/HomeAssistant-NodeRed-Config
 
 ### Overview
 
+### Requirements
 
-### Setup Requirements
+### Guide
 
-
-
-
-
-### Setup Guide
 https://github.com/HomeStudiosDIY/Frigate-Config-File
 
 
