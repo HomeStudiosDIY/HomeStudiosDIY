@@ -70,7 +70,7 @@ You will find all my code to be reused as you see fit.
 
 
 
-Proxmox Config
+## Proxmox Config
 
 
 ### Overview
@@ -86,7 +86,7 @@ Proxmox Config
 https://github.com/HomeStudiosDIY/ProxMox-Config
 
 
-HomeAssitant Config
+## HomeAssitant Config
 
 
 
@@ -101,7 +101,7 @@ HomeAssitant Config
 ### Setup Guide
 https://github.com/HomeStudiosDIY/HomeAssistant-Config-Files
 
-HomeAssitant Config
+## HomeAssitant Config
 
 ### Overview
 
@@ -114,7 +114,7 @@ HomeAssitant Config
 ### Setup Guide
 https://github.com/HomeStudiosDIY/HomeAssistant-Dev-Config-Files
 
-NodeRed Config
+## NodeRed Config
 
 ### Overview
 
@@ -129,7 +129,7 @@ NodeRed Config
 https://github.com/HomeStudiosDIY/HomeAssistant-NodeRed-Config
 
 
-Frigate Config
+## Frigate Config
 
 ### Overview
 
