@@ -9,8 +9,7 @@ Hopefully all the code will help you to get a smart home setup with everything I
 You will find all my code to be reused as you see fit.
 
 
-<detailsfdfsafds>
-<u>Table of Contents</u>
+<details><u>Table of Contents</u>
 
 
 <a href="#Proxmox">1. Proxmox</a>
