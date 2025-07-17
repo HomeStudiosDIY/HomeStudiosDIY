@@ -1,8 +1,8 @@
 # Work in Progress
 
-## Hi there 👋
+## Hi there 👋								<a id="readme_top"></a>
 
-Hopefully all the code will help you to get your smart home setup with everything I have learned so you don’t have to spend time going over 100 YouTube videos as smart as possible! 
+Hopefully all the code will help you to get a smart home setup with everything I have learned. I will also see if I can keep this as non technical as postable so you don’t have to spend time on thousands of YouTube videos. I will also start making videos on all the Guides. 
 
 You will find all my code to be reused as you see fit.
 
@@ -13,119 +13,212 @@ You will find all my code to be reused as you see fit.
   <summary><u>Table of Contents</u></summary>
   <ol>
     <li>
-		<a href="#nas_to_nfs">Proxmox Config</a>
+		<a href="#Proxmox">Proxmox</a>
 			<ul>
-				<li><a href="#built-with">Overview</a></li>
-				<li><a href="#built-with">Requirements</a></li>
-				<li><a href="#built-with">Guide</a></li>
+				<li><a href="#Overview">Overview</a></li>
+				<li><a href="#Requirements">Requirements</a></li>
+				<li><a href="#Guides">Guides</a></li>
 			</ul>
     </li>
     <li>
-		<a href="#adding_nvidia_drivers">HomeAssitant</a>
+		<a href="# Proxmox LXC's"> Proxmox VM's</a>
 			<ul>
-				<li><a href="#built-with">Overview</a></li>
-				<li><a href="#built-with">Requirements</a></li>
-				<li><a href="#built-with">Guide</a></li>
+				<li><a href="#Overview">Overview</a></li>
+				<li><a href="#Requirements">Requirements</a></li>
+				<li><a href="#Guide">Guide</a></li>
+				
+				<ul>
+				<li><a href="#Overview">OPNsense Setup</a></li>
+			<li>
+				<a href="#OPNsense">OPNsense</a>
+				<ul>
+					<li><a href="#Overview">Overview</a></li>
+					<li><a href="#Requirements">Requirements</a></li>
+					<li><a href="#Guides">Guides</a></li>
+				</ul>
+			</li>
+				<li><a href="#Requirements">HomeAssistant Setup</a></li>
+				<li><a href="#Guide">Guide</a></li>
+				</ul>
+			</ul>
+	</li>
+    <li>
+		<a href="# Proxmox LXC's"> Proxmox LXC's</a>
+			<ul>
+				<li><a href="#Overview">Overview</a></li>
+				<li><a href="#Requirements">Requirements</a></li>
+				<li><a href="#Guide">Guide</a></li>
+			</ul>
+	</li>	
+    <li>
+		<a href="#OPNsense">OPNsense</a>
+			<ul>
+				<li><a href="#Overview">Overview</a></li>
+				<li><a href="#Requirements">Requirements</a></li>
+				<li><a href="#Guides">Guides</a></li>
+			</ul>
+    </li>	
+    <li>
+		<a href="#HomeAssitant">HomeAssitant</a>
+			<ul>
+				<li><a href="#Overview">Overview</a></li>
+				<li><a href="#Requirements">Requirements</a></li>
+				<li><a href="#Guide">Guide</a></li>
 			</ul>
     </li>
     <li>
-		<a href="#nas-to-nfs">HomeAssistant</a>
+		<a href="#HomeAssistant">HomeAssistant</a>
 			<ul>
-				<li><a href="#built-with">Overview</a></li>
-				<li><a href="#built-with">Requirements</a></li>
-				<li><a href="#built-with">Guide</a></li>
+				<li><a href="#Overview">Overview</a></li>
+				<li><a href="#Requirements">Requirements</a></li>
+				<li><a href="#Guide">Guide</a></li>
 			</ul>
     </li>
     <li>
-		<a href="#install-nvidia-drivers-on-proxmox">NodeRed</a>
+		<a href="#NodeRed">NodeRed</a>
 			<ul>
-				<li><a href="#built-with">Overview</a></li>
-				<li><a href="#built-with">Requirements</a></li>
-				<li><a href="#built-with">Guide</a></li>
+				<li><a href="#Overview">Overview</a></li>
+				<li><a href="#Requirements">Requirements</a></li>
+				<li><a href="#Guide">Guide</a></li>
 			</ul>	
     </li>		
     <li>
-		<a href="#usage">Frigate</a>
+		<a href="#Frigate">Frigate</a>
 			<ul>
-				<li><a href="#built-with">Overview</a></li>
-				<li><a href="#built-with">Requirements</a></li>
-				<li><a href="#built-with">Guide</a></li>
+				<li><a href="#Overview">Overview</a></li>
+				<li><a href="#Requirements">Requirements</a></li>
+				<li><a href="#Guide">Guide</a></li>
 			</ul>
-	</li>
+	
   </ol>
 </details>
 
 
 
-## Proxmox Config
+## Proxmox								<a id="Proxmox"></a>
 
 
-### Overview
+### Overview 							<a id="Overview"></a>
 
 Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
 The software-defined and open platforms are easy to deploy, manage and budget for.
 
-### Requirements
+### Requirements 						<a id="Requirements"></a>
 
 Need Proxmox a PC
 
 
 
-### Guides
+### Guides 								<a id="Guides"></a>
 
+
+
+
+
+
+
+## Proxmox VM's								<a id="Proxmox"></a>
+
+
+### Overview 							<a id="Overview"></a>
+
+Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
+The software-defined and open platforms are easy to deploy, manage and budget for.
+
+### Requirements 						<a id="Requirements"></a>
+
+Need Proxmox a PC
+
+
+
+### Guides 								<a id="Guides"></a>
+
+
+
+
+
+## Proxmox LXC's								<a id="Proxmox"></a>
+
+
+### Overview 							<a id="Overview"></a>
+
+Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
+The software-defined and open platforms are easy to deploy, manage and budget for.
+
+### Requirements 						<a id="Requirements"></a>
+
+Need Proxmox a PC
+
+
+
+### Guides 								<a id="Guides"></a>
+
+Radarr
+
+Sonarr
 
 
 https://github.com/HomeStudiosDIY/ProxMox-Config
 
 
-## HomeAssitant Config
 
 
 
-### Overview
+										<p align="right">(<a href="#readme_top">back to top</a>)</p>
 
-### Requirements
+## HomeAssitant							<a id="Proxmox"></a>
 
-### Guides
+
+
+### Overview 							<a id="Proxmox"></a>
+
+### Requirements 						<a id="Proxmox"></a>
+
+### Guides								<a id="Proxmox"></a>
 
 https://github.com/HomeStudiosDIY/HomeAssistant-Config-Files
 
 
-## HomeAssitant Config
+<p align="right">(<a href="#readme_top">back to top</a>)</p>
 
-### Overview
+## HomeAssitant <a id="Proxmox"></a>
 
-### Requirements
+### Overview <a id="Overview"></a>
 
-### Guides
+### Requirements <a id="Requirements"></a>
+
+### Guides <a id="Requirements"></a>
 
 https://github.com/HomeStudiosDIY/HomeAssistant-Dev-Config-Files
 
 
+<p align="right">(<a href="#readme_top">back to top</a>)</p>
 
-## NodeRed Config
+## NodeRed Config <a id="Requirements"></a> 
 
-### Overview
+### Overview <a id="Requirements"></a>
 
-### Requirements
+### Requirements <a id="Requirements"></a>
 
-### Guide
+### Guide <a id="Requirements"></a>
 
 https://github.com/HomeStudiosDIY/HomeAssistant-NodeRed-Config
 
 
-## Frigate Config
+<p align="right">(<a href="#readme_top">back to top</a>)</p>
 
-### Overview
+## Frigate Config <a id="Requirements"></a>
 
-### Requirements
+### Overview <a id="Requirements"></a>
 
-### Guide
+### Requirements <a id="Requirements"></a>
+
+### Guide <a id="Requirements"></a>
 
 https://github.com/HomeStudiosDIY/Frigate-Config-File
 
 
-
+<p align="right">(<a href="#readme_top">back to top</a>)</p>
 
 
 
@@ -156,15 +249,3 @@ Here are some ideas to get you started:
 -->
 
 
-**HomeStudiosDIY/HomeStudiosDIY** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
