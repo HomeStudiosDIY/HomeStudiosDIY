@@ -10,7 +10,8 @@ You will find all my code to be reused as you see fit.
 
 
 <details>
-<summary><u>Table of Contents</u></summary>
+
+# <summary><u>Table of Contents</u></summary>
 
 <a href="#Proxmox">1. Proxmox</a>
 
