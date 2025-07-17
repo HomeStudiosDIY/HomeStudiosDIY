@@ -1,8 +1,7 @@
 # Work in Progress
 
 
-## Proxmox  
-<a id="readme_top"></a>
+## Proxmox  <a id="readme_top"></a>
 
 ### Overview
 
@@ -40,32 +39,48 @@ https://www.proxmox.com/en/
     <li>
 		<a href="#nas_to_nfs">Connect to your NAS with NFS</a>
 			<ul>
-				<li><a href="#nas_to_nfs">Overview</a></li>
-				<li><a href="#nas_to_nfs">Setup Requirements</a></li>
-				<li><a href="#nas_to_nfs">Setup Guide</a></li>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
 			</ul>
     </li>
     <li>
 		<a href="#adding_nvidia_drivers">Adding NVIDIA Drivers to Proxmox</a>
 		  <ul>
 			<li>
-				<a href="#adding_nvidia_drivers">On Proxmox</a>
+				<a href="#prerequisites">On Proxmox</a>
 					<ul>
-						<li><a href="#adding_nvidia_drivers">Overview</a></li>
-						<li><a href="#adding_nvidia_drivers">Setup Requirements</a></li>
-						<li><a href="#adding_nvidia_drivers">Setup Guide</a></li>
+						<li><a href="#built-with">Overview</a></li>
+						<li><a href="#built-with">Setup Requirements</a></li>
+						<li><a href="#built-with">Setup Guide</a></li>
 					</ul>	
 			</li>
 			<li>
-				<a href="#adding_nvidia_drivers">ON LXC's</a>
+				<a href="#installation">ON LXC's</a>
 					<ul>
-						<li><a href="#adding_nvidia_drivers">Overview</a></li>
-						<li><a href="#adding_nvidia_drivers">Setup Requirements</a></li>
-						<li><a href="#adding_nvidia_drivers">Setup Guide</a></li>
+						<li><a href="#built-with">Overview</a></li>
+						<li><a href="#built-with">Setup Requirements</a></li>
+						<li><a href="#built-with">Setup Guide</a></li>
 					</ul>					
 			</li>
 		  </ul>
-    </li>	
+    </li>
+    <li>
+		<a href="#nas-to-nfs">Connect to your NAS with NFS</a>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
+			</ul>
+    </li>
+    <li>
+		<a href="#install-nvidia-drivers-on-proxmox">Install NVIDIA Drivers</a>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
+			</ul>	
+    </li>		
     <li>
 		<a href="#usage">OpnSense</a>
 			<ul>
@@ -99,7 +114,7 @@ https://www.proxmox.com/en/
 			</ul>			
 	</li>
     <li>
-		<a href="#contact">Jellyfin</a>
+		<a href="#contact">JellyFin</a>
 			<ul>
 				<li><a href="#built-with">Overview</a></li>
 				<li><a href="#built-with">Setup Requirements</a></li>
@@ -264,11 +279,12 @@ chown 100109:100117 /mnt/pve/disk4tb/frigate/
 <a id="install-nvidia-drivers-on-proxmox"></a>
 
 
-#### Overview
 
-#### Setup Requirements
+Overview
 
-#### Setup Guide
+Setup Requirements
+
+Setup Guide
 
 apt update && apt upgrade -y && apt install pve-headers build-essential software-properties-common make nvtop htop -y
 update-initramfs -u
@@ -293,12 +309,11 @@ chmod +x NVIDIA-Linux-x86_64-550.144.03.run
 <a id="install-nvidia-drivers-on-proxmox"></a>
 
 
+Overview
 
-#### Overview
+Setup Requirements
 
-#### Setup Requirements
-
-#### Setup Guide
+Setup Guide
 
 
 
@@ -339,23 +354,23 @@ no-cgroups = true
 
 
 
-	ls -al /dev/nvidia*
-need data
+ls -al /dev/nvidia*
 
-	nano /etc/pve/lxc/105.conf
 
-Text
+nano /etc/pve/lxc/105.conf
 
-	lxc.cgroup2.devices.allow: c 195:* rwm
-	lxc.cgroup2.devices.allow: c 234:* rwm
-	lxc.cgroup2.devices.allow: c 237:* rwm
-	lxc.mount.entry: /dev/nvidia0 dev/nvidia0 none bind,optional,create=file
-	lxc.mount.entry: /dev/nvidiactl dev/nvidiactl none bind,optional,create=file
-	lxc.mount.entry: /dev/nvidia-modeset dev/nvidia-modeset none bind,optional,create=file
-	lxc.mount.entry: /dev/nvidia-uvm dev/nvidia-uvm none bind,optional,create=file
-	lxc.mount.entry: /dev/nvidia-uvm-tools dev/nvidia-uvm-tools none bind,optional,create=file
-	lxc.mount.entry: /dev/nvidia-caps/nvidia-cap1 dev/nvidia-caps/nvidia-cap1 none bind,optional,create=file
-	lxc.mount.entry: /dev/nvidia-caps/nvidia-cap2 dev/nvidia-caps/nvidia-cap2 none bind,optional,create=file
+
+
+lxc.cgroup2.devices.allow: c 195:* rwm
+lxc.cgroup2.devices.allow: c 234:* rwm
+lxc.cgroup2.devices.allow: c 237:* rwm
+lxc.mount.entry: /dev/nvidia0 dev/nvidia0 none bind,optional,create=file
+lxc.mount.entry: /dev/nvidiactl dev/nvidiactl none bind,optional,create=file
+lxc.mount.entry: /dev/nvidia-modeset dev/nvidia-modeset none bind,optional,create=file
+lxc.mount.entry: /dev/nvidia-uvm dev/nvidia-uvm none bind,optional,create=file
+lxc.mount.entry: /dev/nvidia-uvm-tools dev/nvidia-uvm-tools none bind,optional,create=file
+lxc.mount.entry: /dev/nvidia-caps/nvidia-cap1 dev/nvidia-caps/nvidia-cap1 none bind,optional,create=file
+lxc.mount.entry: /dev/nvidia-caps/nvidia-cap2 dev/nvidia-caps/nvidia-cap2 none bind,optional,create=file
 
 
 
@@ -363,14 +378,19 @@ Text
 
 <p align="right">(<a href="#readme_top">back to top</a>)</p>
 
+
+
+
+
 ## Opensence
 <a id="about-the-project"></a>
 
-#### Overview
 
-#### Setup Requirements
+Overview
 
-#### Setup Guide
+Setup Requirements
+
+Setup Guide
 
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/opnsense-vm.sh)"
@@ -382,15 +402,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <p align="right">(<a href="#readme_top">back to top</a>)</p>
 
 ## UniFi
- <a id="about-the-project"></a>
-
-#### Overview
-
-#### Setup Requirements
-
-#### Setup Guide
-
-
+<a id="about-the-project"></a>
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
 	
@@ -398,7 +410,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <a href="https://github.com/HomeStudiosDIY/ProxMox-Config/blob/main/Docker%20Compose%20Files/Unifi/init-mongo.sh/" target="_blank">file</a>
 
 
-<a href="URL" target="_blank" rel="noopener noreferrer">file Docker</a>
+<a href="https://github.com/HomeStudiosDIY/ProxMox-Config/blob/main/Docker%20Compose%20Files/Unifi/Unifi.yaml/" target="_blank" rel="noopener noreferrer">file Docker</a>
 
 
 
@@ -407,34 +419,14 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 ## Vaultwarden
 <a id="about-the-project"></a>
 
-#### Overview
-
-#### Setup Requirements
-
-#### Setup Guide
-
-
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
 
-
-
-<a href="URL" target="_blank" rel="noopener noreferrer">file Docker</a>
 
 
 <p align="right">(<a href="#readme_top">back to top</a>)</p>
 
 ## Home Assistant
-
 <a id="about-the-project"></a>
-
-#### Overview
-
-
-
-#### Setup Requirements
-
-#### Setup Guide
-
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/haos-vm.sh)"
 
@@ -442,18 +434,20 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <p align="right">(<a href="#readme_top">back to top</a>)</p>
 
 ## Jellefin Setup and Config
-
 <a id="about-the-project"></a>
 
-#### Overview
+
+
+
+Overview
 
 Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way.
 
 https://jellyfin.org/
 
-#### Setup Requirements
+Setup Requirements
 
-#### Setup Guide
+Setup Guide
 
 
 
@@ -468,10 +462,6 @@ mkdir /data
 mkdir /data/stream
 mkdir /data/usb
 
-mp0: /mnt/data/usb/,mp=/data/usb
-
-mp1: /mnt/pve/disk4tb/movies/,mp=/data/usb
-
 pct set 106 -mp0 /mnt/data/stream/,mp=/data/stream
 pct set 106 -mp1 /mnt/data/usb/,mp=/data/usb
 
@@ -481,20 +471,10 @@ lxc.mount.entry: tmpfs dev/shm tmpfs size=4G,nosuid,nodev,noexec,create=dir 0 0
 
 
 
-
-
 <p align="right">(<a href="#readme_top">back to top</a>)</p>
 
 # Plex Setup and Config
-
 <a id="about-the-project"></a>
-
-#### Overview
-
-#### Setup Requirements
-
-#### Setup Guide
-
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
 PLEX:
@@ -533,14 +513,8 @@ curl -X POST -s -H "X-Plex-Client-Identifier: {XXXXXXXXX}" "https://plex.tv/api/
 ## FRIGATE:
 <a id="about-the-project"></a>
 
-#### Overview
 
 Frigate is a free, open-source NVR (Network Video Recorder) system designed specifically for real-time AI-powered object detection. It’s commonly used in home automation setups, especially when privacy, performance, and local processing are a priority.
-
-#### Setup Requirements
-
-#### Setup Guide
-
 
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
@@ -576,13 +550,8 @@ lxc.mount.entry: /dev/bus/usb/002/ dev/bus/usb/002/ none bind,optional,create=di
 ## IMMICH:
 <a id="about-the-project"></a>
 
-#### Overview
 
 Immich is a free, open-source, self-hosted photo and video management platform designed as a privacy-focused alternative to cloud services like Google Photos and iCloud. It allows you to back up, organize, and browse your media entirely on your own server, giving you full control over your data.
-
-#### Setup Requirements
-
-#### Setup Guide
 
 
 
@@ -610,16 +579,13 @@ pct set 106 -mp0 /mnt/data/photos,mp=/data/photos/
 ## Radar:
 <a id="about-the-project"></a>
 
-#### Overview
+
 
 Radarr is an open-source tool designed to automate the downloading, organizing, and tracking of movies.
 
+
+
 https://radarr.video/#home
-
-#### Setup Requirements
-
-#### Setup Guide
-
 
 
 
@@ -656,18 +622,9 @@ pct set 108 -mp0 /mnt/data/stream/,mp=/data/stream
 ##  Sonarr:
 <a id="about-the-project"></a>
 
-
-#### Overview
-
 Sonarr is an open-source application used to manage and automate the downloading, organizing, and tracking of TV series. It's popular among media enthusiasts who run home media servers
 
 https://sonarr.tv/
-
-#### Setup Requirements
-
-#### Setup Guide
-
-
 
 
 mkdir /data
@@ -694,14 +651,6 @@ pct set 108 -mp0 /mnt/data/stream/,mp=/data/stream
 ## Downloader
 <a id="about-the-project"></a>
 
-#### Overview
-
-#### Setup Requirements
-
-#### Setup Guide
-
-
-
 mkdir /data
 mkdir /data/stream
 mkdir /data/usb
@@ -727,3 +676,340 @@ pct set 108 -mp0 /mnt/data/stream/,mp=/data/stream
 apt install resolvconf
 
 <p align="right">(<a href="#readme_top">back to top</a>)</p>
+
+
+
+
+
+Overview
+
+
+
+Setup Requirements
+
+
+
+Setup Guides
+
+
+
+
+<details>
+  <summary><u>Table of Contents</u></summary>
+  <ol>
+    <li>
+		<a href="#nas_to_nfs">Connect to your NAS with NFS</a>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
+			</ul>
+    </li>
+    <li>
+		<a href="#adding_nvidia_drivers">Adding NVIDIA Drivers to Proxmox</a>
+		  <ul>
+			<li>
+				<a href="#prerequisites">On Proxmox</a>
+					<ul>
+						<li><a href="#built-with">Overview</a></li>
+						<li><a href="#built-with">Setup Requirements</a></li>
+						<li><a href="#built-with">Setup Guide</a></li>
+					</ul>	
+			</li>
+			<li>
+				<a href="#installation">ON LXC's</a>
+					<ul>
+						<li><a href="#built-with">Overview</a></li>
+						<li><a href="#built-with">Setup Requirements</a></li>
+						<li><a href="#built-with">Setup Guide</a></li>
+					</ul>					
+			</li>
+		  </ul>
+    </li>
+    <li>
+		<a href="#nas-to-nfs">Connect to your NAS with NFS</a>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
+			</ul>
+    </li>
+    <li>
+		<a href="#install-nvidia-drivers-on-proxmox">Install NVIDIA Drivers</a>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
+			</ul>	
+    </li>		
+    <li>
+		<a href="#usage">OpnSense</a>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
+			</ul>
+	</li>
+    <li>
+		<a href="#roadmap">UniFi</a>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
+			</ul>		
+	</li>
+    <li>
+		<a href="#contributing">Vaultwarden</a>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
+			</ul>			
+	</li>
+    <li>
+		<a href="#license">Home Assistant</a>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
+			</ul>			
+	</li>
+    <li>
+		<a href="#contact">JellyFin</a>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
+			</ul>			
+	</li>
+    <li>
+		<a href="#acknowledgments">Plex</a>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
+			</ul>			
+	</li>
+	<li>
+		<a href="#acknowledgments">Frigate</a>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
+			</ul>			
+	</li>
+	<li>
+		<a href="#acknowledgments">Immich</a>
+			<ul>
+				<li><a href="#built-with">Overview</a></li>
+				<li><a href="#built-with">Setup Requirements</a></li>
+				<li><a href="#built-with">Setup Guide</a></li>
+			</ul>			
+	</li>
+	<li>
+		<a href="#acknowledgments">Media</a>
+		  <ul>
+			<li>
+				<a href="#prerequisites">Ombi</a>
+					<ul>
+						<li><a href="#built-with">Overview</a></li>
+						<li><a href="#built-with">Setup Requirements</a></li>
+						<li><a href="#built-with">Setup Guide</a></li>
+					</ul>
+			</li>
+			<li>
+				<a href="#installation">ON LXC's</a>
+					<ul>
+						<li><a href="#built-with">Overview</a></li>
+						<li><a href="#built-with">Setup Requirements</a></li>
+						<li><a href="#built-with">Setup Guide</a></li>
+					</ul>					
+			</li>
+		  </ul>	
+	</li>
+	<li>
+		<a href="#acknowledgments">Downloaders</a>
+		  <ul>
+			<li>
+				<a href="#prerequisites">ARR</a></li>
+					<ul>
+						<li><a href="#built-with">Overview</a></li>
+						<li><a href="#built-with">Setup Requirements</a></li>
+						<li><a href="#built-with">Setup Guide</a></li>
+					</ul>				  
+			<li>
+				<a href="#installation">Radarr</a>
+					<ul>
+						<li><a href="#built-with">Overview</a></li>
+						<li><a href="#built-with">Setup Requirements</a></li>
+						<li><a href="#built-with">Setup Guide</a></li>
+					</ul>				
+			</li>
+		  </ul>	  
+	</li>
+  </ol>
+</details>
+
+
+
+
+
+
+## Connect to your NAS with NFS
+
+
+### <u>Overview</u>
+
+
+To connect to a NAS device with NFS you will have to setup some paths/directory’s this is how I have done mine but you can use your own location.   
+
+### <u>Setup Requirements</U>
+
+If you need sub folders you will need to make the directory tree.
+	
+mkdir /mnt/data  
+mkdir /mnt/data/stream  
+mkdir /mnt/data/usb  
+mkdir /mnt/data/photos  
+
+
+mkdir /mnt/pve/disk4tb/frigate
+
+
+
+mkdir /mnt/pve/disk4tb/downloads
+
+
+### <u>Setup Guide</u>
+
+The following will be needed to auto connect to you NFS shears.
+ 
+nano /etc/fstab
+
+
+	10.0.0.1:/volume1/Stream/ /mnt/data/stream nfs defaults 0 0  
+	10.0.0.1:/volumeUSB1/usbshare /mnt/data/usb nfs defaults 0 0  
+	10.0.0.1:/volume1/Photos-Link /mnt/data/photos nfs defaults 0 0  
+	10.0.0.1:/volume1/Downloads /mnt/data/downloads nfs defaults 0 0  
+
+
+Once you have saved your config you need to run the following.
+
+Reload systemd: systemctl daemon-reload  
+Mount shares: mount -a
+
+
+
+
+chown 100109:100117 /mnt/pve/disk4tb/frigate/
+
+
+
+
+
+
+## Install NVIDIA Drivers on ProxMox
+<a id="adding_nvidia_drivers"></a>
+
+### <i>Overview</i>
+
+### <i>Setup Requirements</i>
+
+make sure the drives are the same on the host and LXC
+
+### <i>Setup Guide</i>
+
+
+1. #### <p><u>NVIDIA:</u>
+<a id="install-nvidia-drivers-on-proxmox"></a>
+
+
+
+<p> &nbsp; &nbsp; &nbsp; &nbsp; apt update && apt upgrade -y && apt install pve-headers build-essential software-properties-common make nvtop htop -y</p>
+
+&nbsp; &nbsp; &nbsp; &nbsp; update-initramfs -u
+
+
+
+>>wget https://uk.download.nvidia.com/XFree86/Linux-x86_64/550.142/NVIDIA-Linux-x86_64-550.142.run
+
+
+chmod +x NVIDIA-Linux-x86_64-550.144.03.run
+
+
+./NVIDIA-Linux-x86_64-550.144.03.run --dkms
+
+</P>
+
+
+
+
+
+2. #### <u>LXC Setup for Nvida:</u>
+<a id="install-nvidia-drivers-on-proxmox"></a>
+
+
+Overview
+
+Setup Requirements
+
+Setup Guide
+
+
+
+
+
+
+I have the following LXC setup to use my NVIDA card (Jellyfin, Plex, ......)
+
+
+
+
+
+pct push 105 NVIDIA-Linux-x86_64-550.144.03.run /root/NVIDIA-Linux-x86_64-550.144.03.run
+
+chmod +x NVIDIA-Linux-x86_64-550.144.03.run
+
+./NVIDIA-Linux-x86_64-550.144.03.run --no-kernel-modules
+
+apt install gpg curl
+
+curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+
+
+apt update  
+apt install nvidia-container-toolkit  
+nvidia-smi  
+
+only if you run Docker  
+nvidia-ctk runtime configure --runtime=docker
+
+
+
+
+nano /etc/nvidia-container-runtime/config.toml  
+
+	#no-cgroups = false  
+	to  
+	no-cgroups = true  
+
+
+
+ls -al /dev/nvidia*
+
+
+nano /etc/pve/lxc/105.conf
+
+
+
+lxc.cgroup2.devices.allow: c 195:* rwm
+lxc.cgroup2.devices.allow: c 234:* rwm
+lxc.cgroup2.devices.allow: c 237:* rwm
+lxc.mount.entry: /dev/nvidia0 dev/nvidia0 none bind,optional,create=file
+lxc.mount.entry: /dev/nvidiactl dev/nvidiactl none bind,optional,create=file
+lxc.mount.entry: /dev/nvidia-modeset dev/nvidia-modeset none bind,optional,create=file
+lxc.mount.entry: /dev/nvidia-uvm dev/nvidia-uvm none bind,optional,create=file
+lxc.mount.entry: /dev/nvidia-uvm-tools dev/nvidia-uvm-tools none bind,optional,create=file
+lxc.mount.entry: /dev/nvidia-caps/nvidia-cap1 dev/nvidia-caps/nvidia-cap1 none bind,optional,create=file
+lxc.mount.entry: /dev/nvidia-caps/nvidia-cap2 dev/nvidia-caps/nvidia-cap2 none bind,optional,create=file
+
