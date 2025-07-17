@@ -8,11 +8,11 @@ You will find all my code to be reused as you see fit.
 
 
 
+
+
 <details>
-<summary><u>Table of Contents</u></summary>
 
-<u>Table of Contents</u>
- 
+<summary><u>Table of Contents</u></summary>
 
 <a href="#Proxmox">1. Proxmox</a>
 
@@ -32,20 +32,11 @@ You will find all my code to be reused as you see fit.
 
 + <a href="#Guides">Guides</a>
 
-	+ <a href="#Overview">OPNsense Setup</a>
+	+ <a href="#Overview">OPNsense</a>
 	
 	+ <a href="#HomeAssitant">HomeAssitant</a>
 
-
-</details>
-
-
-<summary><u>Table of Contents</u></summary>
-
-<u>Table of Contents</u>
- 
-
-<a href="#Proxmox">1. Proxmox</a>
+<a href="# Proxmox VM's"> Proxmox LXC's</a>
 
 + <a href="#Overview">Overview</a>
 
@@ -53,22 +44,13 @@ You will find all my code to be reused as you see fit.
 
 + <a href="#Guides">Guides</a>
 
-
-
-<a href="# Proxmox VM's"> Proxmox VM's</a>
-
-+ <a href="#Overview">Overview</a>
-
-+ <a href="#Requirements">Requirements</a>
-
-+ <a href="#Guides">Guides</a>
-
-	+ <a href="#Overview">OPNsense Setup</a>
+	+ <a href="#Overview">Unifi</a>
 	
-	+ <a href="#HomeAssitant">HomeAssitant</a>
-
+	+ <a href="#HomeAssitant">Vault</a>
   
-  rsfjgfsjgfsjg
+</details)  
+  
+rsfjgfsjgfsjg
   
   
   <ol>
