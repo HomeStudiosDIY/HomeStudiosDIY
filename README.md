@@ -9,8 +9,34 @@ You will find all my code to be reused as you see fit.
 
 
 
-<details>
-  <summary><u>Table of Contents</u></summary>
+
+<u>Table of Contents</u> 
+
+<a href="#Proxmox">1. Proxmox</a>
+
++ <a href="#Overview">Overview</a>
+
++ <a href="#Requirements">Requirements</a>
+
++ <a href="#Guides">Guides</a>
+
+
+
+<a href="# Proxmox VM's"> Proxmox VM's</a>
+
++ <a href="#Overview">Overview</a>
+
++ <a href="#Requirements">Requirements</a>
+
++ <a href="#Guides">Guides</a>
+
+	+ <a href="#Overview">OPNsense Setup</a>
+	
+	+ <a href="#HomeAssitant">HomeAssitant</a>
+
+
+
+  
   <ol>
     <li>
 		<a href="#Proxmox">Proxmox</a>
@@ -27,8 +53,10 @@ You will find all my code to be reused as you see fit.
 				<li><a href="#Requirements">Requirements</a></li>
 				<li><a href="#Guide">Guide</a></li>
 				
+			</ul>
 				<ul>
-				<li><a href="#Overview">OPNsense Setup</a></li>
+					<li><a href="#Overview">OPNsense Setup</a></li>
+				</ul>
 			<li>
 				<a href="#OPNsense">OPNsense</a>
 				<ul>
