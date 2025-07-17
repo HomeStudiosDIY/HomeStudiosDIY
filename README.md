@@ -10,7 +10,6 @@ You will find all my code to be reused as you see fit.
 
 
 <details>
-
 <u>Table of Contents</u>
 
 
