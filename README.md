@@ -8,11 +8,11 @@ You will find all my code to be reused as you see fit.
 
 
 
+<details>
+  <summary><u>Table of Contents</u></summary>
 
-
-<u>
-Table of Contents
-</u> 
+<u>Table of Contents</u>
+ 
 
 <a href="#Proxmox">1. Proxmox</a>
 
@@ -37,7 +37,10 @@ Table of Contents
 	+ <a href="#HomeAssitant">HomeAssitant</a>
 
 
-
+</details>
+  
+  rsfjgfsjgfsjg
+  
   
   <ol>
     <li>
