@@ -1,6 +1,7 @@
 # Work in Progress
 
 ## Hi there 👋
+
 <a id="readme_top"></a>
 
 Hopefully all the code will help you to get a smart home setup with everything I have learned. I will also see if I can keep this as non technical as postable so you don’t have to spend time on thousands of YouTube videos. I will also start making videos on all the Guides. 
@@ -8,12 +9,10 @@ Hopefully all the code will help you to get a smart home setup with everything I
 You will find all my code to be reused as you see fit.
 
 
-
-
-
 <details>
 
-<summary><u>Table of Contents</u></summary>
+<u>Table of Contents</u>
+
 
 <a href="#Proxmox">1. Proxmox</a>
 
@@ -24,31 +23,47 @@ You will find all my code to be reused as you see fit.
 + <a href="#Proxmox_Guides">Guides</a>
 
 
+<a href="# Proxmox_VMs">2. Proxmox VM's</a>
 
-<a href="# Proxmox VM's"> Proxmox VM's</a>
++ <a href="#Proxmox_VMs_Overview">Overview</a>
 
-+ <a href="#Overview">Overview</a>
++ <a href="#Proxmox_VMs_Requirements">Requirements</a>
 
-+ <a href="#Requirements">Requirements</a>
++ <a href="#Proxmox_VMs_Guides">Guides</a>
 
-+ <a href="#Guides">Guides</a>
-
-	+ <a href="#Overview">OPNsense</a>
+	+ <a href="#OPNsense">OPNsense</a>
 	
 	+ <a href="#HomeAssitant">HomeAssitant</a>
 
-<a href="# Proxmox VM's"> Proxmox LXC's</a>
 
-+ <a href="#Overview">Overview</a>
+<a href="#Proxmox_LXCs">3. Proxmox LXC's</a>
 
-+ <a href="#Requirements">Requirements</a>
++ <a href="#Proxmox_LXCs_Overview">Overview</a>
 
-+ <a href="#Guides">Guides</a>
++ <a href="#Proxmox_LXCs_Requirements">Requirements</a>
 
-	+ <a href="#Overview">Unifi</a>
++ <a href="#Proxmox_LXCs_Guides">Guides</a>
+
+	+ <a href="#Unifi">Unifi</a>
 	
-	+ <a href="#HomeAssitant">Vault</a>
-  
+	+ <a href="#Vaultwarden">Vaultwarden</a>
+	
+	+ <a href="#Frigate">Frigate</a>
+	
+	+ <a href="#immich">immich</a>
+	
+	+ <a href="#immich">immich</a>
+	
+	+ <a href="#immich">immich</a>
+	
+	+ <a href="#immich">immich</a>
+	
+	+ <a href="#immich">immich</a>
+	
+	+ <a href="#immich">immich</a>
+	
+	+ <a href="#immich">immich</a>
+	
 </details>  
   
   
@@ -99,9 +114,11 @@ Need Proxmox a PC
 ### Guides
 <a id="Guides"></a>
 
-+ OPNsense
+> OPNsense
 
-+ HomeAssitant
+ adfhfdhdfahdafh
+
+> HomeAssitant
 
 
 <p align="right">(<a href="#readme_top">back to top</a>)</p>
@@ -131,9 +148,13 @@ Need Proxmox a PC
 <a id="Guides"></a>
 
 
-UniFi
+##### UniFi
 
-Frigate
+hfdhfgj
+
+> Frigate
+
+asfgsd
 
 
 Radarr
