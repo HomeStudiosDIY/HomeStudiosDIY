@@ -206,9 +206,7 @@ nomodeset
 <a id="nas-to-nfs"></a>
 ## Connect to your NAS with NFS
 
-
 ### <u>Overview</u>
-
 
 To connect to a NAS device with NFS you will have to setup some paths/directory’s this is how I have done mine but you can use your own location.   
 
@@ -216,11 +214,18 @@ To connect to a NAS device with NFS you will have to setup some paths/directory�
 
 If you need sub folders you will need to make the directory tree.
 	
-mkdir /mnt/data  
-mkdir /mnt/data/stream  
-mkdir /mnt/data/usb  
-mkdir /mnt/data/photos  
-
+```
+mkdir /mnt/data
+```
+```
+mkdir /mnt/data/stream
+```
+```
+mkdir /mnt/data/usb
+```
+```
+mkdir /mnt/data/photos
+```
 
 mkdir /mnt/pve/disk4tb/frigate
 
@@ -232,21 +237,29 @@ mkdir /mnt/pve/disk4tb/downloads
 ### <u>Setup Guide</u>
 
 The following will be needed to auto connect to you NFS shears.
- 
+
+``` 
 nano /etc/fstab
+```
 
-
-	10.0.0.1:/volume1/Stream/ /mnt/data/stream nfs defaults 0 0  
-	10.0.0.1:/volumeUSB1/usbshare /mnt/data/usb nfs defaults 0 0  
-	10.0.0.1:/volume1/Photos-Link /mnt/data/photos nfs defaults 0 0  
-	10.0.0.1:/volume1/Downloads /mnt/data/downloads nfs defaults 0 0  
+10.0.0.1:/volume1/Stream/ /mnt/data/stream nfs defaults 0 0  
+10.0.0.1:/volumeUSB1/usbshare /mnt/data/usb nfs defaults 0 0  
+10.0.0.1:/volume1/Photos-Link /mnt/data/photos nfs defaults 0 0  
+10.0.0.1:/volume1/Downloads /mnt/data/downloads nfs defaults 0 0  
 
 
 Once you have saved your config you need to run the following.
 
-Reload systemd: systemctl daemon-reload  
-Mount shares: mount -a
 
+
+Reload systemd:
+```
+systemctl daemon-reload  
+```
+Mount shares:
+```
+mount -a
+```
 
 
 
@@ -378,323 +391,4 @@ nano /etc/pve/lxc/105.conf
 
 
 <p align="right">(<a href="#readme_top">back to top</a>)</p>
-
-
-
-
-## Opensence								<a id="about-the-project"></a>
-
-
-Overview
-
-Setup Requirements
-
-Setup Guide
-
-
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/opnsense-vm.sh)"
-
-
-
-
-
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
-
-## UniFi
-<a id="about-the-project"></a>
-
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
-	
-
-<a href="https://github.com/HomeStudiosDIY/ProxMox-Config/blob/main/Docker%20Compose%20Files/Unifi/init-mongo.sh/" target="_blank">file</a>
-
-
-<a href="https://github.com/HomeStudiosDIY/ProxMox-Config/blob/main/Docker%20Compose%20Files/Unifi/Unifi.yaml/" target="_blank" rel="noopener noreferrer">file Docker</a>
-
-
-
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
-
-## Vaultwarden
-<a id="about-the-project"></a>
-
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
-
-
-
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
-
-## Home Assistant
-<a id="about-the-project"></a>
-
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/haos-vm.sh)"
-
-
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
-
-## Jellefin Setup and Config
-<a id="about-the-project"></a>
-
-
-
-
-Overview
-
-Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way.
-
-https://jellyfin.org/
-
-Setup Requirements
-
-Setup Guide
-
-
-
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
-
-
-JELLYFIN:
-
-
-
-mkdir /data
-mkdir /data/stream
-mkdir /data/usb
-
-pct set 106 -mp0 /mnt/data/stream/,mp=/data/stream
-pct set 106 -mp1 /mnt/data/usb/,mp=/data/usb
-
-RamDisk:
-lxc.mount.entry: tmpfs dev/shm tmpfs size=4G,nosuid,nodev,noexec,create=dir 0 0
-
-
-
-
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
-
-# Plex Setup and Config
-<a id="about-the-project"></a>
-
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
-PLEX:
-
-mkdir /data
-mkdir /data/stream
-mkdir /data/usb
-
-
-
-
-pct set 108 -mp0 /mnt/data/stream/,mp=/data/stream
-pct set 108 -mp1 /mnt/pve/disk4tb/movies/,mp=/data/usb/Movies
-
-pct set 108 -mp1 /mnt/data/usb/,mp=/data/usb
-
-
-pct set 108 -mp1 /mnt/pve/disk4tb/movies/,mp=/data/usb/movies
-
-
-
-Web:   plex.tv/claim
-
-curl -X POST 'http://IP-Address:32400/myplex/claim?token=claim-XXXXXXXXXXXX'
-
-systemctl restart plexmediaserver.service 
-
-
-curl -X POST -s -H "X-Plex-Client-Identifier: {XXXXXXXXX}" "https://plex.tv/api/claim/exchange?token={claim-xxxxxxxxxx}"
-
-
-
-
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
-
-## FRIGATE:
-<a id="about-the-project"></a>
-
-
-Frigate is a free, open-source NVR (Network Video Recorder) system designed specifically for real-time AI-powered object detection. It’s commonly used in home automation setups, especially when privacy, performance, and local processing are a priority.
-
-
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
-
-
-Privileged
-
-
- To update Frigate, create a new container and transfer your configuration.
-
-
-	mkdir /data/
-	mkdir /data/config/
-	mkdir /data/cctv/
-
-
-pct set 104 -mp0 /mnt/pve/disk4tb/frigate,mp=/data/cctv/
-
-
-
-
-nano /etc/pve/lxc/104.conf
-
-	lxc.mount.entry: /dev/bus/usb/002/ dev/bus/usb/002/ none bind,optional,create=dir 0,0
-
-
-
-
-
-
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
-
-## IMMICH:
-<a id="about-the-project"></a>
-
-
-Immich is a free, open-source, self-hosted photo and video management platform designed as a privacy-focused alternative to cloud services like Google Photos and iCloud. It allows you to back up, organize, and browse your media entirely on your own server, giving you full control over your data.
-
-
-
-
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
-
-immich
-
-	mkdir /data
-	mkdir /data/immich
-	mkdir /data/photos
-
-pct set 106 -mp0 /mnt/data/photos,mp=/data/photos/
-
-
-
-
-
-
-
-
-
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
-
-## Radar:
-<a id="about-the-project"></a>
-
-
-
-Radarr is an open-source tool designed to automate the downloading, organizing, and tracking of movies.
-
-
-
-https://radarr.video/#home
-
-
-
-
-	mkdir /data
-	mkdir /data/stream
-	mkdir /data/usb
-	mkdir /data/downloads
-	mkdir /data/radarr
-	mkdir /data/sonarr
-
-
-
-
-nano /etc/pve/lxc/110.conf
-
-	pct set 109 -mp0 /mnt/data/stream/,mp=/data/stream
-	pct set 109 -mp1 /mnt/data/usb/,mp=/data/usb
-	pct set 109 -mp1 /mnt/dve/disk4tb/movies,mp=/data/usb
-	pct set 109 -mp2 /mnt/pve/disk4tb/downloads,mp=/data/downloads
-
-
-pct set 108 -mp0 /mnt/data/stream/,mp=/data/stream
-
-
-
-      - /data/radarr/:/config
-      - /data:/movies #optional
-      - /data/downloads:/downloads #optional
-
-
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
-
-##  Sonarr:
-<a id="about-the-project"></a>
-
-Sonarr is an open-source application used to manage and automate the downloading, organizing, and tracking of TV series. It's popular among media enthusiasts who run home media servers
-
-https://sonarr.tv/
-
-
-	mkdir /data
-	mkdir /data/stream
-	mkdir /data/usb
-	mkdir /data/downloads
-	mkdir /data/sonarr
-
-
-
-
-nano /etc/pve/lxc/110.conf
-
-	pct set 109 -mp0 /mnt/data/stream/,mp=/data/stream
-	pct set 109 -mp1 /mnt/data/usb/,mp=/data/usb
-	pct set 109 -mp1 /mnt/dve/disk4tb/movies,mp=/data/usb
-	pct set 109 -mp2 /mnt/pve/disk4tb/downloads,mp=/data/downloads
-
-
-pct set 108 -mp0 /mnt/data/stream/,mp=/data/stream
-
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
-
-## Downloader
-<a id="about-the-project"></a>
-
-
-
-
-
-
-	mkdir /data
-	mkdir /data/stream
-	mkdir /data/usb
-	mkdir /data/downloads
-	mkdir /data/
-	mkdir /data/radarr
-	mkdir /data/sonarr
-
-
-
-run
-
-	nano /etc/pve/lxc/110.conf
-
-data
-
-	pct set 109 -mp0 /mnt/data/stream/,mp=/data/stream
-	pct set 109 -mp1 /mnt/data/usb/,mp=/data/usb
-	pct set 109 -mp1 /mnt/dve/disk4tb/movies,mp=/data/usb
-	pct set 109 -mp2 /mnt/pve/disk4tb/downloads,mp=/data/downloads
-
-
-pct set 108 -mp0 /mnt/data/stream/,mp=/data/stream
-
-
-apt install resolvconf
-
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
-
-
-
-
-
-Overview
-
-
-
-Setup Requirements
-
-
-
-Setup Guides
 

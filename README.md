@@ -13,26 +13,16 @@ You will find all my code to be reused as you see fit.
 <summary><u>Table of Contents</u></summary>
 
 <a href="#Proxmox">1. Proxmox</a>
-
 + <a href="#Proxmox_Overview">Overview</a>
-
 + <a href="#Proxmox_Requirements">Requirements</a>
-
 + <a href="#Proxmox_Guides">Guides</a>
 
-
 <a href="# Proxmox_VMs">2. Proxmox VM's</a>
-
 + <a href="#Proxmox_VMs_Overview">Overview</a>
-
 + <a href="#Proxmox_VMs_Requirements">Requirements</a>
-
 + <a href="#Proxmox_VMs_Guides">Guides</a>
-
 	+ <a href="#OPNsense">OPNsense</a>
-	
 	+ <a href="#HomeAssitant">HomeAssitant</a>
-
 
 <a href="#Proxmox_LXCs">3. Proxmox LXC's</a>
 
@@ -43,24 +33,35 @@ You will find all my code to be reused as you see fit.
 + <a href="#Proxmox_LXCs_Guides">Guides</a>
 
 	+ <a href="#Unifi">Unifi</a>
-	
+		+ <a href="#Overview">Overview</a>
+		+ <a href="#Guides">Guides</a>
 	+ <a href="#Vaultwarden">Vaultwarden</a>
-	
+		+ <a href="#Overview">Overview</a>
+		+ <a href="#Guides">Guides</a>
 	+ <a href="#Frigate">Frigate</a>
-	
+		+ <a href="#Overview">Overview</a>
+		+ <a href="#Guides">Guides</a>
 	+ <a href="#immich">immich</a>
-	
-	+ <a href="#immich">immich</a>
-	
-	+ <a href="#immich">immich</a>
-	
-	+ <a href="#immich">immich</a>
-	
-	+ <a href="#immich">immich</a>
-	
-	+ <a href="#immich">immich</a>
-	
-	+ <a href="#immich">immich</a>
+		+ <a href="#Overview">Overview</a>
+		+ <a href="#Guides">Guides</a>
+	+ <a href="#Jellyfin">Jellyfin</a>
+		+ <a href="#Overview">Overview</a>
+		+ <a href="#Guides">Guides</a>
+	+ <a href="#Plex">Plex</a>
+		+ <a href="#Overview">Overview</a>
+		+ <a href="#Guides">Guides</a>
+	+ <a href="#Media">Media</a>
+		+ <a href="#Overview">Overview</a>
+		+ <a href="#Guides">Guides</a>
+	+ <a href="#Downloaders">Downloaders</a>
+		+ <a href="#Overview">Overview</a>
+		+ <a href="#Guides">Guides</a>
+	+ <a href="#ollama">ollama</a>
+		+ <a href="#Overview">Overview</a>
+		+ <a href="#Guides">Guides</a>
+	+ <a href="#tdarr">tdarr</a>
+		+ <a href="#Overview">Overview</a>
+		+ <a href="#Guides">Guides</a>
 	
 </details>  
   
@@ -112,11 +113,14 @@ Need Proxmox a PC
 ### Guides
 <a id="Guides"></a>
 
-> OPNsense
+OPNsense
+
++ test  
+sdaggasd
 
  adfhfdhdfahdafh
 
-> HomeAssitant
+HomeAssitant
 
 
 <p align="right">(<a href="#readme_top">back to top</a>)</p>
@@ -143,21 +147,31 @@ Need Proxmox a PC
 
 ### Guides
 
-<a id="Guides"></a>
+<a id="Proxmox_LXCs_Guides"></a>
 
 
-##### UniFi
+Unifi
 
-hfdhfgj
+Vaultwarden
+	
+Frigate
+	
+immich
+	
+Jellyfin
+	
+Plex
+	
+Media
+	
+Downloaders
 
-> Frigate
-
-asfgsd
-
-
-Radarr
-
-Sonarr
++ radarr  
+dsfdsaf
+	
+ollama
+	
+tdarr
 
 
 
