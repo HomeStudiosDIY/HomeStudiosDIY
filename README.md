@@ -210,10 +210,27 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/04%20-%20HomeAssistan
 
 
 
+<h1><span>Left text</span><span>Right text</span></h1>
+
+
+
+<h1> left <span> right </span></h1>
+
+
+<table style="width: 100%;">
+  <tr><td>Left aligned stuff</td>
+      <td class="alignRight">Right aligned stuff</td></tr>
+</table>
 
 
 <p style="text-align: left; width:49%; display: inline-block;">LEFT</p>
 <p style="text-align: right; width:50%;  display: inline-block;">RIGHT</p>
+
+
+<div class="row">
+    <div class="col" style="text-align:left">left align</div>
+    <div class="col" style="text-align:right">right align</div>
+</div>
 
 <p>
   <span>This text is left aligned</span>
@@ -222,7 +239,8 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/04%20-%20HomeAssistan
 
 <span class="right">Right aligned</span><span class="left">Left aligned</span>
 
-<p align="right"><a href="#readme_top">back to top</a> <align="left">(<a href="#readme_top">back to top</a>)</p>
+<p align="right"><a href="#readme_top">right back to top</a></p> 
+<p align="left"><a href="#readme_top">left back to top</a></p>
 
 
 <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY">Home Page</a>
