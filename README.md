@@ -141,6 +141,7 @@ Need a PC
         <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY">Home Page</a>
     </span>
 </p>
+
 <a id="OPNsense"></a>
 ## OPNsense
 
@@ -210,8 +211,18 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/04%20-%20HomeAssistan
 
 
 
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
-<p align="left">(<a href="#readme_top">back to top</a>)</p>
+
+<p style="text-align: left; width:49%; display: inline-block;">LEFT</p>
+<p style="text-align: right; width:50%;  display: inline-block;">RIGHT</p>
+
+<p>
+  <span>This text is left aligned</span>
+  <span>This text is right aligned</span>
+</p>
+
+<span class="right">Right aligned</span><span class="left">Left aligned</span>
+
+<p align="right"><a href="#readme_top">back to top</a> <align="left">(<a href="#readme_top">back to top</a>)</p>
 
 
 <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY">Home Page</a>
