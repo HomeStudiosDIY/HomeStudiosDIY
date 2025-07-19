@@ -270,6 +270,7 @@ ls -al /dev/nvidia*
 ```
 
 
+<img width="866" height="330" alt="NVIDIA_card_details" src="https://github.com/user-attachments/assets/c6d7a02a-f831-4d3c-a65a-bdd8fb697127" />
 
 
 
