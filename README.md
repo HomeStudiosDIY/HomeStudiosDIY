@@ -169,13 +169,15 @@ Need Proxmox a PC
 <a id="Guides"></a>
 
 
-<p align="right">(<a href="#readme_top">back to top</a>)</p> <p align="left">(<a href="#readme_top">back to top</a>)</p>
+<p align="right">(<a href="#readme_top">back to top</a>) <p align="left">(<a href="#readme_top">back to top</a>)</p>
 
 
 
-<p style="text-align:left;">
+<p>
+	<span style="text-align:left;">
 		<a href="#readme_top">back to top</a>
-	<span style="text-align:right;">
+	</span>
+	<span style="float:right;">
         <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY">Home Page</a>
     </span>
 </p>
