@@ -107,7 +107,17 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/04%20-%20HomeAssistan
 ## Portainer 
 
 
+https://community-scripts.github.io/ProxmoxVE/scripts?id=docker
 
+
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
+
+Portainer Agent
+
+https://community-scripts.github.io/ProxmoxVE/scripts?id=docker
+
+
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
 
 
 

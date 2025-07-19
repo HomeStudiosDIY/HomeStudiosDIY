@@ -277,6 +277,9 @@ ls -al /dev/nvidia*
 now we need to update the config file for the LXC 
 
 
+
+lxc.cgroup2.devices.allow: c 195:* rwm
+
 nano /etc/pve/lxc/105.conf
 
 

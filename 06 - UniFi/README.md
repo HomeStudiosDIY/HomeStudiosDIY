@@ -1,17 +1,33 @@
+# Work in progress
+
+<a id="readme_top"></a>
 # UniFi
 
 
-Work in progress   
+  
+
+
+
+
+https://community-scripts.github.io/ProxmoxVE/scripts?id=docker
+
+
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
+
+
 
 	
 mkdir /data
 mkdir /data/unifi	
 
 
+
+
+
 nano /data/unifi/init-mongo.sh
 
 
-
+```
 #!/bin/bash
 
 if which mongosh > /dev/null 2>&1; then
@@ -31,8 +47,7 @@ db.createUser({
   ]
 })
 EOF	
-	
-	
+```	
 	
 ## UniFi
 <a id="about-the-project"></a>
@@ -43,8 +58,10 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <a href="https://github.com/HomeStudiosDIY/ProxMox-Config/blob/main/Docker%20Compose%20Files/Unifi/init-mongo.sh/" target="_blank">file</a>
 
 
+
+
 <a href="https://github.com/HomeStudiosDIY/ProxMox-Config/blob/main/Docker%20Compose%20Files/Unifi/Unifi.yaml/" target="_blank" rel="noopener noreferrer">file Docker</a>
 
 
 
-<p align="right">(<a href="#readme_top">back to top</a>)</p>	
+<p align="right"><a href="#readme_top">back to top</a></p>	
