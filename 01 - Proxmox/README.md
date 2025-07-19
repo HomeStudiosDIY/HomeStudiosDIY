@@ -203,14 +203,14 @@ nomodeset
 
 
 
-<a id="nas-to-nfs"></a>
-## Connect to your NAS with NFS
 
-### <u>Overview</u>
+## Connect to your NAS with NFS		<a id="NFS_to_NAS"></a>
+
+### Overview
 
 To connect to a NAS device with NFS you will have to setup some paths/directory’s this is how I have done mine but you can use your own location.   
 
-### <u>Setup Requirements</U>
+### Setup Requirements
 
 If you need sub folders you will need to make the directory tree.
 	
@@ -234,7 +234,7 @@ mkdir /mnt/pve/disk4tb/frigate
 mkdir /mnt/pve/disk4tb/downloads
 
 
-### <u>Setup Guide</u>
+### Setup Guide
 
 The following will be needed to auto connect to you NFS shears.
 
@@ -242,10 +242,10 @@ The following will be needed to auto connect to you NFS shears.
 nano /etc/fstab
 ```
 
-10.0.0.1:/volume1/Stream/ /mnt/data/stream nfs defaults 0 0  
-10.0.0.1:/volumeUSB1/usbshare /mnt/data/usb nfs defaults 0 0  
-10.0.0.1:/volume1/Photos-Link /mnt/data/photos nfs defaults 0 0  
-10.0.0.1:/volume1/Downloads /mnt/data/downloads nfs defaults 0 0  
+10.0.0.1:/volume1/Stream/ /mnt/data/stream nfs defaults 0 0
+10.0.0.1:/volumeUSB1/usbshare /mnt/data/usb nfs defaults 0 0
+10.0.0.1:/volume1/Photos-Link /mnt/data/photos nfs defaults 0 0
+10.0.0.1:/volume1/Downloads /mnt/data/downloads nfs defaults 0 0
 
 
 Once you have saved your config you need to run the following.
@@ -267,40 +267,34 @@ chown 100109:100117 /mnt/pve/disk4tb/frigate/
 
 
 
-<p align="left"><a href="#readme_top">(back to top)</a> </p>
-<p align="right"><a href="#readme_top">(Home Page)</a></p>
-
-
-
 <p style="text-align:left;">
-		<a href="#readme_top">back to top</a>
+		<a href="#readme_top">Back to Top</a>
 	<span style="float:right;">
-        <a href="#">Home Page</a>
+        <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY">Home Page</a>
     </span>
 </p>
 
 
-## Install NVIDIA Drivers on ProxMox
-<a id="adding_nvidia_drivers"></a>
+
+## NVIDIA
+<a id="nvidia_drivers_proxmox"></a>
 
 
 
 
-
-
-
-### NVIDIA
-<a id="install-nvidia-drivers-on-proxmox"></a>
-
-
+<a id="nvidia_drivers_proxmox"></a> 
+### Install NVIDIA Drivers on ProxMox  
 
 Overview
 
 Setup Requirements
 
+You will need to get the latest NVIDIA drivers from the following site
+
 Setup Guide
 
 apt update && apt upgrade -y && apt install pve-headers build-essential software-properties-common make nvtop htop -y
+
 update-initramfs -u
 
 
@@ -317,24 +311,31 @@ chmod +x NVIDIA-Linux-x86_64-550.144.03.run
 
 
 
+<p style="text-align:left;">
+		<a href="#readme_top">back to top</a>
+	<span style="float:right;">
+        <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY">Home Page</a>
+    </span>
+</p>
 
 
-### LXC Setup for Nvida: 
 <a id="install-nvidia-drivers-on-proxmox"></a>
+### Installing NVIDIA Drivers for LXC Setup for Nvida: 
+
 
 
 Overview
 
-Setup Requirements
+Requirements
 
-Setup Guide
-
-
+Guides
 
 
 
 
-I have the following LXC setup to use my NVIDA card (Jellyfin, Plex, ......)
+
+
+I have the following LXC setup to use my NVIDA card (Jellyfin, Plex, Ollama......)
 
 
 
@@ -362,6 +363,7 @@ nvidia-ctk runtime configure --runtime=docker
 
 
 nano /etc/nvidia-container-runtime/config.toml  
+
 #no-cgroups = false  
 to  
 no-cgroups = true  
@@ -371,7 +373,9 @@ no-cgroups = true
 ls -al /dev/nvidia*
 
 
+
 nano /etc/pve/lxc/105.conf
+
 
 
 
@@ -390,5 +394,10 @@ nano /etc/pve/lxc/105.conf
 
 
 
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
 
+<p style="text-align:left;">
+		<a href="#readme_top">Back to Top</a>
+	<span style="float:right;">
+        <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY">Home Page</a>
+    </span>
+</p>
