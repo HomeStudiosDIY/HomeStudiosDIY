@@ -1,37 +1,6 @@
 # Work in Progress
 
 
-## Proxmox  								<a id="readme_top"></a>
-
-### Overview
-
-Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
-The software-defined and open platforms are easy to deploy, manage and budget for.
-
-
-Here with some config settings to help you get you ProxMox Server setup and working!!  
-
-I run all my application on a LXC inside Docker but you can run the LXC application directly this was just my preference for consistency as not all application I use can run directly on a LXC. All my LXC config and Docker Compose files will also be sheared.
-
-https://community-scripts.github.io/ProxmoxVE/
-
-
-
-https://www.proxmox.com/en/
-
-
-
-
-
-### Setup Requirements
-
-
-
-
-
-### Setup Guide
-
-
 
 <details>
   <summary><u>Table of Contents</u></summary>
@@ -193,7 +162,52 @@ https://www.proxmox.com/en/
 
 
 
+<a id="readme_top"></a>
+## Proxmox  								
 
+### Overview
+
+Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
+The software-defined and open platforms are easy to deploy, manage and budget for.
+
+
+Here with some config settings to help you get you ProxMox Server setup and working!!  
+
+I run all my application on a LXC inside Docker but you can run the LXC application directly this was just my preference for consistency as not all application I use can run directly on a LXC. All my LXC config and Docker Compose files will also be sheared.
+
+https://community-scripts.github.io/ProxmoxVE/
+
+
+
+https://www.proxmox.com/en/
+
+
+
+
+
+### Requirements
+
+
+
+
+
+### How To
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://rufus.ie/en/
 
 
 
@@ -234,7 +248,7 @@ mkdir /mnt/pve/disk4tb/frigate
 mkdir /mnt/pve/disk4tb/downloads
 
 
-### Setup Guide
+### How To
 
 The following will be needed to auto connect to you NFS shears.
 
