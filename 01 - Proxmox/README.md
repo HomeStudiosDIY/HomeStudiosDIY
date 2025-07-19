@@ -158,15 +158,6 @@
   </ol>
 </details>
 
-
-
-
-
-<a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY">Back to the Home Page</a>
-
-<p align="right"><a href="#readme_top">right back to top</a></p> 
-<p align="left"><a href="#readme_top">left back to top</a></p>
-
 <a id="readme_top"></a>
 ## Proxmox  		
 
