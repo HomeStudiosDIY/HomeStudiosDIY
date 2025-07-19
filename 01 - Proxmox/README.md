@@ -185,6 +185,7 @@ https://www.nvidia.com/en-gb/drivers/
 
 
 
+<img width="1544" height="531" alt="NVIDIA" src="https://github.com/user-attachments/assets/3dc7e07d-79dc-4e9e-9869-d825748605ac" />
 
 https://uk.download.nvidia.com/XFree86/Linux-x86_64/570.172.08/NVIDIA-Linux-x86_64-570.172.08.run
 
