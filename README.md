@@ -13,46 +13,28 @@ You will find all my code to be reused as you see fit.
 + <a href="#Proxmox">Proxmox</a>
 
 + <a href="#OPNsense">OPNsense</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
 
 + <a href="#Home_Assitant">Home Assitant</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
 
 + <a href="#Unifi">Unifi</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
 	
 + <a href="#Vaultwarden">Vaultwarden</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
 	
 + <a href="#Frigate">Frigate</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
 	
 + <a href="#immich">immich</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
 		
 + <a href="#Jellyfin">Jellyfin</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
 		
 + <a href="#Plex">Plex</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
 		
 + <a href="#Media">Media</a>
-
 	+ <a href="#Ombi">Ombi</a>
 	+ <a href="#Jellystat">Jellystat</a>
 	+ <a href="#Tautulli">Tautulli</a>
 	+ <a href="#jellyplex_watched">jellyplex-watched</a>
 	
 + <a href="#Downloaders">Downloaders</a>
-
 	+ <a href="#flaresolverr">flaresolverr</a>
 	+ <a href="#prowlarr">prowlarr</a>
 	+ <a href="#Radarr">Radarr</a>
@@ -248,8 +230,6 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/12%20-%20media
 
 <a id="Downloaders"></a>
 ## Downloaders
-
-
 
 <a id="Downloaders"></a>
 flaresolverr

@@ -9,37 +9,29 @@
 
 + <a href="#Proxmox">Proxmox</a>
 
-+ <a href="#OPNsense">OPNsense</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
++ <a href="#NVIDIA_Drivers">NVIDIA Drivers</a>
+
 
 + <a href="#Home_Assitant">Home Assitant</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
+
 
 + <a href="#Unifi">Unifi</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
+
 	
 + <a href="#Vaultwarden">Vaultwarden</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
+
 	
 + <a href="#Frigate">Frigate</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
+
 	
 + <a href="#immich">immich</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
+
 		
 + <a href="#Jellyfin">Jellyfin</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
+
 		
 + <a href="#Plex">Plex</a>
-	+ <a href="#Overview">Overview</a>
-	+ <a href="#How_To">How To</a>
+
 		
 + <a href="#Media">Media</a>
 
@@ -163,8 +155,14 @@ chown 100109:100117 /mnt/pve/disk4tb/frigate/
 </p>
 
 
-<a id="nvidia_drivers_proxmox"></a>
+<a id="NVIDIA_Drivers"></a>
 # NVIDIA
+
+depending on your needs 
+
+
+
+
 
 <a id="nvidia_drivers_proxmox"></a> 
 ## Install NVIDIA Drivers on ProxMox  
@@ -173,12 +171,15 @@ chown 100109:100117 /mnt/pve/disk4tb/frigate/
 You will need to get the latest NVIDIA drivers from the following site
 
 Setup Guide
-
+```
 apt update && apt upgrade -y && apt install pve-headers build-essential software-properties-common make nvtop htop -y
-
+```
+```
 update-initramfs -u
+```
 
 
+system is now ready to get the drivers
 
 https://www.nvidia.com/en-gb/drivers/
 
@@ -191,24 +192,22 @@ https://www.nvidia.com/en-gb/drivers/
 https://uk.download.nvidia.com/XFree86/Linux-x86_64/570.172.08/NVIDIA-Linux-x86_64-570.172.08.run
 
 
+
 wget https://uk.download.nvidia.com/XFree86/Linux-x86_64/550.142/NVIDIA-Linux-x86_64-550.142.run
 
 
+Make sure you use the same file name
+
+```
 chmod +x NVIDIA-Linux-x86_64-550.144.03.run
+```
 
-
+```
 ./NVIDIA-Linux-x86_64-550.144.03.run --dkms
+```
 
 
 
-
-
-<p style="text-align:left;">
-		<a href="#readme_top">back to top</a>
-	<span style="float:right;">
-        <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY">Home Page</a>
-    </span>
-</p>
 
 
 <a id="install-nvidia-drivers-on-proxmox"></a>
@@ -219,10 +218,13 @@ I have the following LXC setup to use my NVIDA card (Jellyfin, Plex, Ollama.....
 
 pct push LXC_Number NVIDIA-Linux-x86_64-550.144.03.run /root/NVIDIA-Linux-x86_64-550.144.03.run
 
+
+```
 chmod +x NVIDIA-Linux-x86_64-550.144.03.run
-
+```
+```
 ./NVIDIA-Linux-x86_64-550.144.03.run --no-kernel-modules
-
+```
 
 ```
 apt install gpg curl
@@ -250,7 +252,7 @@ nvidia-ctk runtime configure --runtime=docker
 
 
 
-
+Now we need to edit a file
 ```
 nano /etc/nvidia-container-runtime/config.toml  
 ```
@@ -261,11 +263,17 @@ to
 no-cgroups = true  
 
 
+now we need to find the card details so we can map this to the LXC
+
 ```
 ls -al /dev/nvidia*
 ```
 
 
+
+
+
+now we need to update the config file for the LXC 
 
 
 nano /etc/pve/lxc/105.conf
@@ -289,9 +297,4 @@ nano /etc/pve/lxc/105.conf
 
 
 
-<p style="text-align:left;">
-		<a href="#readme_top">Back to Top</a>
-	<span style="float:right;">
-        <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY">Home Page</a>
-    </span>
-</p>
+
