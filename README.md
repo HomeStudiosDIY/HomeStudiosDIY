@@ -79,25 +79,31 @@ You will find all my code to be reused as you see fit.
   
   
 
-
-## Proxmox
 <a id="Proxmox"></a>
+## Proxmox
 
-### Overview:
+
 <a id="Proxmox_Overview"></a>
+### Overview:
+
 
 Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
 The software-defined and open platforms are easy to deploy, manage and budget for.
 
-### Requirements:
+https://www.proxmox.com/en/
+
 <a id="Proxmox_Requirements"></a>
+### Requirements:
+
 
 Need a PC
 
 
-
-### Guides:
 <a id="Proxmox_Guides"></a>
+### Guides:
+
+
+
 
 
 <p style="text-align:left;">
@@ -163,13 +169,13 @@ Need Proxmox a PC
 <a id="Guides"></a>
 
 
-<p align="right">(<a href="#readme_top">back to top</a>)</p>
+<p align="right">(<a href="#readme_top">back to top</a>)</p> <p align="left">(<a href="#readme_top">back to top</a>)</p>
 
 
 
 <p style="text-align:left;">
 		<a href="#readme_top">back to top</a>
-	<span style="float:right;">
+	<span style="text-align:right;">
         <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY">Home Page</a>
     </span>
 </p>
