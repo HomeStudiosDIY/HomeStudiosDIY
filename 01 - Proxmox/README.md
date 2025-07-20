@@ -2,65 +2,26 @@
 
 <a id="readme_top"></a>
 ## Proxmox  
+Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
+The software-defined and open platforms are easy to deploy, manage and budget for.  
+https://www.proxmox.com/en/
 
 <details>
 <summary><u>Table of Contents</u></summary>
 
-+ <a href="#Proxmox">Proxmox</a>
++ <a href="#Installation">Installation</a>
 
 + <a href="#NVIDIA_Drivers">NVIDIA Drivers</a>
 
 
-+ <a href="#Home_Assitant">Home Assitant</a>
-
-
-+ <a href="#Unifi">Unifi</a>
-
-	
-+ <a href="#Vaultwarden">Vaultwarden</a>
-
-	
-+ <a href="#Frigate">Frigate</a>
-
-	
-+ <a href="#immich">immich</a>
-
-		
-+ <a href="#Jellyfin">Jellyfin</a>
-
-		
-+ <a href="#Plex">Plex</a>
-
-		
-+ <a href="#Media">Media</a>
-
-	+ <a href="#Ombi">Ombi</a>
-	+ <a href="#Jellystat">Jellystat</a>
-	+ <a href="#Tautulli">Tautulli</a>
-	+ <a href="#jellyplex_watched">jellyplex-watched</a>
-	
-+ <a href="#Downloaders">Downloaders</a>
-
-	+ <a href="#flaresolverr">flaresolverr</a>
-	+ <a href="#prowlarr">prowlarr</a>
-	+ <a href="#Radarr">Radarr</a>
-	+ <a href="#Sonarr">Sonarr</a>
-	+ <a href="#qbittorrent">qbittorrent</a>
-	+ <a href="#huntarr">huntarr</a>
-	
-+ <a href="#ollama">ollama</a>
-
-+ <a href="#tdarr">tdarr</a>
++ <a href="#NFS_to_NAS">Connect to your NAS with NFS</a>
 
 	
 </details>  
 
-<a href="https://github.com/HomeStudiosDIY">Back to the Home Page</a>		
+<a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY/blob/main/README.md">Back to Home Page</a>
 
-Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
-The software-defined and open platforms are easy to deploy, manage and budget for.
 
-https://www.proxmox.com/en/
 
 Here with some config settings to help you get you ProxMox Server setup and working!!  
 
@@ -72,8 +33,8 @@ https://community-scripts.github.io/ProxmoxVE/
 
 
 
-
-## Install
+<a id="Installation"></a>
+## Installation
 
 
 
@@ -87,6 +48,8 @@ nomodeset
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
+
+
 
 <a id="NFS_to_NAS"></a>
 ## Connect to your NAS with NFS		

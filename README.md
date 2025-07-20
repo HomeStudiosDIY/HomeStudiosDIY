@@ -172,11 +172,7 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/07%20-%20Vaultwarden
 <a id="Frigate"></a>
 ## Frigate
 
-Monitor your security cameras with locally processed AI
-
-Frigate is an open source NVR built around real-time AI object detection. All processing is performed locally on your own hardware, and your camera feeds never leave your home.
-
-
+Frigate is a free, open-source NVR (Network Video Recorder) system designed specifically for real-time AI-powered object detection. It’s commonly used in home automation setups, especially when privacy, performance, and local processing are a priority.
 https://frigate.video/
 
 
@@ -192,12 +188,6 @@ Immich is a free, open-source, self-hosted photo and video management platform d
 
 
 
-Self-hosted photo and
-video management solution
-
-Easily back up, organize, and manage your photos on your own server. Immich helps you
-browse, search and organize your photos and videos with ease, without sacrificing your privacy.
-
 https://immich.app/
 
 
@@ -212,6 +202,9 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/09%20-%20immich
 <a id="Jellyfin"></a>
 ## Jellyfin
 
+Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way.
+
+https://jellyfin.org/
 
 
 
