@@ -2,9 +2,11 @@
 <a id="readme_top"></a>
 # Hi there 👋
 
-Hopefully all the code will help you to get a smart home setup with everything I have learned. I will also see if I can keep this as non technical as postable so you don’t have to spend time on thousands of YouTube videos. I will also start making videos on all the Guides. 
+Hopefully this will help you to in setting up a local hosted server and us my config files to assist you. I will also see if I can keep this as non technical as postable so you don’t have to spend time on thousands of YouTube videos. I will also start making videos on all the Guides. For the technical lads just pick what you need as all my code will be sheared. 
 
-You will find all my code to be reused as you see fit.
+
+I have listed all the software I use 
+
 
 
 <details>
@@ -60,9 +62,7 @@ You will find all my code to be reused as you see fit.
 ## Proxmox
 
 Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
-The software-defined and open platforms are easy to deploy, manage and budget for.
-
-
+The software-defined and open platforms are easy to deploy, manage and budget for.  
 https://www.proxmox.com/en/
 
 
@@ -78,8 +78,7 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/01%20-%20Proxmox
 <a id="OPNsense"></a>
 ## OPNsense
 
-OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection.
-
+OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection.  
 https://opnsense.org/
 
 
@@ -112,6 +111,7 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/04%20-%20HomeAssistan
 <a id="Tools"></a>
 ## Tools
 
+If you follow my setup guides you will not need to install this. This will be install under ever application that requers it
 
 
 <a id="Portainer"></a>
@@ -134,6 +134,9 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <a id="Watchtower"></a>
 + Watchtower
+
+
+<p align="right"><a href="#readme_top">back to top</a></p>
 
 
 <a id="UniFi"></a>

@@ -2,7 +2,6 @@
 
 <a id="readme_top"></a>
 ## Proxmox  
-<a href="https://github.com/HomeStudiosDIY">Back to the Home Page</a>		
 
 <details>
 <summary><u>Table of Contents</u></summary>
@@ -56,10 +55,12 @@
 	
 </details>  
 
+<a href="https://github.com/HomeStudiosDIY">Back to the Home Page</a>		
 
 Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
 The software-defined and open platforms are easy to deploy, manage and budget for.
 
+https://www.proxmox.com/en/
 
 Here with some config settings to help you get you ProxMox Server setup and working!!  
 
@@ -69,7 +70,6 @@ https://community-scripts.github.io/ProxmoxVE/
 
 
 
-https://www.proxmox.com/en/
 
 
 
@@ -86,13 +86,12 @@ Proxmox installer
 nomodeset
 
 
+<p align="right"><a href="#readme_top">back to top</a></p>
 
-
-## Connect to your NAS with NFS		<a id="NFS_to_NAS"></a>
-
+<a id="NFS_to_NAS"></a>
+## Connect to your NAS with NFS		
 
 To connect to a NAS device with NFS you will have to setup some paths/directory’s this is how I have done mine but you can use your own location.   
-
 
 If you need sub folders you will need to make the directory tree.
 	
@@ -147,13 +146,7 @@ chown 100109:100117 /mnt/pve/disk4tb/frigate/
 
 
 
-<p style="text-align:left;">
-		<a href="#readme_top">Back to Top</a>
-	<span style="float:right;">
-        <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY">Home Page</a>
-    </span>
-</p>
-
+<p align="right"><a href="#readme_top">back to top</a></p>
 
 <a id="NVIDIA_Drivers"></a>
 # NVIDIA
@@ -208,7 +201,7 @@ chmod +x NVIDIA-Linux-x86_64-550.144.03.run
 
 
 
-
+<p align="right"><a href="#readme_top">back to top</a></p>
 
 <a id="install-nvidia-drivers-on-proxmox"></a>
 ## Installing NVIDIA Drivers for LXC Setup for Nvida: 
@@ -298,7 +291,7 @@ nano /etc/pve/lxc/105.conf
 
 
 
-
+<p align="right"><a href="#readme_top">back to top</a></p>
 
 
 
