@@ -1,4 +1,4 @@
-# Work in Progress
+# Work in Progress!!
 
 <a id="readme_top"></a>
 ## Proxmox  
@@ -9,12 +9,15 @@ https://www.proxmox.com/en/
 <details>
 <summary><u>Table of Contents</u></summary>
 
-+ <a href="#Installation">Installation</a>
++ <a href="#Proxmox_Installation">Proxmox Installation</a>
+
++ <a href="#NFS_to_NAS">Connect to your NAS with NFS</a>
+
++ <a href="#NFS_to_NAS">Connect a USB Drive</a>
 
 + <a href="#NVIDIA_Drivers">NVIDIA Drivers</a>
 
 
-+ <a href="#NFS_to_NAS">Connect to your NAS with NFS</a>
 
 	
 </details>  
@@ -33,18 +36,36 @@ https://community-scripts.github.io/ProxmoxVE/
 
 
 
-<a id="Installation"></a>
-## Installation
+<a id="Proxmox_Installation"></a>
+## Proxmox Installation
+
+Download Proxmox instalation file
+https://www.proxmox.com/en/
+
+
+First you will need to make a bootable USB disk using software called rufus
+
+You can download the latest version of rufus using the following link. https://rufus.ie/en/
 
 
 
-https://rufus.ie/en/
-
+boot from the USB
 
 
 
 Proxmox installer
 nomodeset
+
+
+
+
+
+
+
+https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install
+
+
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/post-pve-install.sh)"
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
@@ -110,6 +131,13 @@ chown 100109:100117 /mnt/pve/disk4tb/frigate/
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
+
+
+## Connect a USB Drive
+
+
+
+
 
 <a id="NVIDIA_Drivers"></a>
 # NVIDIA
@@ -258,3 +286,8 @@ nano /etc/pve/lxc/105.conf
 
 
 
+
+
+
+
+https://community-scripts.github.io/ProxmoxVE/scripts?id=scaling-governor
