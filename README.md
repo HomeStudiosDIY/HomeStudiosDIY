@@ -10,6 +10,7 @@ My goal is to keep things as beginner-friendly as possible, so you don’t have 
 All the code and setups I share are from my actual working system—not just demos—so feel free to use and adapt them for your own home.
 
 
+https://paypal.me/HomeStudiosDIY
 
 
 I have listed all the software I use 
