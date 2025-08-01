@@ -1,9 +1,15 @@
 # Work in Progress!!
 
 <a id="readme_top"></a>
-# Hi there 👋
+# Welcome to my channel! 👋
 
-Hopefully this will help you to in setting up a local hosted server and us my config files to assist you. I will also see if I can keep this as non technical as postable so you don’t have to spend time on thousands of YouTube videos. I will also start making videos on all the Guides. For the technical lads just pick what you need as all my code will be sheared. 
+If you're looking to build your own locally hosted Smart Home server, you're in the right place. I focus on Home Assistant as the heart of the smart home—making automation simple, powerful, and private.
+
+My goal is to keep things as beginner-friendly as possible, so you don’t have to waste hours digging through countless videos. I’ll provide step-by-step written guides to help you get started, along with more advanced tips for when you're ready to dive deeper.
+
+All the code and setups I share are from my actual working system—not just demos—so feel free to use and adapt them for your own home.
+
+
 
 
 I have listed all the software I use 

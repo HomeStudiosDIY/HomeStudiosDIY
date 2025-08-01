@@ -8,6 +8,10 @@
 
 + <a href="#Home_Assitant">Home Assitant</a>
 
++ <a href="#Integrations">Integrations</a>
+	+ <a href="#Integrations">Integrations</a>
+
+
 </details> 
 
 <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY/blob/main/README.md">Back to Home Page</a>
@@ -19,6 +23,12 @@
 
 
 This is my config for my current setup  
+
+
+
+
+https://www.hacs.xyz/docs/use/download/download/
+
 
 
 HACS Add this repo https://github.com/bjrnptrsn/climate_group to the HACS store and install from there.
@@ -34,3 +44,30 @@ HACS Add this repo https://github.com/bjrnptrsn/climate_group to the HACS store 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/haos-vm.sh)"
 
 
+
+https://www.hacs.xyz/docs/use/download/download/
+
+## Integrations
+
++ ### Proxmox
+
+  https://github.com/dougiteixeira/proxmoxve
+
+
+
+cdpuk/ha-bestway (integration)
+
+
+bjrnptrsn/climate_group (integration)
+
+
++ ### OPNsense
+
+  https://github.com/travisghansen/hass-opnsense
+  
+  
+  
+  
+https://github.com/hass-agent
+
+https://github.com/hass-agent/HASS.Agent-Integration

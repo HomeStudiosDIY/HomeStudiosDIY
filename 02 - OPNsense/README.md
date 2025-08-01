@@ -5,6 +5,7 @@
 
 
 OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection.  
+We've made digital security accessible to everyone. With our free OPNsense® platform, you get all the features of expensive commercial firewalls and more. Enjoy open and verifiable sources in a product developed with and for a large user community.  
 https://opnsense.org/
 
 <details>
