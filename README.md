@@ -49,13 +49,7 @@ I have listed all the software I use
 	+ <a href="#Tautulli">Tautulli</a>
 	+ <a href="#jellyplex_watched">jellyplex-watched</a>
 	
-+ <a href="#Downloaders">Downloaders</a>
-	+ <a href="#flaresolverr">flaresolverr</a>
-	+ <a href="#prowlarr">prowlarr</a>
-	+ <a href="#Radarr">Radarr</a>
-	+ <a href="#Sonarr">Sonarr</a>
-	+ <a href="#qbittorrent">qbittorrent</a>
-	+ <a href="#huntarr">huntarr</a>
+
 	
 + <a href="#ollama">ollama</a>
 
@@ -259,44 +253,6 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/12%20-%20media
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 
-<a id="Downloaders"></a>
-## Downloaders
-
-<a id="Downloaders"></a>
-+ flaresolverr  
-FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection  
-https://github.com/FlareSolverr/FlareSolverr
-
-<a id="Downloaders"></a>
-+ Prowlarr  
-The Ultimate Indexer Manager  
-https://prowlarr.com/
-
-<a id="Downloaders"></a>
-+ Radarr  
-https://radarr.video/
-
-<a id="Downloaders"></a>
-+ Sonarr  
-https://sonarr.tv/
-
-<a id="Downloaders"></a>
-+ qbittorrent  
-The qBittorrent project aims to provide an open-source software alternative to µTorrent  
-https://www.qbittorrent.org/
-
-<a id="Downloaders"></a>
-+ huntarr  
-Find Missing & Upgrade Media Items  
-https://github.com/plexguide/Huntarr.io
-
-you can fine 
-
-https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/13%20-%20Downloaders
-
-
-
-<p align="right"><a href="#readme_top">back to top</a></p>
 
 
 <a id="ollama"></a>
