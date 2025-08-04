@@ -67,7 +67,7 @@ Proxmox delivers powerful, enterprise-grade solutions with full access to all fu
 The software-defined and open platforms are easy to deploy, manage and budget for.  
 https://www.proxmox.com/en/
 
-
+In this section I will guide you to install Proxmox and dependency depending on your system and hardware setup. 
 
 
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/01%20-%20Proxmox
@@ -83,7 +83,7 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/01%20-%20Proxmox
 OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection.  
 https://opnsense.org/
 
-
+This will guide you yo install OPNsense on Proxmox and I will also show you how to configure all the different plug-ins I use.
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/02%20-%20OPNsense
 
 
@@ -95,7 +95,7 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/02%20-%20OPNsense
 
 
 
-
+installing Home Assistant on Proxmox also all the diffrent integrations and Add-ons I Have plust all my automations and config 
 
 
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/03%20-%20HomeAssistant%20Prod
@@ -163,7 +163,7 @@ An alternative server implementation of the Bitwarden Client API, written in Rus
 
 https://github.com/dani-garcia/vaultwarden
 
-
+Installing and config
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/07%20-%20Vaultwarden
 
 
@@ -177,6 +177,7 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/07%20-%20Vaultwarden
 Frigate is a free, open-source NVR (Network Video Recorder) system designed specifically for real-time AI-powered object detection. It’s commonly used in home automation setups, especially when privacy, performance, and local processing are a priority.
 https://frigate.video/
 
+Install and config
 
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/08%20-%20Frigate
 
@@ -192,7 +193,7 @@ Immich is a free, open-source, self-hosted photo and video management platform d
 
 https://immich.app/
 
-
+Install and config
 
 
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/09%20-%20immich
@@ -209,7 +210,7 @@ Jellyfin is the volunteer-built media solution that puts you in control of your 
 https://jellyfin.org/
 
 
-
+Install and config
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/10%20-%20Jellyfin
 
 <p align="right"><a href="#readme_top">back to top</a></p>
@@ -217,7 +218,7 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/10%20-%20Jellyfin
 ## Plex
 
 
-
+Install and config
 
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/11%20-%20Plex
 

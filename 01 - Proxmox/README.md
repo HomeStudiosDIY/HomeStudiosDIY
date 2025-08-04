@@ -11,9 +11,11 @@ https://www.proxmox.com/en/
 
 + <a href="#Proxmox_Installation">Proxmox Installation</a>
 
++ <a href="#NFS_to_NAS">Connect a USB Drive</a>
+
 + <a href="#NFS_to_NAS">Connect to your NAS with NFS</a>
 
-+ <a href="#NFS_to_NAS">Connect a USB Drive</a>
+
 
 + <a href="#NVIDIA_Drivers">NVIDIA Drivers</a>
 
@@ -40,6 +42,11 @@ https://community-scripts.github.io/ProxmoxVE/
 ## Proxmox Installation
 
 ### Work in Progress!!
+
+Hardware to run Proxmox
+Demo system
+Prodaction System
+
 
 Download Proxmox instalation file
 https://www.proxmox.com/en/
