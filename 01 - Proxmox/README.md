@@ -86,12 +86,15 @@ If you need sub folders you will need to make the directory tree.
 ```
 mkdir /mnt/data
 ```
+
 ```
 mkdir /mnt/data/stream
 ```
+
 ```
 mkdir /mnt/data/usb
 ```
+
 ```
 mkdir /mnt/data/photos
 ```
@@ -108,12 +111,16 @@ The following will be needed to auto connect to you NFS shears.
 ``` 
 nano /etc/fstab
 ```
+NFS IP Address Share location - Proxmox map Location - Connection method - Setting
 
+Change for you system
+
+```
 10.0.0.1:/volume1/Stream/ /mnt/data/stream nfs defaults 0 0
 10.0.0.1:/volumeUSB1/usbshare /mnt/data/usb nfs defaults 0 0
 10.0.0.1:/volume1/Photos-Link /mnt/data/photos nfs defaults 0 0
 10.0.0.1:/volume1/Downloads /mnt/data/downloads nfs defaults 0 0
-
+```
 
 Once you have saved your config you need to run the following.
 
@@ -123,7 +130,7 @@ Reload systemd:
 ```
 systemctl daemon-reload  
 ```
-Mount shares:
+Manually Mount shares:
 ```
 mount -a
 ```
@@ -206,7 +213,7 @@ depending on your needs
 + ## Installing NVIDIA Drivers for LXC Setup for Nvida:
 	### Work in Progress!!
 
-	I have the following LXC setup to use my NVIDA card (Jellyfin, Plex, Ollama......)
+	I have the following LXC setup to use my NVIDA card (Jellyfin, Plex, Ollama and Tadarr)
 
 
 	pct push LXC_Number NVIDIA-Linux-x86_64-550.144.03.run /root/NVIDIA-Linux-x86_64-550.144.03.run
