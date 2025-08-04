@@ -36,7 +36,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 
 <a id="HA_Proxy"></a>
-## HA Proxy								
+## HA Proxy				
 
 
 

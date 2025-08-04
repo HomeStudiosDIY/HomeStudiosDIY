@@ -28,7 +28,15 @@ This is my config which is a complete copy of my current setup but all the entit
 
 # HomeAssistant-Config-Files
 
+
+
+
+
 This is my config for my current setup  
+
+
+
+
 
 
 HACS Add this repo https://github.com/bjrnptrsn/climate_group to the HACS store and install from there.

@@ -6,8 +6,9 @@
 <details>
 <summary><u>Table of Contents</u></summary>
 
-+ <a href="#Home_Assitant">Home Assitant</a>
-
++ <a href="#Home_Assistant_Core_Components_Installation">Home Assistant Core Components Installation</a>
+	+ <a href="#Integrations">Home Assistant Integration</a>
+	+ <a href="#Integrations">HACS Installation</a>
 + <a href="#Integrations">Integrations</a>
 	+ <a href="#Integrations">Integrations</a>
 
@@ -21,7 +22,7 @@
 
 
 
-
+This will guide you to install 
 This is my config for my current setup  
 
 
@@ -47,18 +48,18 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 https://www.hacs.xyz/docs/use/download/download/
 
-## Integrations
++ ## Integrations
 
-+ ### Proxmox
+	+ ### Proxmox
 
-  https://github.com/dougiteixeira/proxmoxve
-
-
-
-cdpuk/ha-bestway (integration)
+		https://github.com/dougiteixeira/proxmoxve
 
 
-bjrnptrsn/climate_group (integration)
+
++ cdpuk/ha-bestway (integration)
+
+
++ bjrnptrsn/climate_group (integration)
 
 
 + ### OPNsense
