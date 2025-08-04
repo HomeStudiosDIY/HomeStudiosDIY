@@ -9,7 +9,7 @@ My goal is to keep things as beginner-friendly as possible, so you don’t have 
 
 All the code and setups I share are from my actual working system—not just demos—so feel free to use and adapt them for your own home.
 
-If you like my content Donations are welcome!!
+If any of my content helped you please any Donations are welcome!! This will help me to expand on my work!!
 https://paypal.me/HomeStudiosDIY
 
 
