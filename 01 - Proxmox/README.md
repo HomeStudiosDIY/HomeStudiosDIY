@@ -11,15 +11,17 @@ https://www.proxmox.com/en/
 
 + <a href="#Proxmox_Installation">Proxmox Installation</a>
 
-+ <a href="#NFS_to_NAS">Connect a USB Drive</a>
++ <a href="#Proxmox_to_USB_Drive">Proxmox_to_USB_Drive</a>
 
-+ <a href="#NFS_to_NAS">Connect to your NAS with NFS</a>
-
-
++ <a href="#Proxmox_to_NFS">Connect to your NAS with NFS</a>
 
 + <a href="#NVIDIA_Drivers">NVIDIA Drivers</a>
++ <a href="#NVIDIA_Drivers">Installing NVIDIA Drivers on Proxmox</a>
++ <a href="#NVIDIA_Drivers">Installing NVIDIA Drivers on LXC's</a>
 
-
+<a id="install-nvidia-drivers-on-proxmox"></a>
+Installing NVIDIA Drivers on Proxmox
+Installing NVIDIA Drivers on LXC's
 
 	
 </details>  
@@ -44,8 +46,33 @@ https://community-scripts.github.io/ProxmoxVE/
 ### Work in Progress!!
 
 Hardware to run Proxmox
+
 Demo system
+HP ProDesk 405 G4 Desktop Mini
+Windows 11 HP 405 G4 Mini Quad Core AMD RYZEN 5 32GB RAM 2TB NVME SSD Wi-Fi PC
+SSD: 256GB SSD
+CPU: Ryzen 5 PRO 2400GE (QUAD CORE)
+RAM: 16GB DDR4
+
+Other once I have done for friends
+
+
+NUC & charger Intel Celeron(R) CPU 847E 1.1ghz 6gb RAM Chrome OS Cloud Ready
+
+Google Coral - Edge TPU Accelerator - Mini PCIe - Frigate - AI - MobileNet V2
+
 Prodaction System
+
+16 x AMD Ryzen 7 5800X 8-Core Processor
+126GB Ram
+NVIDIA GeForce RTX 3090
+x2 6 Port 2.5 Gigabit PCI-e x4 Ethernet Network Card
+USB Coral
+Google Coral USB Edge TPU ML Accelerator coprocessor for Raspberry Pi and Other Embedded Single Board Computers
+
+Synology 
+
+You will need a Computer and also a USB Stick to install Proxmox
 
 
 Download Proxmox instalation file
@@ -54,7 +81,9 @@ https://www.proxmox.com/en/
 
 First you will need to make a bootable USB disk using software called rufus
 
-You can download the latest version of rufus using the following link. https://rufus.ie/en/
+You can download the latest version of rufus using the following link.  
+https://rufus.ie/en/
+
 
 
 
@@ -73,15 +102,26 @@ nomodeset
 
 https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install
 
-
+```
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/post-pve-install.sh)"
+```
+
+
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
+<a id="Proxmox_to_USB_Drive"></a>
+## Connect a USB Drive
+
+### Work in Progress!!
 
 
-<a id="NFS_to_NAS"></a>
+
+
+<p align="right"><a href="#readme_top">back to top</a></p>
+
+<a id="Proxmox_to_NFS"></a>
 ## Connect to your NAS with NFS
 
 ### Work in Progress!!
@@ -105,13 +145,13 @@ mkdir /mnt/data/usb
 ```
 mkdir /mnt/data/photos
 ```
-
+```
 mkdir /mnt/pve/disk4tb/frigate
+```
 
-
-
+```
 mkdir /mnt/pve/disk4tb/downloads
-
+```
 
 The following will be needed to auto connect to you NFS shears.
 
@@ -143,32 +183,19 @@ mount -a
 ```
 
 
-
+```
 chown 100109:100117 /mnt/pve/disk4tb/frigate/
-
+```
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
-
-
-## Connect a USB Drive
-
-### Work in Progress!!
-
-
-
-
 
 <a id="NVIDIA_Drivers"></a>
 # NVIDIA
 
 ### Work in Progress!!
 
-depending on your needs 
-
-
-
-
+Only follow this if you have a NVIDIA card to use the GPU 
 
 <a id="nvidia_drivers_proxmox"></a> 
 + ## Install NVIDIA Drivers on ProxMox 
@@ -214,17 +241,22 @@ depending on your needs
 
 
 
+	```
+	nvidia-smi  
+	```
+
+
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 <a id="install-nvidia-drivers-on-proxmox"></a>
-+ ## Installing NVIDIA Drivers for LXC Setup for Nvida:
++ ## Installing NVIDIA Drivers on your LXC's:
 	### Work in Progress!!
 
-	I have the following LXC setup to use my NVIDA card (Jellyfin, Plex, Ollama and Tadarr)
+	I have the following LXC setup to use my NVIDA card (immich, Jellyfin, Plex, Ollama and Tadarr)
 
-
+	```
 	pct push LXC_Number NVIDIA-Linux-x86_64-550.144.03.run /root/NVIDIA-Linux-x86_64-550.144.03.run
-
+	```
 
 	```
 	chmod +x NVIDIA-Linux-x86_64-550.144.03.run
@@ -249,14 +281,12 @@ depending on your needs
 	apt install nvidia-container-toolkit  
 	```
 
-	```
-	nvidia-smi  
-	```
 
 
 	only if you run Docker  
+	```
 	nvidia-ctk runtime configure --runtime=docker
-
+	```
 
 
 	Now we need to edit a file
@@ -287,8 +317,9 @@ depending on your needs
 
 	lxc.cgroup2.devices.allow: c 195:* rwm
 
+	```
 	nano /etc/pve/lxc/105.conf
-
+	```
 
 
 	```
@@ -302,6 +333,13 @@ depending on your needs
 	lxc.mount.entry: /dev/nvidia-uvm-tools dev/nvidia-uvm-tools none bind,optional,create=file
 	lxc.mount.entry: /dev/nvidia-caps/nvidia-cap1 dev/nvidia-caps/nvidia-cap1 none bind,optional,create=file
 	lxc.mount.entry: /dev/nvidia-caps/nvidia-cap2 dev/nvidia-caps/nvidia-cap2 none bind,optional,create=file
+	```
+
+
+
+
+	```
+	nvidia-smi  
 	```
 
 

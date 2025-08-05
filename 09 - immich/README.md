@@ -25,6 +25,10 @@ Installation
 
 
 
+
+8 CPU
+12GB Mem
+
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
 
 immich

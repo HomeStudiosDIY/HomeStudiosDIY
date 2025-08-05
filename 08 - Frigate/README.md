@@ -19,6 +19,10 @@ https://frigate.video/
 Installation
 
 
+8 CPU
+12GB Mem
+
+
 
 Config
 

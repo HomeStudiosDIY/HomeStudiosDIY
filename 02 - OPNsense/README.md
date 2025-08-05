@@ -12,7 +12,13 @@ https://opnsense.org/
 <summary><u>Table of Contents</u></summary>
 
 + <a href="#Instalation">Instalation</a>
-+ <a href="#HA_Proxy">HA Proxy</a>
++ <a href="#Interfaces">Interfaces</a>
++ <a href="#Firewall_Settings">Firewall Setting</a>
+	+ <a href="#HA_Proxy">Rules</a>
++ <a href="#VPN">VPN</a>
+	+ <a href="#OpenVPN">OpenVPN</a>	
++ <a href="#Plugins">Plugins</a>
+	+ <a href="#HA_Proxy">HA Proxy</a>
 	
 </details>  
 
@@ -22,7 +28,38 @@ https://opnsense.org/
 
 ## Instalation
 
+recommendations at least 2 NIC's
+
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/opnsense-vm.sh)"
+
+
+
+
+
+4 CPU(s)
+8GB Mem
+
+
+
+
+
+
+
+Interfaces
+
+
+Firewall Setting
+
+
+Rules
+
+
+
+
+VPN
+
+OpenVPN
+
 
 
 
@@ -33,14 +70,61 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
+<a id="Plugins"></a>
+## Plugins
 
+
+
+
+
+Kea DHCP
+
+Unbound DNS
+
+Intrusion Detection
+
+
+
+
+<p align="right"><a href="#readme_top">back to top</a></p>
 
 <a id="HA_Proxy"></a>
-## HA Proxy				
++ #### HA Proxy
+
+Still to come!!			
+
+os-haproxy
+
+
+
+
+os-acme-client
+
+
+
+
+os-ddclient (installed)	
+
+
+
+os-homeassistant-maxit (installed)	
+
+
+
+os-ntopng (installed)	
+
+
+os-redis (installed)	
 
 
 
 
 
+os-theme-cicada (installed)	
 
 
+os-upnp (installed)	
+
+
+
+Get a PS5 working on OPNsense

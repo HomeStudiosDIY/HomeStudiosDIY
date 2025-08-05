@@ -28,4 +28,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 
 
+
+1 CPU
+1GB Mem
+
 <p align="right"><a href="#readme_top">back to top</a></p>

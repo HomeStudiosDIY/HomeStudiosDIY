@@ -25,6 +25,10 @@ https://community-scripts.github.io/ProxmoxVE/scripts?id=docker
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
 
 
+1 CPU
+2GB Mem
+
+
 
 	
 mkdir /data

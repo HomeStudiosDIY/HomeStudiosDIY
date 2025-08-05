@@ -19,6 +19,12 @@
 
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
+
+
+
+4 CPU
+8GB Mem
+
 PLEX:
 
 mkdir /data

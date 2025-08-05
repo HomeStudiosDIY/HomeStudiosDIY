@@ -9,18 +9,19 @@ My goal is to keep things as beginner-friendly as possible, so you don’t have 
 
 All the code and setups I share are from my actual working system—not just demos—so feel free to use and adapt them for your own home.
 
-If any of my content helped you please any Donations are welcome!! This will help me to expand on my work!!
+
+
+
+If any of my content helped you please buy me a Coffee or a Beer!! This will help me expand and add more guides.
 https://paypal.me/HomeStudiosDIY
 
 
-I have listed all the software I use 
-
-
+I have listed all the software I use.
 
 <details>
 <summary><u>Table of Contents</u></summary>
 
-+ <a href="#Proxmox">Proxmox</a>
++ <a href="#Proxmox">Proxmox</a>  
 
 + <a href="#OPNsense">OPNsense</a>
 
@@ -44,14 +45,11 @@ I have listed all the software I use
 + <a href="#Plex">Plex</a>
 		
 + <a href="#Media">Media</a>
-	+ <a href="#Ombi">Ombi</a>
 	+ <a href="#Jellystat">Jellystat</a>
 	+ <a href="#Tautulli">Tautulli</a>
 	+ <a href="#jellyplex_watched">jellyplex-watched</a>
 	
-
-	
-+ <a href="#ollama">ollama</a>
++ <a href="#Ollama">Ollama</a>
 
 + <a href="#tdarr">tdarr</a>
 
@@ -66,6 +64,7 @@ I have listed all the software I use
 Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
 The software-defined and open platforms are easy to deploy, manage and budget for.  
 https://www.proxmox.com/en/
+
 
 In this section I will guide you to install Proxmox and dependency depending on your system and hardware setup. 
 
@@ -83,6 +82,7 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/01%20-%20Proxmox
 OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection.  
 https://opnsense.org/
 
+If you want to have you own FireWall and not use your ISP route. This will allow you more reflexibility and also more security. 
 This will guide you yo install OPNsense on Proxmox and I will also show you how to configure all the different plug-ins I use.
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/02%20-%20OPNsense
 
@@ -98,12 +98,14 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/02%20-%20OPNsense
 installing Home Assistant on Proxmox also all the diffrent integrations and Add-ons I Have plust all my automations and config 
 
 
+
+
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/03%20-%20HomeAssistant%20Prod
 
-
+Optional 
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/05%20-%20HomeAssistant%20NodeRed
 
-
+Optional
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/04%20-%20HomeAssistant%20Dev
 
 
@@ -137,7 +139,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <a id="Watchtower"></a>
 + Watchtower
 
-
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 
@@ -163,6 +164,8 @@ An alternative server implementation of the Bitwarden Client API, written in Rus
 
 https://github.com/dani-garcia/vaultwarden
 
+
+
 Installing and config
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/07%20-%20Vaultwarden
 
@@ -176,6 +179,9 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/07%20-%20Vaultwarden
 
 Frigate is a free, open-source NVR (Network Video Recorder) system designed specifically for real-time AI-powered object detection. It’s commonly used in home automation setups, especially when privacy, performance, and local processing are a priority.
 https://frigate.video/
+
+
+
 
 Install and config
 
@@ -193,6 +199,10 @@ Immich is a free, open-source, self-hosted photo and video management platform d
 
 https://immich.app/
 
+
+
+
+
 Install and config
 
 
@@ -209,7 +219,7 @@ Jellyfin is the volunteer-built media solution that puts you in control of your 
 
 https://jellyfin.org/
 
-
+Optional
 Install and config
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/10%20-%20Jellyfin
 
@@ -229,15 +239,9 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/11%20-%20Plex
 ## Media
 
 
-+ Ombi  
-Your Media, On Demand.
-The seamless way for your Plex and Emby users to request new content. Ombi integrates with your media server and automatically manages user requests  
-https://ombi.io/
-
 + Jellystat
 
 + Tautulli
-
 
 + jellyplex-watched
 
@@ -256,11 +260,11 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/12%20-%20media
 
 
 
-<a id="ollama"></a>
-## ollama
+<a id="Ollama"></a>
+## Ollama
 
 
-
+https://ollama.com/
 
 
 

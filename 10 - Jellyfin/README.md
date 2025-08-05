@@ -23,6 +23,8 @@ https://jellyfin.org/
 
 
 Overview
+4 CPU
+8GB Mem
 
 
 
