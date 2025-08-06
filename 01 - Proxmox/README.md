@@ -61,13 +61,15 @@ NUC & charger Intel Celeron(R) CPU 847E 1.1ghz 6gb RAM Chrome OS Cloud Ready
 
 Google Coral - Edge TPU Accelerator - Mini PCIe - Frigate - AI - MobileNet V2
 
+
 Prodaction System
 
-16 x AMD Ryzen 7 5800X 8-Core Processor
+AMD Ryzen 7 5800X
 126GB Ram
 NVIDIA GeForce RTX 3090
 x2 6 Port 2.5 Gigabit PCI-e x4 Ethernet Network Card
 USB Coral
+
 Google Coral USB Edge TPU ML Accelerator coprocessor for Raspberry Pi and Other Embedded Single Board Computers
 
 Synology 

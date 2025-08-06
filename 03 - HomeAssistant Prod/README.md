@@ -12,7 +12,7 @@
 	+ <a href="#Integrations">Integrations</a>
 + <a href="#Integrations">Home Assistant Add-ons</a>
 	+ <a href="#Get_HACS">Get HACS</a>
-
++ <a href="#Integrations">Other Home Assistant Project</a>
 
 </details> 
 
@@ -212,3 +212,38 @@ https://github.com/blakeblackshear/frigate-hass-addons
 Still to come!!
 
 https://github.com/MrSuicideParrot/hassio-speedtest-addon
+
+
+
+
+
+
+Smart DIY Motorized Roller Blind Shades Drive Motor ZigBee Voice Control Tuya Smart Life APP work with Alexa Google Home
+US, France
+
+Sonoff BASICZBR3 ZigBee Switch Module WiFi Wireles Smart Home APP Remote Control
+
+Sonoff ZBBridge Smart Home Wireless Switch Motion Sensor Remote Controller
+
+
+
+
+
+Other Home Assistant Project
+
+HIDDEN INSTAL Robot Vacuum Automatic Door System
+
+
+IP65 Waterproof Junction Box, Electronics Project Box, Plastic Clear Cover Project Junction Box Enclosure Case, Electrical Box Outdoor Cable Connector Boxes (black transparent, 200X120X75MM)
+
+
+sourcing map 24V 5A Power Supply Adapter Transformer Switch, AC 110V-220V to DC 24V 5amp 120W Power Transformer Driver for LED Strip Lights CCTV Camera 3D Printer
+
+
+12V DC Electric Linear Actuator 50MM 100MM 150MM 200MM Stroke 12V Linear Actuator Motor Pound Electric Motor Linear Actuator
+100N 90mm per second, 100mm stroke
+
+
+Smart Wifi Relay Switch 2 Channel Relay Smart Home Wifi Module DC 5V 12V 24V 32V 110V 220V Wireless Switch Timer Remote Control
+DC 7-32V
+

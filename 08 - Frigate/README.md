@@ -24,6 +24,12 @@ Installation
 
 
 
+Google Coral USB Edge TPU ML Accelerator coprocessor for Raspberry Pi and Other Embedded Single Board Computers
+
+
+Google Coral - Edge TPU Accelerator - Mini PCIe - Frigate - AI - MobileNet V2
+
+
 Config
 
 
