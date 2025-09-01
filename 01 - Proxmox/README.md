@@ -1,4 +1,4 @@
-# Work in Progress!!
+# Work in Progress most of the data is here just need to make it look neat!!
 
 <a id="readme_top"></a>
 ## Proxmox  
@@ -37,29 +37,25 @@ I run all my application on a LXC inside Docker but you can run the LXC applicat
 https://community-scripts.github.io/ProxmoxVE/
 
 
+## Hardware to run Proxmox on
 
-
-
-<a id="Proxmox_Installation"></a>
-## Proxmox Installation
-
-### Work in Progress!!
 
 Hardware to run Proxmox
 
-Demo system
-HP ProDesk 405 G4 Desktop Mini
-Windows 11 HP 405 G4 Mini Quad Core AMD RYZEN 5 32GB RAM 2TB NVME SSD Wi-Fi PC
-SSD: 256GB SSD
+Demo system 
+HP ProDesk 405 G4 Mini
 CPU: Ryzen 5 PRO 2400GE (QUAD CORE)
+SSD: 256GB SSD
 RAM: 16GB DDR4
 
 Other once I have done for friends
 
-
+Just running Proxmox, Home Assistant and Frigate
 NUC & charger Intel Celeron(R) CPU 847E 1.1ghz 6gb RAM Chrome OS Cloud Ready
 
 Google Coral - Edge TPU Accelerator - Mini PCIe - Frigate - AI - MobileNet V2
+
+USB Disk for Cam recordings
 
 
 Prodaction System
@@ -73,6 +69,13 @@ USB Coral
 Google Coral USB Edge TPU ML Accelerator coprocessor for Raspberry Pi and Other Embedded Single Board Computers
 
 Synology 
+
+
+
+<a id="Proxmox_Installation"></a>
+## Proxmox Installation
+
+# Coming Soon!!
 
 You will need a Computer and also a USB Stick to install Proxmox
 
@@ -116,7 +119,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <a id="Proxmox_to_USB_Drive"></a>
 ## Connect a USB Drive
 
-### Work in Progress!!
+# Coming Soon!!
 
 
 
@@ -126,7 +129,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <a id="Proxmox_to_NFS"></a>
 ## Connect to your NAS with NFS
 
-### Work in Progress!!
+# Coming Soon!!
 
 To connect to a NAS device with NFS you will have to setup some paths/directory’s this is how I have done mine but you can use your own location.   
 
@@ -185,9 +188,6 @@ mount -a
 ```
 
 
-```
-chown 100109:100117 /mnt/pve/disk4tb/frigate/
-```
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
@@ -195,13 +195,13 @@ chown 100109:100117 /mnt/pve/disk4tb/frigate/
 <a id="NVIDIA_Drivers"></a>
 # NVIDIA
 
-### Work in Progress!!
+# Coming Soon!!
 
 Only follow this if you have a NVIDIA card to use the GPU 
 
 <a id="nvidia_drivers_proxmox"></a> 
 + ## Install NVIDIA Drivers on ProxMox 
-	### Work in Progress!!
+	# Coming Soon!!
 
 	You will need to get the latest NVIDIA drivers from the following site
 
@@ -252,7 +252,7 @@ Only follow this if you have a NVIDIA card to use the GPU
 
 <a id="install-nvidia-drivers-on-proxmox"></a>
 + ## Installing NVIDIA Drivers on your LXC's:
-	### Work in Progress!!
+	# Coming Soon!!
 
 	I have the following LXC setup to use my NVIDA card (immich, Jellyfin, Plex, Ollama and Tadarr)
 

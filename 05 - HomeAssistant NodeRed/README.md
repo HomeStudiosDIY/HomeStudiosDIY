@@ -1,4 +1,4 @@
-# Work in Progress!!
+# Coming Soon!!
 
 <a id="readme_top"></a>
 # HomeAssistant-NodeRed-Config

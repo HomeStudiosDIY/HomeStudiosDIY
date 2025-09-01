@@ -1,18 +1,18 @@
-# Work in Progress!!
-
 <a id="readme_top"></a>
 # Welcome to my channel! 👋
 
-If you're looking to build your own locally hosted Smart Home server, you're in the right place. I focus on Home Assistant as the heart of the smart home—making automation simple, powerful, and private.
+If you're looking to build your own locally hosted Smart Home, you're in the right place. The key focus will be on Home Assistant as the heart of the smart home—making automation simple, powerful, and private.
 
 My goal is to keep things as beginner-friendly as possible, so you don’t have to waste hours digging through countless videos. I’ll provide step-by-step written guides to help you get started, along with more advanced tips for when you're ready to dive deeper.
 
-All the code and setups I share are from my actual working system—not just demos—so feel free to use and adapt them for your own home.
+All the code and guides I share are from my actual working system not just demos so feel free to use and adapt them for your own home.
 
 
 
 
 If any of my content helped you please buy me a Coffee or a Beer!! This will help me expand and add more guides.
+
+https://github.com/sponsors/HomeStudiosDIY
 https://paypal.me/HomeStudiosDIY
 
 
@@ -68,7 +68,7 @@ https://www.proxmox.com/en/
 
 In this section I will guide you to install Proxmox and dependency depending on your system and hardware setup. 
 
-
+Please click on the link to get all the guides.
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/01%20-%20Proxmox
 
 
@@ -78,6 +78,9 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/01%20-%20Proxmox
 
 <a id="OPNsense"></a>
 ## OPNsense
+
+# Coming Soon!!
+
 
 OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection.  
 https://opnsense.org/
@@ -89,10 +92,10 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/02%20-%20OPNsense
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-
 <a id="Home_Assistant"></a>
 ## Home Assitant
 
+# Coming Soon!!
 
 
 installing Home Assistant on Proxmox also all the diffrent integrations and Add-ons I Have plust all my automations and config 
@@ -114,6 +117,8 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/04%20-%20HomeAssistan
 
 <a id="Tools"></a>
 ## Tools
+
+# Coming Soon!!
 
 If you follow my setup guides you will not need to install this. This will be install under ever application that requers it
 
@@ -145,6 +150,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <a id="UniFi"></a>
 ## UniFi
 
+# Coming Soon!!
+
 https://www.ui.com/
 
 
@@ -159,6 +166,8 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/06%20-%20UniFi
 
 <a id="Vaultwarden"></a>
 ## Vaultwarden
+
+# Coming Soon!!
 
 An alternative server implementation of the Bitwarden Client API, written in Rust and compatible with official Bitwarden clients [disclaimer], perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.
 
@@ -177,6 +186,9 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/07%20-%20Vaultwarden
 <a id="Frigate"></a>
 ## Frigate
 
+# Coming Soon!!
+
+
 Frigate is a free, open-source NVR (Network Video Recorder) system designed specifically for real-time AI-powered object detection. It’s commonly used in home automation setups, especially when privacy, performance, and local processing are a priority.
 https://frigate.video/
 
@@ -192,6 +204,9 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/08%20-%20Frigate
 
 <a id="immich"></a>
 ## immich
+
+# Coming Soon!!
+
 
 Immich is a free, open-source, self-hosted photo and video management platform designed as a privacy-focused alternative to cloud services like Google Photos and iCloud. It allows you to back up, organize, and browse your media entirely on your own server, giving you full control over your data.
 
@@ -215,6 +230,9 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/09%20-%20immich
 <a id="Jellyfin"></a>
 ## Jellyfin
 
+# Coming Soon!!
+
+
 Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way.
 
 https://jellyfin.org/
@@ -227,6 +245,10 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/10%20-%20Jellyfin
 
 ## Plex
 
+# Coming Soon!!
+Plex is a media server and streaming platform that allows you to organize, stream, and access your personal media library—such as movies, TV shows, music, and photos—from virtually any device.
+
+
 
 Install and config
 
@@ -238,10 +260,17 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/11%20-%20Plex
 <a id="Media"></a>
 ## Media
 
+# Coming Soon!!
+
+
 
 + Jellystat
 
+Jellystat is a self-hosted analytics dashboard for monitoring your Jellyfin media server. It provides detailed usage statistics, visualizations, and insights about your media consumption and server activity — similar to how you might use analytics in services like Plex Dashboard or Tautulli (for Plex), but made specifically for Jellyfin.
+
 + Tautulli
+
+Tautulli is a powerful, self-hosted monitoring and analytics tool for Plex Media Server. It tracks what’s being watched, by whom, when, and how — giving you detailed insights into Plex usage with an attractive web-based dashboard.
 
 + jellyplex-watched
 
@@ -263,6 +292,9 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/12%20-%20media
 <a id="Ollama"></a>
 ## Ollama
 
+# Coming Soon!!
+
+Ollama is a tool that lets you run large language models (LLMs) like LLaMA, Mistral, Gemma, and others directly on your own computer — locally, with no internet or cloud dependency.
 
 https://ollama.com/
 
@@ -274,13 +306,18 @@ https://ollama.com/
 <a id="tdarr"></a>
 ## tdarr
 
+# Coming Soon!!
+
+
+Tdarr is a powerful, self-hosted, automated media transcoding and library management tool, often used alongside Plex or Jellyfin to optimize media files.
+
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 
+## n8n
 
-
-
+# Coming Soon!!
 
 
 
