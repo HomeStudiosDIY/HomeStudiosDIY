@@ -6,7 +6,7 @@ Proxmox delivers powerful, enterprise-grade solutions with full access to all fu
 The software-defined and open platforms are easy to deploy, manage and budget for.  
 https://www.proxmox.com/en/
 
-<details>
+
 <summary><u>Table of Contents</u></summary>
 
 + <a href="#Proxmox_Installation">Proxmox Installation</a>
