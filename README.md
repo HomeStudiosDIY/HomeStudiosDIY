@@ -9,11 +9,15 @@ All the code and guides I share are from my actual working system not just demos
 
 
 
+https://www.youtube.com/@homestudios_diy
+
 
 If any of my content helped you please buy me a Coffee or a Beer!! This will help me expand and add more guides.
 
-https://github.com/sponsors/HomeStudiosDIY
 https://paypal.me/HomeStudiosDIY
+
+https://github.com/sponsors/HomeStudiosDIY
+
 
 
 I have listed all the software I use.
@@ -23,20 +27,21 @@ I have listed all the software I use.
 
 + <a href="#Proxmox">Proxmox</a>  
 
-+ <a href="#OPNsense">OPNsense</a>
-
 + <a href="#Home_Assitant">Home Assitant</a>
+
++ <a href="#Frigate">Frigate</a>
 
 + <a href="#Tools">Tools</a>
 	+ <a href="#Portainer">Portainer</a>
 	+ <a href="#Portainer_Agent">Portainer Agent</a>
 	+ <a href="#Watchtower">Watchtower</a>
 
+
++ <a href="#OPNsense">OPNsense</a>
+
 + <a href="#Unifi">Unifi</a>
 	
 + <a href="#Vaultwarden">Vaultwarden</a>
-	
-+ <a href="#Frigate">Frigate</a>
 	
 + <a href="#immich">immich</a>
 		
@@ -52,6 +57,8 @@ I have listed all the software I use.
 + <a href="#Ollama">Ollama</a>
 
 + <a href="#tdarr">tdarr</a>
+
++ <a href="#n8n">n8n</a>
 
 	
 </details>  
@@ -76,22 +83,6 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/01%20-%20Proxmox
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-<a id="OPNsense"></a>
-## OPNsense
-
-# Coming Soon!!
-
-
-OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection.  
-https://opnsense.org/
-
-If you want to have you own FireWall and not use your ISP route. This will allow you more reflexibility and also more security. 
-This will guide you yo install OPNsense on Proxmox and I will also show you how to configure all the different plug-ins I use.
-https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/02%20-%20OPNsense
-
-
-<p align="right"><a href="#readme_top">back to top</a></p>
-
 <a id="Home_Assistant"></a>
 ## Home Assitant
 
@@ -105,15 +96,39 @@ installing Home Assistant on Proxmox also all the diffrent integrations and Add-
 
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/03%20-%20HomeAssistant%20Prod
 
-Optional 
+Optional
+NodeRed
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/05%20-%20HomeAssistant%20NodeRed
 
 Optional
+A Dev Installation to test new stuff
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/04%20-%20HomeAssistant%20Dev
 
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
+
+<a id="Frigate"></a>
+## Frigate
+
+# Coming Soon!!
+
+
+Frigate is a free, open-source NVR (Network Video Recorder) system designed specifically for real-time AI-powered object detection. It’s commonly used in home automation setups, especially when privacy, performance, and local processing are a priority.
+https://frigate.video/
+
+
+
+
+Install and config
+
+https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/08%20-%20Frigate
+
+
+<p align="right"><a href="#readme_top">back to top</a></p>
+
+
+
 
 <a id="Tools"></a>
 ## Tools
@@ -145,6 +160,33 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 + Watchtower
 
 <p align="right"><a href="#readme_top">back to top</a></p>
+
+
+
+
+
+
+
+
+
+
+<a id="OPNsense"></a>
+## OPNsense
+
+# Coming Soon!!
+
+
+OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection.  
+https://opnsense.org/
+
+If you want to have you own FireWall and not use your ISP route. This will allow you more reflexibility and also more security. 
+This will guide you yo install OPNsense on Proxmox and I will also show you how to configure all the different plug-ins I use.
+https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/02%20-%20OPNsense
+
+
+<p align="right"><a href="#readme_top">back to top</a></p>
+
+
 
 
 <a id="UniFi"></a>
@@ -183,24 +225,6 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/07%20-%20Vaultwarden
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 
-<a id="Frigate"></a>
-## Frigate
-
-# Coming Soon!!
-
-
-Frigate is a free, open-source NVR (Network Video Recorder) system designed specifically for real-time AI-powered object detection. It’s commonly used in home automation setups, especially when privacy, performance, and local processing are a priority.
-https://frigate.video/
-
-
-
-
-Install and config
-
-https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/08%20-%20Frigate
-
-
-<p align="right"><a href="#readme_top">back to top</a></p>
 
 <a id="immich"></a>
 ## immich

@@ -9,7 +9,7 @@
 <details>
 <summary><u>Table of Contents</u></summary>
 
-+ <a href="#Home_Assitant">Home Assitant</a>
++ <a href="#Home_Assitant">Home Assistant</a>
 
 </details> 
 

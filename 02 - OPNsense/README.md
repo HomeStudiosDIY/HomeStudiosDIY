@@ -36,11 +36,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 
 
-4 CPU(s)
-8GB Mem
-
-
-
 
 
 

@@ -8,11 +8,11 @@
 
 + <a href="#Home_Assistant_Installation_on_Proxmox">Home Assistant Installation on Proxmox</a>
 
-+ <a href="#Integrations">Home Assistant Integrations</a>
-	+ <a href="#Integrations">Integrations</a>
-+ <a href="#Integrations">Home Assistant Add-ons</a>
++ <a href="#Home Assistant Key Integrations and Add-ons">Home Assistant Key Integrations and Add-ons</a>.
 	+ <a href="#Get_HACS">Get HACS</a>
-+ <a href="#Integrations">Other Home Assistant Project</a>
++ <a href="#Integrations">Home Assistant Other Integrations and Add-ons</a>
+	+ <a href="#Get_HACS">Get HACS</a>
++ <a href="#Integrations">Home Assistant Fun Projects</a>
 
 </details> 
 
@@ -29,11 +29,11 @@ This is my config for my current setup
 
 
 
-https://www.hacs.xyz/docs/use/download/download/
 
 
 
-HACS Add this repo https://github.com/bjrnptrsn/climate_group to the HACS store and install from there.
+
+
 
 
 
@@ -56,8 +56,25 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
+
+
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
-## Home Assistant Integrations
+## Home Assistant Key Integrations and Add-ons
+
+Still to come!!
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -80,6 +97,7 @@ Still to come!!
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
+
 + #### cdpuk/ha-bestway (integration)
 
 
@@ -123,6 +141,17 @@ https://github.com/hass-agent/HASS.Agent-Integration
 
 
 
+
+HACS Add this repo https://github.com/bjrnptrsn/climate_group to the HACS store and install from there.
+
+
+
+
+
+
+
+
+
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
@@ -134,6 +163,8 @@ Before you add anything make sure you "setting"
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
+
+
 
 <a id="Get_HACS"></a>
 + #### Get HACS
@@ -148,6 +179,11 @@ https://www.hacs.xyz/docs/use/download/download/
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
+
+
+
+
+
 
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
 + #### Studio Code Server
@@ -213,6 +249,12 @@ Still to come!!
 
 https://github.com/MrSuicideParrot/hassio-speedtest-addon
 
+
+
+
+
+
+HACS Add this repo https://github.com/bjrnptrsn/climate_group to the HACS store and install from there.
 
 
 
