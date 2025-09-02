@@ -3,18 +3,19 @@
 <a id="readme_top"></a>
 ## Home Assistant
 
-<details>
+
 <summary><u>Table of Contents</u></summary>
 
-+ <a href="#Home_Assistant_Installation_on_Proxmox">Home Assistant Installation on Proxmox</a>
++ <a href="#Home_Assistant_Installation_on_Proxmox">Installation Proccess on Proxmox</a>
+	+ <a href="#Home_Assistant_Installation_on_Proxmox">Key Setting after Installation</a>
 
-+ <a href="#Home Assistant Key Integrations and Add-ons">Home Assistant Key Integrations and Add-ons</a>.
++ <a href="#Home Assistant Key Integrations and Add-ons">Key Integrations and/or Add-ons</a>.
 	+ <a href="#Get_HACS">Get HACS</a>
-+ <a href="#Integrations">Home Assistant Other Integrations and Add-ons</a>
-	+ <a href="#Get_HACS">Get HACS</a>
-+ <a href="#Integrations">Home Assistant Fun Projects</a>
++ <a href="#Integrations">Other Integrations and/or Add-ons</a>
+	+ <a href="#Get_HACS">Frigaet</a>
++ <a href="#Integrations">Other Home Assistant Fun Projects</a>
 
-</details> 
+
 
 <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY/blob/main/README.md">Back to Home Page</a>
 
@@ -40,7 +41,11 @@ This is my config for my current setup
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
-## Home Assistant Installation on Proxmox
+## Installation Process on Proxmox
+
+
+
+
 
 
 4 CPU
@@ -56,130 +61,30 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-
-
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
-## Home Assistant Key Integrations and Add-ons
+### Key Setting after Installation
 
-Still to come!!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Coming Soon!!
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
-+ #### Proxmox
+## Key Integrations and/or Add-ons
 
+<details>
+<summary><u>Table of Contents</u></summary>
 
-Still to come!!
++ <a href="#Home_Assistant_Installation_on_Proxmox">Installation Proccess on Proxmox</a>
+	+ <a href="#Home_Assistant_Installation_on_Proxmox">Key Setting after Installation</a>
 
-	https://github.com/dougiteixeira/proxmoxve
++ <a href="#Home Assistant Key Integrations and Add-ons">Key Integrations and/or Add-ons</a>.
+	+ <a href="#Get_HACS">Get HACS</a>
++ <a href="#Integrations">Other Integrations and/or Add-ons</a>
+	+ <a href="#Get_HACS">Frigaet</a>
++ <a href="#Integrations">Other Home Assistant Fun Projects</a>
 
-
-<p align="right"><a href="#readme_top">back to top</a></p>
-
-<a id="Home_Assistant_Installation_on_Proxmox"></a>
-
-+ #### cdpuk/ha-bestway (integration)
-
-
-Still to come!!
-
-
-
-<p align="right"><a href="#readme_top">back to top</a></p>
-
-<a id="Home_Assistant_Installation_on_Proxmox"></a>
-+ #### bjrnptrsn/climate_group (integration)
-
-
-Still to come!!
-
-
-
-
-<p align="right"><a href="#readme_top">back to top</a></p>
-
-<a id="Home_Assistant_Installation_on_Proxmox"></a>
-+ #### OPNsense
-
-
-Still to come!!
-
-
-<a href="#Get_HACS">Get HACS</a>
-
-  https://github.com/travisghansen/hass-opnsense
-  
-  
-  
-  
-https://github.com/hass-agent
-
-https://github.com/hass-agent/HASS.Agent-Integration
-
-
-
-
-
-
-
-HACS Add this repo https://github.com/bjrnptrsn/climate_group to the HACS store and install from there.
-
-
-
-
-
-
-
-
-
-<p align="right"><a href="#readme_top">back to top</a></p>
-
-<a id="Home_Assistant_Installation_on_Proxmox"></a>
-## Home Assistant Add-ons
-
-Before you add anything make sure you "setting"
-
-
-
-
-<p align="right"><a href="#readme_top">back to top</a></p>
-
-
-
-<a id="Get_HACS"></a>
-+ #### Get HACS
-
-
-Still to come!!
-
-https://www.hacs.xyz/docs/use/download/download/
-
-
-
-
-
-<p align="right"><a href="#readme_top">back to top</a></p>
-
+</details>
 
 
 
@@ -188,7 +93,8 @@ https://www.hacs.xyz/docs/use/download/download/
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
 + #### Studio Code Server
 
-Still to come!!
+	Coming Soon!!
+
 
 
 
@@ -199,8 +105,32 @@ Still to come!!
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
 + #### Mosquitto broker
 
-Still to come!!
+	Coming Soon!!
 
+
+
+
+<p align="right"><a href="#readme_top">back to top</a></p>
+
+<a id="Get_HACS"></a>
++ #### MQTT
+
+	Coming Soon!!
+
+
+<p align="right"><a href="#readme_top">back to top</a></p>
+
+<a id="Get_HACS"></a>
++ #### Get HACS
+
+	Coming Soon!!
+
+	https://www.hacs.xyz/docs/use/download/download/
+
+
+	https://github.com/hass-agent/HASS.Agent-Integration
+
+	https://github.com/hass-agent
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
@@ -208,8 +138,7 @@ Still to come!!
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
 + #### Node-RED
 
-Still to come!!
-
+	Coming Soon!!
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
@@ -217,9 +146,9 @@ Still to come!!
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
 + #### Zigbee2MQTT
 
-Still to come!!
+	Coming Soon!!
 
-https://github.com/zigbee2mqtt/hassio-zigbee2mqtt
+	https://github.com/zigbee2mqtt/hassio-zigbee2mqtt
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
@@ -227,7 +156,7 @@ https://github.com/zigbee2mqtt/hassio-zigbee2mqtt
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
 + #### ESPHome Device Builder
 
-Still to come!!
+	Coming Soon!!
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
@@ -235,26 +164,78 @@ Still to come!!
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
 + #### Frigate
 
-Still to come!!
-https://github.com/blakeblackshear/frigate-hass-addons
+	Coming Soon!!
 
+	```
+	https://github.com/blakeblackshear/frigate-hass-addons
+	```
+
+<p align="right"><a href="#readme_top">back to top</a></p>
+
+<a id="Home_Assistant_Installation_on_Proxmox"></a>
+## Other Integrations and/or Add-ons
+
+Before you add anything make sure you "setting"
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
-+ Speedtest Add-on
++ #### Proxmox
 
-Still to come!!
+	Coming Soon!!
 
-https://github.com/MrSuicideParrot/hassio-speedtest-addon
-
-
+	https://github.com/dougiteixeira/proxmoxve
 
 
+<p align="right"><a href="#readme_top">back to top</a></p>
+
+<a id="Home_Assistant_Installation_on_Proxmox"></a>
++ #### OPNsense
+
+	Still to come!!
+
+	https://github.com/travisghansen/hass-opnsense
+  
+  
+<p align="right"><a href="#readme_top">back to top</a></p>
+
+<a id="Home_Assistant_Installation_on_Proxmox"></a>
++ #### Climate Group - bjrnptrsn/climate_group (integration)
+
+	Coming Soon!!
+
+	HACS Add this repo https://github.com/bjrnptrsn/climate_group to the HACS store and install from there.
+
+	HACS Add this repo https://github.com/bjrnptrsn/climate_group to the HACS store and install from there.
 
 
-HACS Add this repo https://github.com/bjrnptrsn/climate_group to the HACS store and install from there.
+<p align="right"><a href="#readme_top">back to top</a></p>
+
+<a id="Home_Assistant_Installation_on_Proxmox"></a>
++ #### cdpuk/ha-bestway (integration)
+
+	Coming Soon!!
+
+
+<p align="right"><a href="#readme_top">back to top</a></p>
+
+<a id="Home_Assistant_Installation_on_Proxmox"></a>
++ #### Speedtest That works
+
+	Coming Soon!!
+
+	https://github.com/MrSuicideParrot/hassio-speedtest-addon
+
+
+<p align="right"><a href="#readme_top">back to top</a></p>
+
+<a id="Home_Assistant_Installation_on_Proxmox"></a>
+## Other Home Assistant Fun Projects
+
+Coming Soon!!
+
+
 
 
 
@@ -269,9 +250,6 @@ Sonoff ZBBridge Smart Home Wireless Switch Motion Sensor Remote Controller
 
 
 
-
-
-Other Home Assistant Project
 
 HIDDEN INSTAL Robot Vacuum Automatic Door System
 

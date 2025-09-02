@@ -3,26 +3,25 @@
 
 If you're looking to build your own locally hosted Smart Home, you're in the right place. The key focus will be on Home Assistant as the heart of the smart home—making automation simple, powerful, and private.
 
-My goal is to keep things as beginner-friendly as possible, so you don’t have to waste hours digging through countless videos. I’ll provide step-by-step written guides to help you get started, along with more advanced tips for when you're ready to dive deeper.
+My goal is to keep things as beginner-friendly as possible, so you don’t have to waste hours digging through countless videos. I’ll provide step-by-step written guides and videos to help you get started, along with more advanced guides and videos for when you're ready to dive deeper.
 
-All the code and guides I share are from my actual working system not just demos so feel free to use and adapt them for your own home.
-
-
-
-https://www.youtube.com/@homestudios_diy
+All the code and guides shared is my actual working systems not just demos so feel free to use and adapt them how it best fit your home setup.
 
 
-If any of my content helped you please buy me a Coffee or a Beer!! This will help me expand and add more guides.
-
-https://paypal.me/HomeStudiosDIY
-
-https://github.com/sponsors/HomeStudiosDIY
+Please consider following my YouTube channel.
++ https://www.youtube.com/@homestudios_diy
 
 
+If any of my content helped you out please buy me a Coffee or even better send me a donation so I can buy myself a Beer or 3 😄 !! This will help me expand and add more.
 
-I have listed all the software I use.
++ https://paypal.me/HomeStudiosDIY
++ https://github.com/sponsors/HomeStudiosDIY
 
-<details>
+
+
+Listed below is all the software I use, select the one you want to know more about.  
+
+
 <summary><u>Table of Contents</u></summary>
 
 + <a href="#Proxmox">Proxmox</a>  
@@ -59,23 +58,30 @@ I have listed all the software I use.
 + <a href="#tdarr">tdarr</a>
 
 + <a href="#n8n">n8n</a>
-
 	
-</details>  
+
   
   
 
 <a id="Proxmox"></a>
 ## Proxmox
 
+#### Overview
 Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
 The software-defined and open platforms are easy to deploy, manage and budget for.  
 https://www.proxmox.com/en/
 
 
+
+
+### Guides
+If you want to have you own local Firewall and not use your ISP's router. This will allow you more reflexibility and security. 
+The link below will take you to all the guides I have starting with how to install OPNsense on Proxmox. You will also find more advanced configuration like Rules, VLAN's and more.
+
 In this section I will guide you to install Proxmox and dependency depending on your system and hardware setup. 
 
-Please click on the link to get all the guides.
+Please click on the link to get all the guidesI have related to Proxmox.
+# Coming Soon!!
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/01%20-%20Proxmox
 
 
@@ -86,49 +92,41 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/01%20-%20Proxmox
 <a id="Home_Assistant"></a>
 ## Home Assitant
 
+
+
+
+
+### Guides
+
+If you want to have a Smart Home that bring all you smart devices under one roof. this will allow you to control and do some fun automations.
+The link below will take you to all the guides I have starting with how to install Home Assistant on Proxmox. You will also find more advanced integrations and Add-ons that will help you build out your Smart Home.
+
 # Coming Soon!!
-
-
-installing Home Assistant on Proxmox also all the diffrent integrations and Add-ons I Have plust all my automations and config 
-
-
-
 
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/03%20-%20HomeAssistant%20Prod
 
-Optional
-NodeRed
-https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/05%20-%20HomeAssistant%20NodeRed
-
-Optional
-A Dev Installation to test new stuff
-https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/04%20-%20HomeAssistant%20Dev
-
-
 
 <p align="right"><a href="#readme_top">back to top</a></p>
-
 <a id="Frigate"></a>
 ## Frigate
 
-# Coming Soon!!
-
-
-Frigate is a free, open-source NVR (Network Video Recorder) system designed specifically for real-time AI-powered object detection. It’s commonly used in home automation setups, especially when privacy, performance, and local processing are a priority.
+Frigate is a free, open-source NVR (Network Video Recorder) system designed specifically for real-time AI-powered object detection. It’s commonly used in home automation setups, especially when privacy, performance, and local processing are a priority.  
 https://frigate.video/
 
 
 
+### Guides
 
-Install and config
+If you want to have a Smart Home that bring all you smart devices under one roof. this will allow you to control and do some fun automations.
+The link below will take you to all the guides I have starting with how to install Home Assistant on Proxmox. You will also find more advanced integrations and Add-ons that will help you build out your Smart Home.
+
+Please click on the link to get all the guides I have related to Proxmox.
+# Coming Soon!!
 
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/08%20-%20Frigate
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
-
-
-
 
 <a id="Tools"></a>
 ## Tools
@@ -146,6 +144,9 @@ https://community-scripts.github.io/ProxmoxVE/scripts?id=docker
 
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
+
+
+
 
 
 <a id="Portainer_Agent"></a>
@@ -173,15 +174,20 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 <a id="OPNsense"></a>
 ## OPNsense
 
-# Coming Soon!!
-
-
+### Overview
 OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection.  
-https://opnsense.org/
++ https://opnsense.org/
 
-If you want to have you own FireWall and not use your ISP route. This will allow you more reflexibility and also more security. 
-This will guide you yo install OPNsense on Proxmox and I will also show you how to configure all the different plug-ins I use.
-https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/02%20-%20OPNsense
+
+
+
+### Guides
+If you want to have you own Firewall and not use your ISP router. This will allow you more reflexibility and security. 
+This will below will take you to all the guides I have starting with how to install OPNsense on Proxmox to more advanced configuration like Rules, VLAN's and more.
+
++ ##### Coming Soon!!
+
++ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/02%20-%20OPNsense
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
@@ -198,7 +204,8 @@ https://www.ui.com/
 
 
 
-
+Please click on the link to get all the guidesI have related to Proxmox.
++ ##### Coming Soon!!
 
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/06%20-%20UniFi
 
@@ -216,6 +223,13 @@ An alternative server implementation of the Bitwarden Client API, written in Rus
 https://github.com/dani-garcia/vaultwarden
 
 
+### Guides
+
+If you want to have a Smart Home that bring all you smart devices under one roof. this will allow you to control and do some fun automations.
+The link below will take you to all the guides I have starting with how to install Home Assistant on Proxmox. You will also find more advanced integrations and Add-ons that will help you build out your Smart Home.
+
+Please click on the link to get all the guidesI have related to Proxmox.
++ ##### Coming Soon!!
 
 Installing and config
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/07%20-%20Vaultwarden
@@ -241,8 +255,13 @@ https://immich.app/
 
 
 
+### Guides
 
-Install and config
+If you want to have a Smart Home that bring all you smart devices under one roof. this will allow you to control and do some fun automations.
+The link below will take you to all the guides I have starting with how to install Home Assistant on Proxmox. You will also find more advanced integrations and Add-ons that will help you build out your Smart Home.
+
+Please click on the link to get all the guidesI have related to Proxmox.
++ ##### Coming Soon!!
 
 
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/09%20-%20immich
@@ -261,8 +280,17 @@ Jellyfin is the volunteer-built media solution that puts you in control of your 
 
 https://jellyfin.org/
 
-Optional
-Install and config
+
+
+
+### Guides
+
+If you want to have a Smart Home that bring all you smart devices under one roof. this will allow you to control and do some fun automations.
+The link below will take you to all the guides I have starting with how to install Home Assistant on Proxmox. You will also find more advanced integrations and Add-ons that will help you build out your Smart Home.
+
+Please click on the link to get all the guidesI have related to Proxmox.
++ ##### Coming Soon!!
+
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/10%20-%20Jellyfin
 
 <p align="right"><a href="#readme_top">back to top</a></p>
@@ -274,7 +302,13 @@ Plex is a media server and streaming platform that allows you to organize, strea
 
 
 
-Install and config
+### Guides
+
+If you want to have a Smart Home that bring all you smart devices under one roof. this will allow you to control and do some fun automations.
+The link below will take you to all the guides I have starting with how to install Home Assistant on Proxmox. You will also find more advanced integrations and Add-ons that will help you build out your Smart Home.
+
+Please click on the link to get all the guidesI have related to Proxmox.
++ ##### Coming Soon!!
 
 https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/11%20-%20Plex
 
@@ -290,18 +324,25 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/11%20-%20Plex
 
 + Jellystat
 
-Jellystat is a self-hosted analytics dashboard for monitoring your Jellyfin media server. It provides detailed usage statistics, visualizations, and insights about your media consumption and server activity — similar to how you might use analytics in services like Plex Dashboard or Tautulli (for Plex), but made specifically for Jellyfin.
+	Jellystat is a self-hosted analytics dashboard for monitoring your Jellyfin media server. It provides detailed usage statistics, visualizations, and insights about your media consumption and server activity — similar to how you might use analytics in services like Plex Dashboard or Tautulli (for Plex), but made specifically for Jellyfin.
+
+Please click on the link to get all the guides I have related to Proxmox.
++ ##### Coming Soon!!
+
 
 + Tautulli
 
-Tautulli is a powerful, self-hosted monitoring and analytics tool for Plex Media Server. It tracks what’s being watched, by whom, when, and how — giving you detailed insights into Plex usage with an attractive web-based dashboard.
+	Tautulli is a powerful, self-hosted monitoring and analytics tool for Plex Media Server. It tracks what’s being watched, by whom, when, and how — giving you detailed insights into Plex usage with an attractive web-based dashboard.
+
+Please click on the link to get all the guidesI have related to Proxmox.
++ ##### Coming Soon!!
 
 + jellyplex-watched
 
 
+Please click on the link to get all the guidesI have related to Proxmox.
 
-
-
++ ##### Coming Soon!!
 
 
 
@@ -316,13 +357,18 @@ https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/12%20-%20media
 <a id="Ollama"></a>
 ## Ollama
 
-# Coming Soon!!
-
 Ollama is a tool that lets you run large language models (LLMs) like LLaMA, Mistral, Gemma, and others directly on your own computer — locally, with no internet or cloud dependency.
 
 https://ollama.com/
 
 
+### Guides
+
+If you want to have a Smart Home that bring all you smart devices under one roof. this will allow you to control and do some fun automations.
+The link below will take you to all the guides I have starting with how to install Home Assistant on Proxmox. You will also find more advanced integrations and Add-ons that will help you build out your Smart Home.
+
+Please click on the link to get all the guidesI have related to Proxmox.
++ ##### Coming Soon!!
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
@@ -330,18 +376,31 @@ https://ollama.com/
 <a id="tdarr"></a>
 ## tdarr
 
-# Coming Soon!!
-
-
 Tdarr is a powerful, self-hosted, automated media transcoding and library management tool, often used alongside Plex or Jellyfin to optimize media files.
 
+
+
+### Guides
+
+If you want to have a Smart Home that bring all you smart devices under one roof. this will allow you to control and do some fun automations.
+The link below will take you to all the guides I have starting with how to install Home Assistant on Proxmox. You will also find more advanced integrations and Add-ons that will help you build out your Smart Home.
+
+Please click on the link to get all the guides I have related to tdarr.
++ ##### Coming Soon!!
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 
 ## n8n
 
-# Coming Soon!!
+### Guides
+
+If you want to have a Smart Home that bring all you smart devices under one roof. this will allow you to control and do some fun automations.
+The link below will take you to all the guides I have starting with how to install Home Assistant on Proxmox. You will also find more advanced integrations and Add-ons that will help you build out your Smart Home.
+
+
+Please click on the link to get all the guides I have related to n8n.
++ ##### Coming Soon!!
 
 
 

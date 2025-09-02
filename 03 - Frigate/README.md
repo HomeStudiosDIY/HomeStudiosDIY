@@ -5,12 +5,14 @@
 Frigate is a free, open-source NVR (Network Video Recorder) system designed specifically for real-time AI-powered object detection. It’s commonly used in home automation setups, especially when privacy, performance, and local processing are a priority.  
 https://frigate.video/
 
-<details>
+
+
 <summary><u>Table of Contents</u></summary>
 
-+ <a href="#Frigate">Frigate</a>
++ <a href="#Installation">Installation</a>
 	
-</details> 
+
+
 
 <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY/blob/main/README.md">Back to Home Page</a>
 
