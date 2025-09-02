@@ -9,15 +9,15 @@ https://www.proxmox.com/en/
 
 <summary><u>Table of Contents</u></summary>
 
-+ <a href="#Proxmox_Installation">Proxmox Installation</a>
++ <a href="#Installation">Installation</a>
 
-+ <a href="#Proxmox_to_USB_Drive">Proxmox_to_USB_Drive</a>
++ <a href="#Proxmox_to_USB_Drive">Connect to a External Drive</a>
+	+ <a href="#Proxmox_to_USB_Drive">Connect to a USB Drive</a>
+	+ <a href="#Proxmox_to_NFS">Connect to a NAS device with NFS</a>
 
-+ <a href="#Proxmox_to_NFS">Connect to your NAS with NFS</a>
-
-+ <a href="#NVIDIA_Drivers">NVIDIA Drivers</a>
-+ <a href="#NVIDIA_Drivers">Installing NVIDIA Drivers on Proxmox</a>
-+ <a href="#NVIDIA_Drivers">Installing NVIDIA Drivers on LXC's</a>
++ <a href="#NVIDIA_Drivers">Installing NVIDIA Drivers</a>
+	+ <a href="#NVIDIA_Drivers">NVIDIA Drivers on Proxmox</a>
+	+ <a href="#NVIDIA_Drivers">NVIDIA Drivers on LXC's</a>
 
 <a id="install-nvidia-drivers-on-proxmox"></a>
 Installing NVIDIA Drivers on Proxmox
