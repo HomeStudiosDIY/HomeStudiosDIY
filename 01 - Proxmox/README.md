@@ -1,13 +1,27 @@
-# Work in Progress most of the data is here just need to make it look neat!!
-
 <a id="readme_top"></a>
-## Proxmox  
-Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure.
-The software-defined and open platforms are easy to deploy, manage and budget for.  
-https://www.proxmox.com/en/
+## Proxmox
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Listed below is all the software I use, select the one you want to know more about.  
+
 
 
 <summary><u>Table of Contents</u></summary>
+
++ <a href="#Installation">Hardware to run Proxmox on</a>
 
 + <a href="#Installation">Installation</a>
 
@@ -19,22 +33,19 @@ https://www.proxmox.com/en/
 	+ <a href="#NVIDIA_Drivers">NVIDIA Drivers on Proxmox</a>
 	+ <a href="#NVIDIA_Drivers">NVIDIA Drivers on LXC's</a>
 
-<a id="install-nvidia-drivers-on-proxmox"></a>
-Installing NVIDIA Drivers on Proxmox
-Installing NVIDIA Drivers on LXC's
-
-	
 </details>  
 
 <a href="https://github.com/HomeStudiosDIY/HomeStudiosDIY/blob/main/README.md">Back to Home Page</a>
 
 
 
-Here with some config settings to help you get you ProxMox Server setup and working!!  
 
-I run all my application on a LXC inside Docker but you can run the LXC application directly this was just my preference for consistency as not all application I use can run directly on a LXC. All my LXC config and Docker Compose files will also be sheared.
 
-https://community-scripts.github.io/ProxmoxVE/
+
+
+
+
+
 
 
 ## Hardware to run Proxmox on
@@ -71,11 +82,28 @@ Google Coral USB Edge TPU ML Accelerator coprocessor for Raspberry Pi and Other 
 Synology 
 
 
+Here with some config settings to help you get you ProxMox Server setup and working!!  
+
+I run all my application on a LXC inside Docker but you can run the LXC application directly this was just my preference for consistency as not all application I use can run directly on a LXC. All my LXC config and Docker Compose files will also be sheared.
+
+https://community-scripts.github.io/ProxmoxVE/
+
+
+
+
+
+https://community-scripts.github.io/ProxmoxVE/scripts?id=scaling-governor
+
+
 
 <a id="Proxmox_Installation"></a>
 ## Proxmox Installation
 
-# Coming Soon!!
+Link to YouTube Video
+##### Coming Soon!!
+
+
+
 
 You will need a Computer and also a USB Stick to install Proxmox
 
@@ -84,7 +112,10 @@ Download Proxmox instalation file
 https://www.proxmox.com/en/
 
 
+
+
 First you will need to make a bootable USB disk using software called rufus
+
 
 You can download the latest version of rufus using the following link.  
 https://rufus.ie/en/
@@ -96,8 +127,11 @@ boot from the USB
 
 
 
+
 Proxmox installer
 nomodeset
+
+
 
 
 
@@ -118,6 +152,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 <a id="Proxmox_to_USB_Drive"></a>
 ## Connect a USB Drive
+
+
 
 # Coming Soon!!
 
@@ -200,8 +236,7 @@ mount -a
 Only follow this if you have a NVIDIA card to use the GPU 
 
 <a id="nvidia_drivers_proxmox"></a> 
-+ ## Install NVIDIA Drivers on ProxMox 
-	# Coming Soon!!
++ ### Install NVIDIA Drivers on ProxMox 
 
 	You will need to get the latest NVIDIA drivers from the following site
 
@@ -251,8 +286,7 @@ Only follow this if you have a NVIDIA card to use the GPU
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 <a id="install-nvidia-drivers-on-proxmox"></a>
-+ ## Installing NVIDIA Drivers on your LXC's:
-	# Coming Soon!!
++ ### Installing NVIDIA Drivers on your LXC's:
 
 	I have the following LXC setup to use my NVIDA card (immich, Jellyfin, Plex, Ollama and Tadarr)
 
@@ -345,12 +379,9 @@ Only follow this if you have a NVIDIA card to use the GPU
 	```
 
 
-	<p align="right"><a href="#readme_top">back to top</a></p>
+<p align="right"><a href="#readme_top">back to top</a></p>
 
 
 
 
 
-
-
-	https://community-scripts.github.io/ProxmoxVE/scripts?id=scaling-governor

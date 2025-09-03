@@ -1,12 +1,28 @@
-# Coming Soon!!
-
 <a id="readme_top"></a>
 ## Home Assistant
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <summary><u>Table of Contents</u></summary>
 
-+ <a href="#Home_Assistant_Installation_on_Proxmox">Installation Proccess on Proxmox</a>
++ <a href="#Home_Assistant_Installation_on_Proxmox">Installation Process on Proxmox</a>
 	+ <a href="#Home_Assistant_Installation_on_Proxmox">Key Setting after Installation</a>
 
 + <a href="#Home Assistant Key Integrations and Add-ons">Key Integrations and/or Add-ons</a>.
@@ -43,6 +59,8 @@ This is my config for my current setup
 <a id="Home_Assistant_Installation_on_Proxmox"></a>
 ## Installation Process on Proxmox
 
+Link to YouTube Video
+##### Coming Soon!!
 
 
 

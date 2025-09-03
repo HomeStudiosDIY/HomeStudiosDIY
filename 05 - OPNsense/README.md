@@ -1,5 +1,3 @@
-# Coming Soon!!
-
 <a id="readme_top"></a>
 ## OPNsense
 
@@ -27,6 +25,9 @@ https://opnsense.org/
 
 
 ## Instalation
+
+Link to YouTube Video
+##### Coming Soon!!
 
 recommendations at least 2 NIC's
 

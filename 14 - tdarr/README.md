@@ -1,7 +1,19 @@
-# Coming Soon!!
-
 <a id="readme_top"></a>
 ## tadarr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <details>
 <summary><u>Table of Contents</u></summary>

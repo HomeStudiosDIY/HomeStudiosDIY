@@ -1,7 +1,16 @@
-# Coming Soon!!
-
 <a id="readme_top"></a>
 ## Jellefin
+
+
+
+
+
+
+
+
+
+
+
 
 Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way.
 
@@ -26,6 +35,10 @@ Overview
 4 CPU
 8GB Mem
 
+
+
+Link to YouTube Video
+##### Coming Soon!!
 
 
 Setup Requirements

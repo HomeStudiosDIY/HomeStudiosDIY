@@ -1,7 +1,15 @@
-# Coming Soon!!
-
 <a id="readme_top"></a>
 ## IMMICH:
+
+
+
+
+
+
+
+
+
+
 
 Immich is a free, open-source, self-hosted photo and video management platform designed as a privacy-focused alternative to cloud services like Google Photos and iCloud. It allows you to back up, organize, and browse your media entirely on your own server, giving you full control over your data.
 
@@ -22,6 +30,9 @@ https://immich.app/
 
 
 Installation
+
+Link to YouTube Video
+##### Coming Soon!!
 
 
 

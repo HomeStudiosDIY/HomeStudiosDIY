@@ -1,7 +1,20 @@
-# Coming Soon!!
-
 <a id="readme_top"></a>
 # Plex Setup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <details>
 <summary><u>Table of Contents</u></summary>
@@ -26,6 +39,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 8GB Mem
 
 PLEX:
+Link to YouTube Video
+##### Coming Soon!!
+
+
+
 
 mkdir /data
 mkdir /data/stream

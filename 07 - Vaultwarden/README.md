@@ -1,7 +1,18 @@
-# Coming Soon!!
-
 <a id="readme_top"></a>
 ## Vaultwarden
+
+
+
+
+
+
+
+
+
+
+
+
+
 An alternative server implementation of the Bitwarden Client API, written in Rust and compatible with official Bitwarden clients [disclaimer], perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.  
 https://github.com/dani-garcia/vaultwarden
 
@@ -17,6 +28,9 @@ https://github.com/dani-garcia/vaultwarden
 
 
 Installation
+
+Link to YouTube Video
+##### Coming Soon!!
 
 
 
