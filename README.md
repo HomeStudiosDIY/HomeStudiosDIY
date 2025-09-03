@@ -30,11 +30,6 @@ Listed below is all the software I use, select the one you want to know more abo
 
 + <a href="#Frigate">Frigate</a>
 
-+ <a href="#Tools">Tools</a>
-	+ <a href="#Portainer">Portainer</a>
-	+ <a href="#Portainer_Agent">Portainer Agent</a>
-	+ <a href="#Watchtower">Watchtower</a>
-
 + <a href="#OPNsense">OPNsense</a>
 
 + <a href="#Unifi">Unifi</a>
@@ -111,73 +106,7 @@ The link below will take you to all the guides starting with how to install Frig
 + #### Coming Soon!!
 
 
-
 <p align="right"><a href="#readme_top">back to top</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a id="Tools"></a>
-## Tools
-
-### Coming Soon!!
-
-If you follow my setup guides you will not need to install this. This will be install under ever application that requers it
-
-
-<a id="Portainer"></a>
-+ Portainer
-
-
-https://community-scripts.github.io/ProxmoxVE/scripts?id=docker
-
-
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
-
-
-
-
-
-<a id="Portainer_Agent"></a>
-+ Portainer Agent
-
-https://community-scripts.github.io/ProxmoxVE/scripts?id=docker
-
-
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/docker.sh)"
-
-<a id="Watchtower"></a>
-+ Watchtower
-
-<p align="right"><a href="#readme_top">back to top</a></p>
-
-
-
-
-
-
-
-
-
-
-
-
 
 <a id="OPNsense"></a>
 ## OPNsense
@@ -193,8 +122,6 @@ This will below will take you to all the guides I have starting with how to inst
 + ##### Coming Soon!!
 
 
-
-
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 <a id="UniFi"></a>
@@ -207,9 +134,8 @@ This will below will take you to all the guides I have starting with how to inst
 #### Guides
 
 Please click on the link to get all the guides I have related to UniFi.
-+ ##### Coming Soon!!
 
-https://github.com/HomeStudiosDIY/HomeStudiosDIY/tree/main/06%20-%20UniFi
++ ##### Coming Soon!!
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
@@ -225,6 +151,7 @@ An alternative server implementation of the Bitwarden Client API, written in Rus
 
 If you want to locally maintain you own password vault Vaultwarden is for you. this will allow you to control and do some fun automations.  
 The link below will take you to all the guides starting with how to install Vaultwarden on Proxmox. You will also find more advanced config to get get the best out of you new password manager.
+
 + ##### Coming Soon!!
 
 
@@ -242,6 +169,7 @@ Immich is a free, open-source, self-hosted photo and video management platform d
 
 If you pay to store your Photos and looking to move all you private data under local control.  
 The link below will take you to all the guides I have starting with how to install immch on Proxmox. You will also find more guides on how to use the software and some more advanced ways I have done my setup to allow you to manage all the photos with a admin account.
+
 + ##### Coming Soon!!
 
 
@@ -259,6 +187,7 @@ Jellyfin is the volunteer-built media solution that puts you in control of your 
 
 If you want to have you own local media player you control Jellyfin is what you need  .......................  
 The link below will take you to all my guides starting with how to install Jellyfin on Proxmox. You will also find more advanced config to add GPU support and some software to control account creation integrations.
+
 + ##### Coming Soon!!
 
 
@@ -268,11 +197,13 @@ The link below will take you to all my guides starting with how to install Jelly
 
 #### Overview
 Plex is a media server and streaming platform that allows you to organize, stream, and access your personal media library—such as movies, TV shows, music, and photos—from virtually any device.
+
 + # Link Needed 
 
 #### Guides
 
 Please click on the link to get all the guidesI have related to Plex.
+
 + ##### Coming Soon!!
 
 
@@ -290,6 +221,7 @@ Please click on the link to get all the guidesI have related to Plex.
 	#### Guides
 
 	Please click on the link to get all the guides I have related to Jellystat.
+	
 	+ ##### Coming Soon!!
 
 
@@ -302,6 +234,7 @@ Please click on the link to get all the guidesI have related to Plex.
 	#### Guides
 
 	Please click on the link to get all the guidesI have related to Tautulli.
+	
 	+ ##### Coming Soon!!
 
 
@@ -312,6 +245,7 @@ Please click on the link to get all the guidesI have related to Plex.
 	#### Guides
 
 	Please click on the link to get all the guidesI have related to jellyplex-watched.
+	
 	+ ##### Coming Soon!!
 
 
@@ -323,11 +257,13 @@ Please click on the link to get all the guidesI have related to Plex.
 #### Overview
 
 Ollama is a tool that lets you run large language models (LLMs) like LLaMA, Mistral, Gemma, and others directly on your own computer — locally, with no internet or cloud dependency.
+
 + https://ollama.com/
 
 #### Guides
 
 Please click on the link to get all the guidesI have related to Ollama.
+
 + ##### Coming Soon!!
 
 
@@ -343,6 +279,7 @@ Tdarr is a powerful, self-hosted, automated media transcoding and library manage
 #### Guides
 
 Please click on the link to get all the guides I have related to tdarr.
+
 + ##### Coming Soon!!
 
 <p align="right"><a href="#readme_top">back to top</a></p>
@@ -354,11 +291,17 @@ Please click on the link to get all the guides I have related to tdarr.
 
 #### Guides
 
-
 Please click on the link to get all the guides I have related to n8n.
+
 + ##### Coming Soon!!
 
 <p align="right"><a href="#readme_top">back to top</a></p>
+
+
+
+
+
+
 
 <!--
 **HomeStudiosDIY/HomeStudiosDIY** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
