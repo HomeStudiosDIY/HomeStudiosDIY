@@ -9,6 +9,7 @@ All the code and guides shared is my actual working systems not just demos so fe
 
 
 Please consider following my YouTube channel.
+
 + https://www.youtube.com/@homestudios_diy
 
 
@@ -60,7 +61,8 @@ Listed below is all the software I use, select the one you want to know more abo
 
 #### Overview
 
-Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure. The software-defined and open platforms are easy to deploy, manage and budget for.  
+Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure. The software-defined and open platforms are easy to deploy, manage and budget for. 
+ 
 + https://www.proxmox.com/en/
 
 
@@ -78,7 +80,9 @@ The link below will take you to all the guides starting with how to install Prox
 
 #### Overview
 
-# Need adding
+Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts.
+
++ https://www.home-assistant.io/
 
 #### Guides
 
@@ -96,6 +100,7 @@ The link below will take you to all the guides I have starting with how to insta
 #### Overview
 
 Frigate is a free, open-source NVR (Network Video Recorder) system designed specifically for real-time AI-powered object detection. It’s commonly used in home automation setups, especially when privacy, performance, and local processing are a priority.
+
 + https://frigate.video/
 
 #### Guides
@@ -112,7 +117,8 @@ The link below will take you to all the guides starting with how to install Frig
 ## OPNsense
 
 #### Overview
-OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection.  
+OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection.
+
 + https://opnsense.org/
 
 #### Guides
@@ -145,6 +151,7 @@ Please click on the link to get all the guides I have related to UniFi.
 
 #### Overview
 An alternative server implementation of the Bitwarden Client API, written in Rust and compatible with official Bitwarden clients [disclaimer], perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.
+
 + https://github.com/dani-garcia/vaultwarden
 
 #### Guides
@@ -163,6 +170,7 @@ The link below will take you to all the guides starting with how to install Vaul
 #### Overview
 
 Immich is a free, open-source, self-hosted photo and video management platform designed as a privacy-focused alternative to cloud services like Google Photos and iCloud. It allows you to back up, organize, and browse your media entirely on your own server, giving you full control over your data.
+
 + https://immich.app
 
 #### Guides
@@ -181,6 +189,7 @@ The link below will take you to all the guides I have starting with how to insta
 #### Overview
 
 Jellyfin is the volunteer-built media solution that puts you in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way.
+
 + https://jellyfin.org
 
 #### Guides
@@ -318,3 +327,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+
+
+
+<!--
+
+
+-->
