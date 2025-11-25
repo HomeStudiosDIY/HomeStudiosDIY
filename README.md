@@ -1,3 +1,5 @@
+
+
 <a id="readme_top"></a>
 # Welcome to my channel! 👋
 
@@ -20,12 +22,17 @@ If any of my content helped you out please buy me a Coffee or even better send m
 
 
 
-Listed below is all the software I use, select the one you want to know more about.  
+
+
+Listed below is all the software I use, select the one you want to know more about. You will also find guides regarding installation and configuration for all of them.  
 
 
 <summary><u>Table of Contents</u></summary>
 
 + <a href="#Proxmox">Proxmox</a>  
+
+
+<!--
 
 + <a href="#Home_Assitant">Home Assitant</a>
 
@@ -54,6 +61,13 @@ Listed below is all the software I use, select the one you want to know more abo
 
 + <a href="#n8n">n8n</a>
 	
+	
+	
+-->	
+
+
+
+
 
 
 <a id="Proxmox"></a>
@@ -68,13 +82,17 @@ Proxmox delivers powerful, enterprise-grade solutions with full access to all fu
 
 #### Guides
 If you want to start you new Smart Home and set the foundations Proxmox will allow you to start small but also have the capability to easily expand and add more complicated software.  
-The link below will take you to all the guides starting with how to install Proxmox. The first component you will need if you are going to full my guides on how to install some other stuff like Home Assistant and more. You will also find more advanced guides like GPU passthroo and more. 
+The link below will take you to all the guides starting with how to install Proxmox. The first component you will need if you are going to follow my guides on how to install some other stuff like Home Assistant and more. You will also find more advanced guides like GPU passthroo and more. 
 
 + #### Coming Soon!!
+Guides:
 
+YouTube Video:
+
+
+<!--
 
 <p align="right"><a href="#readme_top">back to top</a></p>
-
 <a id="Home_Assistant"></a>
 ## Home Assitant
 
@@ -92,8 +110,9 @@ The link below will take you to all the guides I have starting with how to insta
 + #### Coming Soon!!
 
 
-<p align="right"><a href="#readme_top">back to top</a></p>
 
+
+<p align="right"><a href="#readme_top">back to top</a></p>
 <a id="Frigate"></a>
 ## Frigate
 
@@ -308,7 +327,7 @@ Please click on the link to get all the guides I have related to n8n.
 
 
 
-
+-->
 
 
 
