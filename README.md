@@ -1,5 +1,3 @@
-
-
 <a id="readme_top"></a>
 # Welcome to my channel! 👋
 
@@ -31,9 +29,6 @@ Listed below is all the software I use, select the one you want to know more abo
 
 + <a href="#Proxmox">Proxmox</a>  
 
-
-<!--
-
 + <a href="#Home_Assitant">Home Assitant</a>
 
 + <a href="#Frigate">Frigate</a>
@@ -61,9 +56,6 @@ Listed below is all the software I use, select the one you want to know more abo
 
 + <a href="#n8n">n8n</a>
 	
-	
-	
--->	
 
 
 
@@ -81,6 +73,7 @@ Proxmox delivers powerful, enterprise-grade solutions with full access to all fu
 
 
 #### Guides
+
 If you want to start you new Smart Home and set the foundations Proxmox will allow you to start small but also have the capability to easily expand and add more complicated software.  
 The link below will take you to all the guides starting with how to install Proxmox. The first component you will need if you are going to follow my guides on how to install some other stuff like Home Assistant and more. You will also find more advanced guides like GPU passthroo and more. 
 
@@ -90,7 +83,6 @@ Guides:
 YouTube Video:
 
 
-<!--
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 <a id="Home_Assistant"></a>
@@ -326,8 +318,6 @@ Please click on the link to get all the guides I have related to n8n.
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 
-
--->
 
 
 
