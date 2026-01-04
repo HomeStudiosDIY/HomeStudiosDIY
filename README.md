@@ -1,11 +1,14 @@
-<a id="readme_top"></a>
+
 # Welcome to my channel! 👋
 
-If you're looking to build your own locally hosted Smart Home, you're in the right place. The key focus will be on Home Assistant as the heart of the smart home—making automation simple, powerful, and private.
+<a id="readme_top"></a>
 
-My goal is to keep things as beginner-friendly as possible, so you don’t have to waste hours digging through countless videos. I’ll provide step-by-step written guides and videos to help you get started, along with more advanced guides and videos for when you're ready to dive deeper.
 
-All the code and guides shared is my actual working systems not just demos so feel free to use and adapt them how it best fit your home setup.
+If you're looking to build your own locally hosted Smart Home, you're in the right place. The key focus will be on Home Assistant as the heart of the smart home making automation simple, powerful, and private.
+
+My goal is to keep things as beginner-friendly as possible, so you don’t have to waste hours digging through countless videos. I’ll provide step-by-step written guides and videos to help you get started, along with more advanced guides and videos for when you're ready to dive deeper in to it.
+
+All the code and guides shared is my actual working systems not just demos so feel free to reuse and adapt them how it best fit your home setup.
 
 
 Please consider following my YouTube channel.
@@ -48,13 +51,29 @@ Listed below is all the software I use, select the one you want to know more abo
 + <a href="#Media">Media</a>
 	+ <a href="#Jellystat">Jellystat</a>
 	+ <a href="#Tautulli">Tautulli</a>
+	+ <a href="#ombi">ombi</a>
+	+ <a href="#homarr">homarr</a>
 	+ <a href="#jellyplex_watched">jellyplex-watched</a>
+	
+
+
++ <a href="#Downloaders">Downloaders</a>
+	+ <a href="#Radarr">Radarr</a>
+	+ <a href="#Sonarr">Sonarr</a>
+	+ <a href="#qbittorrent">qbittorrent</a>
+	+ <a href="#flaresolverr">flaresolverr</a>
+	+ <a href="#cleanuparr">cleanuparr</a>
+	+ <a href="#huntarr">huntarr</a>	
 	
 + <a href="#Ollama">Ollama</a>
 
 + <a href="#tdarr">tdarr</a>
 
 + <a href="#n8n">n8n</a>
+
+
++ <a href="#n8n">n8n</a>
+
 	
 
 
@@ -62,8 +81,10 @@ Listed below is all the software I use, select the one you want to know more abo
 
 
 
-<a id="Proxmox"></a>
+<p align="right"><a href="#readme_top">back to top</a></p>
+
 ## Proxmox
+<a id="Proxmox"></a>
 
 #### Overview
 
@@ -71,11 +92,10 @@ Proxmox delivers powerful, enterprise-grade solutions with full access to all fu
  
 + https://www.proxmox.com/en/
 
-
 #### Guides
 
-If you want to start you new Smart Home and set the foundations Proxmox will allow you to start small but also have the capability to easily expand and add more complicated software.  
-The link below will take you to all the guides starting with how to install Proxmox. The first component you will need if you are going to follow my guides on how to install some other stuff like Home Assistant and more. You will also find more advanced guides like GPU passthroo and more. 
+If you want to start you new Smart Home and set the foundations from the start the first component Proxmox will allow you to start small but also have the capability to easily expand and add more complicated software later.  
+The links below will take you to all the guides I am working on starting with how to install Proxmox, moving on to more advanced setups like GPU passthrough and adding different application to build your Smart Home starting with Home Assistant and more.
 
 + #### Coming Soon!!
 Guides:
@@ -84,9 +104,17 @@ YouTube Video:
 
 
 
+
+
+
+
+
+
+
 <p align="right"><a href="#readme_top">back to top</a></p>
-<a id="Home_Assistant"></a>
+
 ## Home Assitant
+<a id="Home_Assistant"></a>
 
 #### Overview
 
@@ -97,16 +125,26 @@ Open source home automation that puts local control and privacy first. Powered b
 #### Guides
 
 If you want to have a Smart Home that bring all you smart devices under one roof. Home Assistant will allow you to control and do some fun automations.  
-The link below will take you to all the guides I have starting with how to install Home Assistant on Proxmox. You will also find some more advanced integrations and Add-Ons that will help you build and automate your Smart Home.
+The links below will take you to all the guides starting with how to install Home Assistant on Proxmox. You will also find some more advanced integrations and Add-Ons that will help you build and automate your Smart Home.
 
 + #### Coming Soon!!
+Guides:
+
+YouTube Video:
+
+
+
+
+
+
 
 
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
-<a id="Frigate"></a>
+
 ## Frigate
+<a id="Frigate"></a>
 
 #### Overview
 
@@ -116,33 +154,60 @@ Frigate is a free, open-source NVR (Network Video Recorder) system designed spec
 
 #### Guides
 
-If you want to give you Smart Home some eyes Frigate is what you need. This will allow you to locally control all your cameras.  
-The link below will take you to all the guides starting with how to install Frigate on Proxmox. You will also find more advanced configuration details to help you use Frigate to is full capabilities.
+If you want to give you Smart Home some eyes Frigate is what you need. This will allow you to have locally control all your cameras.  
+The links below will take you to all the guides starting with how to install Frigate on Proxmox. You will also find more advanced configuration details to help you use Frigate to is full capabilities.
 
 + #### Coming Soon!!
+Guides:
+
+YouTube Video:
+
+
+
+
+
+
+
+
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-<a id="OPNsense"></a>
 ## OPNsense
+<a id="OPNsense"></a>
 
 #### Overview
+
 OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection.
 
 + https://opnsense.org/
 
 #### Guides
+
 If you want to have you own Firewall and not use your ISP router. This will allow you more reflexibility and security.  
-This will below will take you to all the guides I have starting with how to install OPNsense on Proxmox. You will also find more advanced configuration like Rules, VLAN's and more.
+The links below will take you to all the guides starting with how to install OPNsense on Proxmox. You will also find more advanced configuration like Rules, VLAN's and more.
 
 + ##### Coming Soon!!
+Guides:
+
+YouTube Video:
+
+
+
+
+
+
+
+
+
+# needs editing downwards
+
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-<a id="UniFi"></a>
 ## UniFi
+<a id="UniFi"></a>
 
 #### Overview
 
@@ -150,33 +215,55 @@ This will below will take you to all the guides I have starting with how to inst
 
 #### Guides
 
-Please click on the link to get all the guides I have related to UniFi.
+The links below will take you to all the guides starting with how to install Unifi on Proxmox.
 
 + ##### Coming Soon!!
+Guides:
+
+YouTube Video:
+
+
+
+
+
+
+
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-<a id="Vaultwarden"></a>
 ## Vaultwarden
+<a id="Vaultwarden"></a>
 
 #### Overview
+
 An alternative server implementation of the Bitwarden Client API, written in Rust and compatible with official Bitwarden clients [disclaimer], perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.
 
 + https://github.com/dani-garcia/vaultwarden
 
 #### Guides
 
-If you want to locally maintain you own password vault Vaultwarden is for you. this will allow you to control and do some fun automations.  
-The link below will take you to all the guides starting with how to install Vaultwarden on Proxmox. You will also find more advanced config to get get the best out of you new password manager.
+If you want to locally maintain you own password vault Vaultwarden is for you.    
+The links below will take you to all the guides starting with how to install Vaultwarden on Proxmox. You will also find more advanced configuration settings to get the best out of you new password manager.
 
 + ##### Coming Soon!!
+Guides:
+
+YouTube Video:
+
+
+
+
+
+
+
+
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-<a id="immich"></a>
 ## immich
+<a id="immich"></a>
 
 #### Overview
 
@@ -187,15 +274,26 @@ Immich is a free, open-source, self-hosted photo and video management platform d
 #### Guides
 
 If you pay to store your Photos and looking to move all you private data under local control.  
-The link below will take you to all the guides I have starting with how to install immch on Proxmox. You will also find more guides on how to use the software and some more advanced ways I have done my setup to allow you to manage all the photos with a admin account.
+The links below will take you to all the guides starting with how to install immch on Proxmox. You will also find more guides on how to use the software adding a GPU to assist and some more advanced ways to allow you to manage all the photos with the admin account.
 
 + ##### Coming Soon!!
+Guides:
+
+YouTube Video:
+
+
+
+
+
+
+
+
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-<a id="Jellyfin"></a>
 ## Jellyfin
+<a id="Jellyfin"></a>
 
 #### Overview
 
@@ -206,31 +304,61 @@ Jellyfin is the volunteer-built media solution that puts you in control of your 
 #### Guides
 
 If you want to have you own local media player you control Jellyfin is what you need  .......................  
-The link below will take you to all my guides starting with how to install Jellyfin on Proxmox. You will also find more advanced config to add GPU support and some software to control account creation integrations.
+The links below will take you to all the guides starting with how to install Jellyfin on Proxmox. You will also find more advanced configuration to add GPU support for transcoding.
 
 + ##### Coming Soon!!
+Guides:
+
+YouTube Video:
+
+
+
+
+
+
+
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
 ## Plex
+<a id="Plex"></a>
 
 #### Overview
+
 Plex is a media server and streaming platform that allows you to organize, stream, and access your personal media library—such as movies, TV shows, music, and photos—from virtually any device.
 
-+ # Link Needed 
++ https://www.plex.tv
 
 #### Guides
 
-Please click on the link to get all the guidesI have related to Plex.
+If you want to have you own media player you control Plex can do that for you ......  
+The links below will take you to all the guides starting with how to install Plex on Proxmox. You will also find more advanced configuration to add GPU support for transcoding.
+
 
 + ##### Coming Soon!!
+
+Guides:  
+YouTube Video:
+
+
+
+
+
+
+
+
+
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-<a id="Media"></a>
 ## Media
+<a id="Media"></a>
+
+#### Overview
+
+Coming Soon!!  
 
 + ### Jellystat
 
@@ -240,39 +368,59 @@ Please click on the link to get all the guidesI have related to Plex.
 
 	#### Guides
 
-	Please click on the link to get all the guides I have related to Jellystat.
+	The links below will take you to all the guides related to Jellystat.
 	
 	+ ##### Coming Soon!!
+	Guides:  
+	YouTube Video:
 
 
-+ ### Tautulli
+
+	+ ### Tautulli
 
 	#### Overview
 
 	Tautulli is a powerful, self-hosted monitoring and analytics tool for Plex Media Server. It tracks what’s being watched, by whom, when, and how — giving you detailed insights into Plex usage with an attractive web-based dashboard.
 	
+	https://tautulli.com/
+	
 	#### Guides
 
-	Please click on the link to get all the guidesI have related to Tautulli.
+	The links below will take you to all the guides related to Tautulli.
 	
 	+ ##### Coming Soon!!
+	
+	Guides:  
+	YouTube Video:
 
 
-+ ### jellyplex-watched
+
+	+ ### jellyplex-watched
 
 	#### Overview
 
 	#### Guides
 
-	Please click on the link to get all the guidesI have related to jellyplex-watched.
+	The links below will take you to all the guides related to jellyplex-watched.
 	
 	+ ##### Coming Soon!!
+	
+	Guides:  
+	YouTube Video:
+
+
+
+
+
+
+
+
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-<a id="Ollama"></a>
 ## Ollama
+<a id="Ollama"></a>
 
 #### Overview
 
@@ -282,38 +430,66 @@ Ollama is a tool that lets you run large language models (LLMs) like LLaMA, Mist
 
 #### Guides
 
-Please click on the link to get all the guidesI have related to Ollama.
+The links below will take you to all the guides related to Ollama.
 
 + ##### Coming Soon!!
+Guides:
+
+YouTube Video:
+
+
+
+
+
+
+
 
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-<a id="tdarr"></a>
 ## tdarr
+<a id="tdarr"></a>
 
 #### Overview
 
 Tdarr is a powerful, self-hosted, automated media transcoding and library management tool, often used alongside Plex or Jellyfin to optimize media files.
 
+https://home.tdarr.io/
+
 #### Guides
 
-Please click on the link to get all the guides I have related to tdarr.
+The links below will take you to all the guides related to tdarr.
 
 + ##### Coming Soon!!
+Guides:  
+YouTube Video:
+
+
+
+
+
+
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-<a id="n8n"></a>
 ## n8n
+<a id="n8n"></a>
 
 #### Overview
 
+8n8 is ........
+
+https://n8n.io/
+
 #### Guides
 
-Please click on the link to get all the guides I have related to n8n.
+The links below will take you to all the guides related to n8n.
 
 + ##### Coming Soon!!
+
+Guides:  
+YouTube Video:
+
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
