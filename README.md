@@ -3,17 +3,19 @@
 
 <a id="readme_top"></a>
 
+If you're looking to build your own locally hosted smart home and self-hosted setup, you're in the right place.
 
-If you're looking to build your own locally hosted Smart Home and more, you're in the right place. 
+This channel focuses on keeping your data local, giving you full control over your privacy, systems, and automations. I create beginner-friendly step-by-step guides and videos based on my real-world working setups — not just demos — so you can reuse and adapt them for your own home.
+
+Everything is designed to be simple and accessible using standard Windows hardware. While I’ve used Proxmox VE and Unraid, the focus is on practical solutions anyone can follow.
+
+At the center of it all is Home Assistant, making smart home automation powerful, private, and easy to manage.
+
+If my content has helped you, consider supporting the channel with a coffee, a donation, or by becoming a sponsor 🍺😄
+Your support helps me create more guides, expand projects, and keep everything going.
 
 
-The key focus will be to keep all your data locally. Allowing you to have full control over your data and who can access the data. 
 
-on Home Assistant as the heart of the smart home making automation simple, powerful, and private.
-
-My goal is to keep things as beginner-friendly as possible, so you don’t have to waste hours digging through countless videos. I’ll provide step-by-step written guides and videos to help you get started, along with more advanced guides and videos for when you're ready to dive deeper in to it.
-
-All the code and guides shared is my actual working systems not just demos so feel free to reuse and adapt them how it best fit your home setup.
 
 
 Please consider following my YouTube channel.
@@ -21,7 +23,8 @@ Please consider following my YouTube channel.
 + https://www.youtube.com/@homestudios_diy
 
 
-If any of my content helped you out please buy me a Coffee or even better send me a donation so I can buy myself a Beer or 3 😄 !! This will help me expand and add more.
+If my content has helped you, consider supporting the channel with a coffee, a donation, or by becoming a sponsor 🍺😄
+Your support helps me create more guides, expand projects, and keep everything going.
 
 + https://paypal.me/HomeStudiosDIY
 + https://github.com/sponsors/HomeStudiosDIY
@@ -35,13 +38,12 @@ Listed below is all the software I use, select the one you want to know more abo
 
 <summary><u>Table of Contents</u></summary>
 
-+ <a href="#Proxmox">Proxmox</a>  
++ <a href="#Windows_Software">Windows Software</a>
 
 + <a href="#Home_Assitant">Home Assitant</a>
 
 + <a href="#Frigate">Frigate</a>
 
-+ <a href="#OPNsense">OPNsense</a>
 
 + <a href="#Unifi">Unifi</a>
 	
@@ -60,8 +62,6 @@ Listed below is all the software I use, select the one you want to know more abo
 	+ <a href="#homarr">homarr</a>
 	+ <a href="#jellyplex_watched">jellyplex-watched</a>
 	
-
-
 + <a href="#Downloaders">Downloaders</a>
 	+ <a href="#Radarr">Radarr</a>
 	+ <a href="#Sonarr">Sonarr</a>
@@ -77,7 +77,6 @@ Listed below is all the software I use, select the one you want to know more abo
 + <a href="#n8n">n8n</a>
 
 
-+ <a href="#n8n">n8n</a>
 
 	
 
@@ -86,31 +85,27 @@ Listed below is all the software I use, select the one you want to know more abo
 
 
 
+
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-## Proxmox
-<a id="Proxmox"></a>
+## Home Assitant
+<a id="Windows_Software"></a>
 
 #### Overview
 
-Proxmox delivers powerful, enterprise-grade solutions with full access to all functionality for everyone - highly reliable and secure. The software-defined and open platforms are easy to deploy, manage and budget for. 
- 
-+ https://www.proxmox.com/en/
+Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts.
+
++ https://www.home-assistant.io/
 
 #### Guides
 
-If you want to start you new Smart Home and set the foundations from the start the first component Proxmox will allow you to start small but also have the capability to easily expand and add more complicated software later.  
-The links below will take you to all the guides I am working on starting with how to install Proxmox, moving on to more advanced setups like GPU passthrough and adding different application to build your Smart Home starting with Home Assistant and more.
+If you want to have a Smart Home that bring all you smart devices under one roof. Home Assistant will allow you to control and do some fun automations.  
+The links below will take you to all the guides starting with how to install Home Assistant on Proxmox. You will also find some more advanced integrations and Add-Ons that will help you build and automate your Smart Home.
 
 + #### Coming Soon!!
 Guides:
 
 YouTube Video:
-
-
-
-
-
 
 
 
@@ -174,28 +169,6 @@ YouTube Video:
 
 
 
-
-
-<p align="right"><a href="#readme_top">back to top</a></p>
-
-## OPNsense
-<a id="OPNsense"></a>
-
-#### Overview
-
-OPNsense® is an open source, feature rich firewall and routing platform, offering cutting-edge network protection.
-
-+ https://opnsense.org/
-
-#### Guides
-
-If you want to have you own Firewall and not use your ISP router. This will allow you more reflexibility and security.  
-The links below will take you to all the guides starting with how to install OPNsense on Proxmox. You will also find more advanced configuration like Rules, VLAN's and more.
-
-+ ##### Coming Soon!!
-Guides:
-
-YouTube Video:
 
 
 
