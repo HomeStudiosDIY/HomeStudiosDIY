@@ -4,7 +4,12 @@
 <a id="readme_top"></a>
 
 
-If you're looking to build your own locally hosted Smart Home, you're in the right place. The key focus will be on Home Assistant as the heart of the smart home making automation simple, powerful, and private.
+If you're looking to build your own locally hosted Smart Home and more, you're in the right place. 
+
+
+The key focus will be to keep all your data locally. Allowing you to have full control over your data and who can access the data. 
+
+on Home Assistant as the heart of the smart home making automation simple, powerful, and private.
 
 My goal is to keep things as beginner-friendly as possible, so you don’t have to waste hours digging through countless videos. I’ll provide step-by-step written guides and videos to help you get started, along with more advanced guides and videos for when you're ready to dive deeper in to it.
 
