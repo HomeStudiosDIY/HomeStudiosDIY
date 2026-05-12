@@ -88,7 +88,7 @@ Listed below is all the software I use, select the one you want to know more abo
 
 <p align="right"><a href="#readme_top">back to top</a></p>
 
-## Home Assitant
+## Windows Software
 <a id="Windows_Software"></a>
 
 #### Overview
