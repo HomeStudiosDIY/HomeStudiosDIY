@@ -40,7 +40,7 @@ Listed below is all the software I use, select the one you want to know more abo
 
 + <a href="#Windows_Software">Windows Software</a>
 
-+ <a href="#Home_Assitant">Home Assitant</a>
++ <a href="#Home_Assistant">Home Assistant</a>
 
 + <a href="#Frigate">Frigate</a>
 
@@ -55,7 +55,10 @@ Listed below is all the software I use, select the one you want to know more abo
 		
 + <a href="#Plex">Plex</a>
 		
-+ <a href="#Media">Media</a>
+		
+		
+		
++ <a href="#Media">Media Managers</a>
 	+ <a href="#Jellystat">Jellystat</a>
 	+ <a href="#Tautulli">Tautulli</a>
 	+ <a href="#ombi">ombi</a>
